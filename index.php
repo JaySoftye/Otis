@@ -13,7 +13,7 @@
         <h1 class="sub-heading bold">We Help Educators Succeed!</h1>
         <h5>Boost your classroom technology skills to <strong>engage your students and improve instruction</strong> with Teq’s Online Professional Development platform, now known as OTIS.</h5>
         <p><a class="button yellow-button" href="#">SIGN UP</a></p>
-        <div class="card course-card">
+        <div class="card course-card margin-top">
           <div class="card-body">
             <div class="row align-items-center">
               <div class="col-md nopadding">

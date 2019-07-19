@@ -21,20 +21,23 @@
 
     $(document).on('click', 'div.course-tag-container span.course-tag-item',  function() {
       var filter = $(this).attr('filter');
-      var filterMenu = $(".course-search-filters-container select").find("[name='" + filter + "']");
       var filterOption = $(this).attr('filter-option');
+      var filterMenu = $(".course-filters").find('[name="' + filter + '"]');
+      var filterMenuOption = filterMenu.find("option:contains('" + filterOption + "')");
 
+        filterMenuOption.prop('disabled', false);
+        filterMenu.prop('selectedIndex', 0);
 
-      console.log(filterMenu + ' with the selected option ' + filterOption);
+        console.log(filter + ' with the selected option ' + filterOption);
+
       $(this).remove();
     });
-
 
       $("select.course-search-filter-item").change(function() {
         var selectedFilter = $(this).attr("name");
         var selectedFilterOption = $(this).children("option:selected").text();
 
-          $("div.course-tag-container").append( '<span class="course-tag-item" filter="' + selectedFilter + ' filter-option="' + selectedFilterOption + '">' + selectedFilterOption + '<button class="close-tag" type="button">X</button></span>' );
+          $("div.course-tag-container").append( '<span class="course-tag-item" filter="' + selectedFilter + '" filter-option="' + selectedFilterOption + '">' + selectedFilterOption + '<button class="close-tag" type="button">X</button></span>' );
 
           $("select.course-search-filter-item option:selected").attr('disabled', 'disabled')
 
@@ -45,10 +48,7 @@
 
   <div class="container-fluid course-tags">
     <div class="row">
-      <div class="col-md course-tag-container">
-        <span class="course-tag-item" filter="category_id" filter-option="Apple">Apple<button class="close-tag" type="button">X</button></span>
-        <span class="course-tag-item" filter="category_id" filter-option="Robotics">Robotics<button class="close-tag" type="button">X</button></span>
-      </div>
+      <div class="col-md course-tag-container"></div>
     </div>
   </div>
   <div class="container-fluid course-filters">
@@ -121,22 +121,296 @@
   </div>
 
   <div class="container-fluid white-bg">
-    <div class="row align-items-center padding-top height-large">
-      <div class="col-md-4">
-        <div class="card course-card">
-          <div class="card-body">
-            <div class="row align-items-center">
-              <div class="col-md nopadding">
-                <h4 class="course-card-title">Next Course:</h4>
-                <a href="#" class="course-card-link">
-                  <span>Teaching Summer Reinforcement Skills: Reading</span>
-                  <small>Monday, June 17th, 3:00pm - 4:00pm</small>
-                </a>
+    <div class="row course-selections">
+
+        <div class="col-md-4">
+          <div class="card course-card">
+            <div class="card-header green">
+              <ul class="nav course-details">
+                <li class="nav-item category-duration-details">
+                  <a href="#">8hr 54min</a>
+                </li>
+                <li class="nav-item category-sessions-details">
+                  <a href="#">12 Sessions</a>
+                </li>
+                <li class="nav-item">
+                </li>
+              </ul>
+              <button class="admin-menu" type="button"></button>
+            </div>
+            <div class="card-body">
+              <p><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></p>
+              <p>With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
+            </div>
+            <div class="card-footer">
+              <div class="course-rating">
+                <span class="one-stars">
+                  <i>1 out of 5</i>
+                </span>
+              </div>
+              <div class="course-footer">
+                <span>
+                  <p class="certification-badge"></p>
+                  <p class="thin-heading bold">ISTE<i class="blue-text">*</i></p>
+                </span>
               </div>
             </div>
           </div>
         </div>
-      </div>
+
+        <div class="col-md-4">
+          <div class="card course-card">
+            <div class="card-header yellow">
+              <ul class="nav course-details">
+                <li class="nav-item category-duration-details">
+                  <a href="#">46min</a>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item category-chapters-details">
+                  <a href="#">5 Chapters</a>
+                </li>
+              </ul>
+              <button class="admin-menu" type="button"></button>
+            </div>
+            <div class="card-body">
+              <p><a href="#">Creating Multi-Touch Books with iBooks Author</a></p>
+              <p>The new generation, referred to as Gen Z, is growing up in a world where everyday they are immersed in technology. Students have become producers and creators of content, desiring to put their skills to use... </p>
+            </div>
+            <div class="card-footer">
+              <div class="course-rating">
+                <span class="three-stars">
+                  <i>3 out of 5</i>
+                </span>
+              </div>
+              <div class="course-footer">
+                <span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card">
+            <div class="card-header light-blue">
+              <ul class="nav course-details">
+                <li class="nav-item category-duration-details">
+                  <a href="#">31min</a>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item"></li>
+              </ul>
+              <button class="admin-menu" type="button"></button>
+            </div>
+            <div class="card-body">
+              <p><a href="#">iOS 10</a></p>
+              <p>In this course, the PD team will explore the most effective and exciting features iOS 10 has to offer!  Released in September 2016, the iOS 10 operating system is sure to help teachers create an engaging... </p>
+            </div>
+            <div class="card-footer">
+              <div class="course-rating">
+                <span>
+                </span>
+              </div>
+              <div class="course-footer">
+                <span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card">
+            <div class="card-header pink">
+              <ul class="nav course-details">
+                <li class="nav-item category-duration-details">
+                  <a href="#">8hr 54min</a>
+                </li>
+                <li class="nav-item category-sessions-details">
+                  <a href="#">12 Sessions</a>
+                </li>
+                <li class="nav-item">
+                </li>
+              </ul>
+              <button class="admin-menu" type="button"></button>
+            </div>
+            <div class="card-body">
+              <p><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></p>
+              <p>With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
+            </div>
+            <div class="card-footer">
+              <div class="course-rating">
+                <span class="zero-stars">
+                  <i>0 out of 5</i>
+                </span>
+              </div>
+              <div class="course-footer">
+                <span>
+                  <p class="certification-badge"></p>
+                  <p class="thin-heading bold">ISTE<i class="blue-text">*</i></p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card">
+            <div class="card-header blue">
+              <ul class="nav course-details">
+                <li class="nav-item category-duration-details">
+                  <a href="#">46min</a>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item category-chapters-details">
+                  <a href="#">5 Chapters</a>
+                </li>
+              </ul>
+              <button class="admin-menu" type="button"></button>
+            </div>
+            <div class="card-body">
+              <p><a href="#">Creating Multi-Touch Books with iBooks Author</a></p>
+              <p>The new generation, referred to as Gen Z, is growing up in a world where everyday they are immersed in technology. Students have become producers and creators of content, desiring to put their skills to use... </p>
+            </div>
+            <div class="card-footer">
+              <div class="course-rating">
+                <span class="three-stars">
+                  <i>3 out of 5</i>
+                </span>
+              </div>
+              <div class="course-footer">
+                <span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card">
+            <div class="card-header orange">
+              <ul class="nav course-details">
+                <li class="nav-item category-duration-details">
+                  <a href="#">31min</a>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item"></li>
+              </ul>
+              <button class="admin-menu" type="button"></button>
+            </div>
+            <div class="card-body">
+              <p><a href="#">iOS 10</a></p>
+              <p>In this course, the PD team will explore the most effective and exciting features iOS 10 has to offer!  Released in September 2016, the iOS 10 operating system is sure to help teachers create an engaging... </p>
+            </div>
+            <div class="card-footer">
+              <div class="course-rating">
+                <span>
+                </span>
+              </div>
+              <div class="course-footer">
+                <span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card">
+            <div class="card-header green">
+              <ul class="nav course-details">
+                <li class="nav-item category-duration-details">
+                  <a href="#">8hr 54min</a>
+                </li>
+                <li class="nav-item category-sessions-details">
+                  <a href="#">12 Sessions</a>
+                </li>
+                <li class="nav-item">
+                </li>
+              </ul>
+              <button class="admin-menu" type="button"></button>
+            </div>
+            <div class="card-body">
+              <p><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></p>
+              <p>With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
+            </div>
+            <div class="card-footer">
+              <div class="course-rating">
+                <span class="zero-stars">
+                  <i>0 out of 5</i>
+                </span>
+              </div>
+              <div class="course-footer">
+                <span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card">
+            <div class="card-header light-blue">
+              <ul class="nav course-details">
+                <li class="nav-item category-duration-details">
+                  <a href="#">46min</a>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item category-chapters-details">
+                  <a href="#">5 Chapters</a>
+                </li>
+              </ul>
+              <button class="admin-menu" type="button"></button>
+            </div>
+            <div class="card-body">
+              <p><a href="#">Creating Multi-Touch Books with iBooks Author</a></p>
+              <p>The new generation, referred to as Gen Z, is growing up in a world where everyday they are immersed in technology. Students have become producers and creators of content, desiring to put their skills to use... </p>
+            </div>
+            <div class="card-footer">
+              <div class="course-rating">
+                <span class="three-stars">
+                  <i>3 out of 5</i>
+                </span>
+              </div>
+              <div class="course-footer">
+                <span>
+                  <p class="certification-badge"></p>
+                  <p class="thin-heading bold">ISTE<i class="blue-text">*</i></p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card">
+            <div class="card-header light-blue">
+              <ul class="nav course-details">
+                <li class="nav-item category-duration-details">
+                  <a href="#">31min</a>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item"></li>
+              </ul>
+              <button class="admin-menu" type="button"></button>
+            </div>
+            <div class="card-body">
+              <p><a href="#">iOS 10</a></p>
+              <p>In this course, the PD team will explore the most effective and exciting features iOS 10 has to offer!  Released in September 2016, the iOS 10 operating system is sure to help teachers create an engaging... </p>
+            </div>
+            <div class="card-footer">
+              <div class="course-rating">
+                <span>
+                </span>
+              </div>
+              <div class="course-footer">
+                <span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </div>
   </div>
 
