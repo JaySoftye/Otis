@@ -331,4 +331,5 @@
 
 <script type="text/javascript" src="assets/dist/snap.svg-min.js"></script>
 <script type="text/javascript" src="assets/js/snapScripts.js"></script>
+
 <?php include 'footer.php';?>
