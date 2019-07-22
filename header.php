@@ -24,8 +24,10 @@
   <a class="otis-logo" href="index.php">
     <img src="assets/images/Otis-main-brand-logo.png" width="222" height="96" class="d-inline-block align-top" alt="">
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-    MENU
+  <button class="navbar-toggler mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav" aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation" onclick="mobileNav(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
   </button>
 
   <div class="collapse navbar-collapse" id="main-nav">
@@ -40,7 +42,7 @@
         <a class="nav-link thin-heading" href="#">UPCOMING COURSES</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link thin-heading" href="course-library.php">COURSE LIBRARY</a>
+        <a class="nav-link thin-heading" href="course-library-categories.php">COURSE LIBRARY</a>
       </li>
       <li class="nav-item">
         <a class="nav-link thin-heading" href="#">LESSONS</a>
@@ -58,8 +60,28 @@
         <a class="nav-link thin-heading" href="#">PRICING</a>
       </li>
       <li class="nav-item">
-        <a class="button small-button pd-blue-button" href="#">LOGIN</a>
+        <a class="button small-button pd-blue-button no-margin" href="#">LOGIN</a>
       </li>
     </ul>
+  </div>
+
+</nav>
+
+<nav class="collapse" id="mobile-nav">
+  <div class="row align-items-center">
+    <div class="list-group col no-padding">
+      <a class="list-group-item list-group-item-action nav-link thin-heading" href="#">ABOUT US</a>
+      <a class="list-group-item list-group-item-action nav-link thin-heading" href="#">UPCOMING COURSES</a>
+      <a class="list-group-item list-group-item-action nav-link thin-heading" href="course-library-categories.php">COURSE LIBRARY</a>
+      <a class="list-group-item list-group-item-action nav-link thin-heading" href="#">LESSONS</a>
+    </div>
+    <div class="list-group col no-padding">
+      <a class="list-group-item list-group-item-action nav-link thin-heading" href="#">SKILLS</a>
+      <a class="list-group-item list-group-item-action nav-link thin-heading" href="course-library.php">BLOG</a>
+      <a class="list-group-item list-group-item-action nav-link thin-heading" href="#">HELP</a>
+      <a class="list-group-item list-group-item-action nav-link thin-heading" href="#">PRICING</a>
+    </div>
+    <button class="list-group-item list-group-item-action nav-link thin-heading yellow-bg text-center" >LOGIN</button>
+    <button class="list-group-item list-group-item-action nav-link thin-heading pd-blue-bg text-center">Ask OTIS</button>
   </div>
 </nav>

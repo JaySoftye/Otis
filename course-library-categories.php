@@ -3,7 +3,7 @@
 
 <section class="main-content">
 
-  <div class="container-fluid course-background" style="background-image: url('https://onlinepd.teq.com/uploads/category-images/apple_lg.jpg');">
+  <div class="container-fluid course-background" style="">
     <div class="course-background-gradient-cover"></div>
     <div class="row">
       <div class="col-md-6 course-search-field">
@@ -120,298 +120,315 @@
     </div>
   </div>
 
-  <div class="container-fluid white-bg">
+  <div class="container-fluid course-categories-container">
     <div class="row course-selections">
 
-        <div class="col-md-4 course-card-container">
-          <div class="card course-card">
-            <div class="card-header green">
-              <ul class="nav course-details">
-                <li class="nav-item category-duration-details">
-                  <a href="#">8hr 54min</a>
-                </li>
-                <li class="nav-item category-sessions-details">
-                  <a href="#">12 Sessions</a>
-                </li>
-                <li class="nav-item">
-                </li>
-              </ul>
-              <button class="admin-menu" type="button"></button>
-            </div>
-            <div class="card-body">
-              <p><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></p>
-              <p>With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
-            </div>
-            <div class="card-footer">
-              <div class="course-rating">
-                <span class="one-stars">
-                  <i>1 out of 5</i>
-                </span>
-              </div>
-              <div class="course-footer">
-                <span>
-                  <p class="certification-badge"></p>
-                  <p class="thin-heading bold">ISTE<i class="blue-text">*</i></p>
-                </span>
-              </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/administrator_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Administrator <small>(49)</small></a>
+
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 course-card-container">
-          <div class="card course-card">
-            <div class="card-header yellow">
-              <ul class="nav course-details">
-                <li class="nav-item category-duration-details">
-                  <a href="#">46min</a>
-                </li>
-                <li class="nav-item"></li>
-                <li class="nav-item category-chapters-details">
-                  <a href="#">5 Chapters</a>
-                </li>
-              </ul>
-              <button class="admin-menu" type="button"></button>
-            </div>
-            <div class="card-body">
-              <p><a href="#">Creating Multi-Touch Books with iBooks Author</a></p>
-              <p>The new generation, referred to as Gen Z, is growing up in a world where everyday they are immersed in technology. Students have become producers and creators of content, desiring to put their skills to use... </p>
-            </div>
-            <div class="card-footer">
-              <div class="course-rating">
-                <span class="three-stars">
-                  <i>3 out of 5</i>
-                </span>
-              </div>
-              <div class="course-footer">
-                <span>
-                </span>
-              </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/adobe_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Adobe</a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 course-card-container">
-          <div class="card course-card">
-            <div class="card-header light-blue">
-              <ul class="nav course-details">
-                <li class="nav-item category-duration-details">
-                  <a href="#">31min</a>
-                </li>
-                <li class="nav-item"></li>
-                <li class="nav-item"></li>
-              </ul>
-              <button class="admin-menu" type="button"></button>
-            </div>
-            <div class="card-body">
-              <p><a href="#">iOS 10</a></p>
-              <p>In this course, the PD team will explore the most effective and exciting features iOS 10 has to offer!  Released in September 2016, the iOS 10 operating system is sure to help teachers create an engaging... </p>
-            </div>
-            <div class="card-footer">
-              <div class="course-rating">
-                <span>
-                </span>
-              </div>
-              <div class="course-footer">
-                <span>
-                </span>
-              </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/apple_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Apple</a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 course-card-container">
-          <div class="card course-card">
-            <div class="card-header pink">
-              <ul class="nav course-details">
-                <li class="nav-item category-duration-details">
-                  <a href="#">8hr 54min</a>
-                </li>
-                <li class="nav-item category-sessions-details">
-                  <a href="#">12 Sessions</a>
-                </li>
-                <li class="nav-item">
-                </li>
-              </ul>
-              <button class="admin-menu" type="button"></button>
-            </div>
-            <div class="card-body">
-              <p><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></p>
-              <p>With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
-            </div>
-            <div class="card-footer">
-              <div class="course-rating">
-                <span class="zero-stars">
-                  <i>0 out of 5</i>
-                </span>
-              </div>
-              <div class="course-footer">
-                <span>
-                  <p class="certification-badge"></p>
-                  <p class="thin-heading bold">ISTE<i class="blue-text">*</i></p>
-                </span>
-              </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/assesment_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Assesment</a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 course-card-container">
-          <div class="card course-card">
-            <div class="card-header blue">
-              <ul class="nav course-details">
-                <li class="nav-item category-duration-details">
-                  <a href="#">46min</a>
-                </li>
-                <li class="nav-item"></li>
-                <li class="nav-item category-chapters-details">
-                  <a href="#">5 Chapters</a>
-                </li>
-              </ul>
-              <button class="admin-menu" type="button"></button>
-            </div>
-            <div class="card-body">
-              <p><a href="#">Creating Multi-Touch Books with iBooks Author</a></p>
-              <p>The new generation, referred to as Gen Z, is growing up in a world where everyday they are immersed in technology. Students have become producers and creators of content, desiring to put their skills to use... </p>
-            </div>
-            <div class="card-footer">
-              <div class="course-rating">
-                <span class="three-stars">
-                  <i>3 out of 5</i>
-                </span>
-              </div>
-              <div class="course-footer">
-                <span>
-                </span>
-              </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/blended_learning_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Blended Learning</a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 course-card-container">
-          <div class="card course-card">
-            <div class="card-header orange">
-              <ul class="nav course-details">
-                <li class="nav-item category-duration-details">
-                  <a href="#">31min</a>
-                </li>
-                <li class="nav-item"></li>
-                <li class="nav-item"></li>
-              </ul>
-              <button class="admin-menu" type="button"></button>
-            </div>
-            <div class="card-body">
-              <p><a href="#">iOS 10</a></p>
-              <p>In this course, the PD team will explore the most effective and exciting features iOS 10 has to offer!  Released in September 2016, the iOS 10 operating system is sure to help teachers create an engaging... </p>
-            </div>
-            <div class="card-footer">
-              <div class="course-rating">
-                <span>
-                </span>
-              </div>
-              <div class="course-footer">
-                <span>
-                </span>
-              </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/chromebooks_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Chromebooks</a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 course-card-container">
-          <div class="card course-card">
-            <div class="card-header green">
-              <ul class="nav course-details">
-                <li class="nav-item category-duration-details">
-                  <a href="#">8hr 54min</a>
-                </li>
-                <li class="nav-item category-sessions-details">
-                  <a href="#">12 Sessions</a>
-                </li>
-                <li class="nav-item">
-                </li>
-              </ul>
-              <button class="admin-menu" type="button"></button>
-            </div>
-            <div class="card-body">
-              <p><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></p>
-              <p>With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
-            </div>
-            <div class="card-footer">
-              <div class="course-rating">
-                <span class="zero-stars">
-                  <i>0 out of 5</i>
-                </span>
-              </div>
-              <div class="course-footer">
-                <span>
-                </span>
-              </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/Civics_Category_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Civics</a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 course-card-container">
-          <div class="card course-card">
-            <div class="card-header light-blue">
-              <ul class="nav course-details">
-                <li class="nav-item category-duration-details">
-                  <a href="#">46min</a>
-                </li>
-                <li class="nav-item"></li>
-                <li class="nav-item category-chapters-details">
-                  <a href="#">5 Chapters</a>
-                </li>
-              </ul>
-              <button class="admin-menu" type="button"></button>
-            </div>
-            <div class="card-body">
-              <p><a href="#">Creating Multi-Touch Books with iBooks Author</a></p>
-              <p>The new generation, referred to as Gen Z, is growing up in a world where everyday they are immersed in technology. Students have become producers and creators of content, desiring to put their skills to use... </p>
-            </div>
-            <div class="card-footer">
-              <div class="course-rating">
-                <span class="three-stars">
-                  <i>3 out of 5</i>
-                </span>
-              </div>
-              <div class="course-footer">
-                <span>
-                  <p class="certification-badge"></p>
-                  <p class="thin-heading bold">ISTE<i class="blue-text">*</i></p>
-                </span>
-              </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/programming_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Computer Science</a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 course-card-container">
-          <div class="card course-card">
-            <div class="card-header light-blue">
-              <ul class="nav course-details">
-                <li class="nav-item category-duration-details">
-                  <a href="#">31min</a>
-                </li>
-                <li class="nav-item"></li>
-                <li class="nav-item"></li>
-              </ul>
-              <button class="admin-menu" type="button"></button>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/digital_citizenship_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Digital Citizenship</a>
             </div>
-            <div class="card-body">
-              <p><a href="#">iOS 10</a></p>
-              <p>In this course, the PD team will explore the most effective and exciting features iOS 10 has to offer!  Released in September 2016, the iOS 10 operating system is sure to help teachers create an engaging... </p>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/digital_storytelling_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Digital Storytelling</a>
             </div>
-            <div class="card-footer">
-              <div class="course-rating">
-                <span>
-                </span>
-              </div>
-              <div class="course-footer">
-                <span>
-                </span>
-              </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/early_childhood_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Early Childhood</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/educational_frameworks_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Educational Frameworks</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/ela_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">ELA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/ell_enl_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">ENL/ELL</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/google_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">General Interest</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/google_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Google</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/assets/library-category-default-image.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Holiday</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/ipad_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">iPad</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/math_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Math</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/microsoft_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Microsoft</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/robotics_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">NAO</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/project_based_learning_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Project Based Learning</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/promethean_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">promethean</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/science_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Science</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/smart_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">SMART</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/smart_table_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">SMART Table</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/Social_Emotional_Category_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Social Emotional Learning</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/social_studies_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Social Studies</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/special_ed_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">Special Ed</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 course-card-container">
+          <div class="card course-card course-category">
+            <a href="">
+              <img src="https://onlinepd.teq.com/uploads/category-images/steam_sm.jpg" />
+            </a>
+            <div class="card-header">
+              <a class="thin-heading bold" href="#">STEM</a>
             </div>
           </div>
         </div>
 
     </div>
+    <svg version="1.1" viewBox="0 0 600 103">
+    	 <path class="yellow-fill" d="M600,103.5V31.453c-69.209,10.354-117.449,10.97-167.539-0.395c-19.904-4.516-56.294-13.321-94.03-12.518 c-16.291,0.347-28.846,2.982-45.128,3.552c-33.654,1.177-61.406-5.531-90.319-6.3c-36.548-0.971-61.23,6.535-97.388,10.992 C71.228,31.02,17.97,31.453,0,31.453L0,103.5H600z"/>
+    </svg>
   </div>
 
   <div class="container-fluid yellow-bg">

@@ -19,6 +19,10 @@ img {
   max-width: initial !important;
 }
 
+object {
+  max-height: 7.5rem;
+}
+
 .hidden {
   display: none !important;
 }
@@ -107,6 +111,10 @@ strong, .bold {
   margin-left: 2.76rem;
 }
 
+.no-margin {
+  margin: 0 0 !important;
+}
+
 .padding {
   padding: 3.75rem;
 }
@@ -132,7 +140,7 @@ strong, .bold {
 }
 
 .no-padding {
-  padding: 0 0;
+  padding: 0 0 !important;
 }
 
 .teq-blue-text {
@@ -229,6 +237,7 @@ strong, .bold {
 
 .button {
   display: inline-block;
+  margin-top: 18px;
   padding: .75rem 2.52rem;
   border-radius: 0;
   font-family: din-condensed, 'Roboto Condensed', 'Roboto',Helvetica,Arial,san-serif !important;
@@ -289,6 +298,7 @@ button.admin-menu:hover:after {
 }
 
 #askOtis object, #askOtis object svg, #askOtis object svg path {
+  max-height: 100%;
   width: 7.5rem;
   height: auto;
   cursor: pointer;
@@ -307,7 +317,7 @@ nav.navbar.otis-navbar a.otis-logo {
   margin-right: 5px;
   padding-bottom: 3px;
   font-weight: 600;
-  font-size: 96%;
+  font-size: calc(1vw - 5.52%);
   color: rgb(0,0,0);
   -webkit-transition: all 100ms ease;
   transition: all 100ms ease;
@@ -354,6 +364,33 @@ nav.navbar.otis-navbar a.otis-logo {
     opacity: 1;
 }
 
+.mobile-nav-button .bar1, .mobile-nav-button .bar2, .mobile-nav-button .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.mobile-nav-button-active.mobile-nav-button .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.mobile-nav-button-active.mobile-nav-button .bar2 {opacity: 0;}
+
+.mobile-nav-button-active.mobile-nav-button .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#mobile-nav a.list-group-item {
+  padding: 3% 6%;
+  border-radius: 0;
+  text-align: center;
+  font-size: calc(1vh + 50%);
+}
+
 footer {
   background-color: rgb(236,239,238);
 }
@@ -393,4 +430,45 @@ textarea:focus, input:focus{
   border-color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+/* Smartphones */
+@media only screen
+and (max-width : 480px) {
+  .hide-small {
+    display: none !important;
+  }
+}
+
+/* Laptops and Tablets */
+@media only screen
+and (max-width : 768px) {
+  .hide-medium {
+    display: none;
+  }
+  #main-nav, #askOtis {
+    display: none;
+  }
+  nav.navbar.otis-navbar {
+    padding-right: 1.5rem;
+  }
+  .main-content .container-fluid, footer .footer-content {
+    padding: 0 5% 0 5%;
+  }
+}
+
+/* Desktops and Laptops */
+@media only screen
+and (max-width : 1224px) {
+  .hide-large {
+    display: none;
+  }
+}
+
+/* Large Screens */
+@media only screen
+and (max-width : 1824px) {
+  .hide-x-large {
+    display: none;
+  }
 }

@@ -315,17 +315,17 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid pd-blue-bg padding-sm">
-    <div class="row align-items-center">
-      <div class="col-md-2 padding-sm">
+
+  <div class="container-fluid pd-blue-bg">
+    <div class="row align-items-center padding-top padding-bottom">
+      <div class="col-md-2">
         <object type="image/svg+xml" data="assets/images/ideas-icon-contact.svg"></object>
       </div>
-      <div class="col-md-10">
-        <p class="h5 bold white-text">Not seeing anything interesting? Want to share a great idea for a course? <a class="button small-button yellow-button margin-left" href="#">TELL US</a></p>
+      <div class="col-md padding-right">
+        <h5 class="thin-heading bold white-text">Have a great great idea for a course?<a class="button small-button yellow-button margin-left" href="#">TELL US</a></h5>
       </div>
     </div>
   </div>
-
 
 </section>
 
