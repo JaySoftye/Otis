@@ -9,8 +9,10 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/pih4zrr.css">
   <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="assets/css/Otis_Teq_Styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
+  <link href="assets/css/Otis_Teq_shared-classes.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="assets/css/Otis_Teq_index-animation.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="assets/css/Otis_Teq_course-cards_player.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 

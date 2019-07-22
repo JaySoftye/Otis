@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+svg.svg.power-to-impact {
+  width: 36%;
+}
+
+svg.svg .blob {
+  opacity: 0;
+}
+
+svg.svg.visible .blob {
+  animation-name: bounceIn;
+  animation-duration: 900ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  transform-origin: center center;
+}
+
+#powerToImpactContainer svg.svg .yellow-blob .blob.popin {
+  animation-name: bounceIn;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  transform-origin: center center;
+}
+
+#powerToImpactContainer .col-md-3:nth-child(1n) svg.svg .yellow-blob .blob.popin {
+  animation-duration: 1020ms;
+}
+
+#powerToImpactContainer .col-md-3:nth-child(2n) svg.svg .yellow-blob .blob.popin {
+  animation-duration: 1200ms;
+}
+
+#powerToImpactContainer .col-md-3:nth-child(3n) svg.svg .yellow-blob .blob.popin {
+  animation-duration: 900ms;
+}
+
+svg#svgEducatorsSucceedContainer svg#eyeballContainer .eyeball {
+  position: absolute;
+  animation: reading 1s ease 0s;
+  animation-iteration-count: infinite;
+}
+
+svg#yourEdTechSkills #otis-arm {
+  animation-name: wave-animation;
+  animation-duration: 2100ms;
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom left;
+  animation-iteration-count: infinite;
+}
+
+svg#svgEdtechIsMoreContainer #boy-arm-left, svg#svgEdtechIsMoreContainer #girl-arm-right {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+svg#svgEdtechIsMoreContainer #boy-arm-left {
+  animation-name: wave-cheer-left;
+  animation-duration: 1800ms;
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom left;
+  animation-iteration-count: infinite;
+}
+
+svg#svgEdtechIsMoreContainer #girl-arm-right {
+  animation-name: wave-cheer-right;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom right;
+  animation-iteration-count: infinite;
+}
+
+
+svg#yourEdTechSkills #rocket-fuel {
+  animation-name: flicker;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+svg#svgEdtechIsMoreContainer #buzz-wing-left, svg#svgEdtechIsMoreContainer #buzz-wing-right {
+  animation-duration: 900ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transform-origin: center center;
+}
+
+svg#svgEdtechIsMoreContainer #buzz-wing-left {
+  animation-name: wings-left;
+}
+
+svg#svgEdtechIsMoreContainer #buzz-wing-right {
+  animation-name: wings-right;
+}
+
+@keyframes bounceIn {
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
+
+@keyframes reading {
+  0%{
+    transform: translate(.25%, .15%);
+  }
+  50%{
+    transform: translate(-.25%, 0);
+  }
+  100%{
+    transform: translate(.25%, .15%);
+  }
+}
+
+@keyframes wave-animation {
+  0% { transform:
+    translatex(5px)
+    rotate(-3deg);
+  }
+  50% { transform:
+    translatex(-5px)
+    rotate(.5deg);
+  }
+  100% { transform:
+    translatex(5px)
+    rotate(-3deg);
+  }
+}
+
+@keyframes flicker {
+  0%   {
+    transform: rotate(.15deg);
+    opacity: 0.7;
+  }
+  20%  {
+    transform: rotate(.25deg);
+    opacity: 1;
+  }
+  40%  {
+    transform: rotate(.15deg);
+    opacity: 0.7;
+  }
+  60%  {
+    transform: rotate(.25deg);
+    opacity: 1;
+  }
+  80%  {
+    transform: rotate(.15deg);
+    opacity: 0.7;
+  }
+  100% {
+    transform: rotate(.25deg);
+    opacity: 1;
+  }
+}
+
+@keyframes wave-cheer-left {
+  0% { transform:
+    rotate(-2deg);
+  }
+  50% { transform:
+    rotate(0deg);
+  }
+  100% { transform:
+    rotate(-2deg);
+  }
+}
+
+@keyframes wave-cheer-right {
+  0% { transform:
+    rotate(2deg);
+  }
+  50% { transform:
+    rotate(0deg);
+  }
+  100% { transform:
+    rotate(2deg);
+  }
+}
+
+@keyframes flicker {
+  0%   {
+    transform: rotate(.15deg);
+    opacity: 0.7;
+  }
+  20%  {
+    transform: rotate(.25deg);
+    opacity: 1;
+  }
+  40%  {
+    transform: rotate(.15deg);
+    opacity: 0.7;
+  }
+  60%  {
+    transform: rotate(.25deg);
+    opacity: 1;
+  }
+  80%  {
+    transform: rotate(.15deg);
+    opacity: 0.7;
+  }
+  100% {
+    transform: rotate(.25deg);
+    opacity: 1;
+  }
+}
+
+@keyframes wings-left {
+  0%   {
+    transform: rotate(.15deg) skewX(7.5deg);
+    opacity: 0;
+  }
+  10%  {
+    transform: rotate(.36deg) skewX(-7.5deg);
+    opacity: 1;
+  }
+  20%  {
+    transform: rotate(.15deg) skewX(7.5deg);
+    opacity: 0;
+  }
+  30%  {
+    transform: rotate(.36deg) skewX(-7.5deg);
+    opacity: 1;
+  }
+  40%  {
+    transform: rotate(.15deg) skewX(7.5deg);
+    opacity: 0;
+  }
+  50%  {
+    transform: rotate(.36deg) skewX(-7.5deg);
+    opacity: 1;
+  }
+  60%  {
+    transform: rotate(.15deg) skewX(7.5deg);
+    opacity: 0;
+  }
+  70%  {
+    transform: rotate(.36deg) skewX(-7.5deg);
+    opacity: 1;
+  }
+  80%  {
+    transform: rotate(.15deg) skewX(7.5deg);
+    opacity: 0;
+  }
+  90% {
+    transform: rotate(.36deg) skewX(-7.5deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(.15deg) skewX(7.5deg);
+  }
+}
+
+@keyframes wings-right {
+  0%   {
+    transform: rotate(-.15deg) skewX(-7.5deg);
+    opacity: 0;
+  }
+  10%  {
+    transform: rotate(-.36deg) skewX(7.5deg);
+    opacity: 1;
+  }
+  20%  {
+    transform: rotate(-.15deg) skewX(-7.5deg);
+    opacity: 0;
+  }
+  30%  {
+    transform: rotate(-.36deg) skewX(7.5deg);
+    opacity: 1;
+  }
+  40%  {
+    transform: rotate(-.15deg) skewX(-7.5deg);
+    opacity: 0;
+  }
+  50%  {
+    transform: rotate(-.36deg) skewX(7.5deg);
+    opacity: 1;
+  }
+  60%  {
+    transform: rotate(-.15deg) skewX(-7.5deg);
+    opacity: 0;
+  }
+  70%  {
+    transform: rotate(-.36deg) skewX(7.5deg);
+    opacity: 1;
+  }
+  80%  {
+    transform: rotate(-.15deg) skewX(-7.5deg);
+    opacity: 0;
+  }
+  90% {
+    transform: rotate(-.36deg) skewX(7.5deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-.15deg) skewX(-7.5deg);
+  }
+}
