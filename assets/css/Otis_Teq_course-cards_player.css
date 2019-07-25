@@ -36,7 +36,7 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   border: none;
   border-radius: 0;
   border-bottom: solid thin #000;
-  font-size: 1.674rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
@@ -317,6 +317,7 @@ ul.nav.course-details li.nav-item a:hover, .card.course-card .card-body p a:hove
   height: 60px;
   display: block;
   margin-top: 2rem;
+  padding: .66rem 1.25rem;
   background-color: rgb(255,255,255);
   border-radius: 0 0 calc(.51rem - 1px) calc(.51rem - 1px);
 }

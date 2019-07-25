@@ -9,7 +9,7 @@ html, body {
  margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, small, li, blockquote, a, button, span, label, input, select, textarea, option {
+h1, h2, h3, h4, h5, h6, p, small, li, blockquote, a, button, span, div, label, input, select, textarea, option {
   font-family:'Roboto',Helvetica,Arial,san-serif;
   font-weight: 300;
   color: rgb(0,0,0);
@@ -58,12 +58,16 @@ a:hover {
   text-decoration: none !important;
 }
 
-a svg:hover {
-  fill:
+a:hover img {
+  opacity: 0.66;
 }
 
 strong, .bold {
-  font-weight: 700;
+  font-weight: 700 !important;
+}
+
+.thin {
+  font-weight: 200 !important;
 }
 
 .height-large {
@@ -109,6 +113,10 @@ strong, .bold {
   flex-wrap: wrap;
   -webkit-align-items: center;
   align-items: center;
+}
+
+.block {
+  display: block;
 }
 
 .margin-auto {
@@ -186,6 +194,14 @@ strong, .bold {
 
 .black-text {
  color: black !important;
+}
+
+.orange-text {
+  color: rgb(255,168,0) !important;
+}
+
+.red-text {
+  color: rgb(255,54,0) !important;
 }
 
 .light-grey-bg {
@@ -669,6 +685,10 @@ textarea:focus, input:focus{
 
 .modal-backdrop {
   z-index: 1250;
+}
+
+.modal-backdrop.show {
+  opacity: .75;
 }
 
 /* Smartphones */

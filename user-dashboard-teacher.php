@@ -47,7 +47,7 @@
     <div class="row user-data">
 
       <div class="col-md-4 user-course-card-container">
-        <h5> Your Next Registered Course</h5>
+        <h4>Your Next Registered Course</h4>
         <div class="card course-card">
           <div class="card-header pink">
             <ul class="nav course-details">
@@ -83,7 +83,7 @@
       </div>
 
       <div class="col-md-4 user-course-list-container">
-        <h5>Upcoming New Courses</h5>
+        <h4>Upcoming New Courses</h4>
         <ul class="user-course-list upcoming-new-courses">
           <li>
             <a href="#">Let's Get Rolling with littleBits <small>Monday, June 17th, 10:00am - 11:00am</small></a>
@@ -98,7 +98,7 @@
       </div>
 
       <div class="col-md-4 user-course-list-container">
-        <h5>Recent Courses Added to the Library</h5>
+        <h4>Recent Courses Added to the Library</h4>
         <ul class="user-course-list recent-courses-added">
           <li>
             <a href="#">Tech-Infused Learning: Geometry with Dash <small>Tuesday, June 16th</small></a>
@@ -119,7 +119,7 @@
     <div class="row user-data">
 
       <div id="course-progress-carousel" class="col-md-7 carousel-container carousel slide" data-ride="carousel" data-interval="false">
-        <h5>Your Courses in Progress</h5>
+        <h4>Your Courses in Progress</h4>
         <p class="bold">Great job starting these courses!</p>
 
           <div class="carousel-inner dashboard-item-container">
@@ -221,7 +221,7 @@
 
       <div id="recently-viewed-courses" class="col-md-5 user-course-list-container">
 
-        <h5>Recently Viewed</h5>
+        <h4>Recently Viewed</h4>
         <p class="bold">Are you ready to start now?</p>
 
         <div class="dashboard-item-container">
@@ -264,7 +264,7 @@
     <div class="row padding-top padding-bottom user-data">
 
       <div id="recommended-playlist-carousel" class="col-md-7 carousel-container carousel slide" data-ride="carousel" data-interval="false">
-        <h5>Your Recommended Playlists</h5>
+        <h4>Your Recommended Playlists</h4>
 
           <div class="carousel-inner dashboard-item-container">
             <div class="carousel-item dashboard-item light-grey-bg active">
@@ -341,7 +341,7 @@
 
       <div id="featured-erc-lesson" class="col-md-5 user-course-list-container">
 
-        <h5>Featured Lesson of the Day</h5>
+        <h4>Featured Lesson of the Day</h4>
 
         <div class="dashboard-item-container">
           <div class="dashboard-item">

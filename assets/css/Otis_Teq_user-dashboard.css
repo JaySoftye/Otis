@@ -26,6 +26,21 @@ div.user-data:first-child div.user-course-list-container {
   padding: 0 30px;
 }
 
+div.user-data .progress-bar-inline {
+  display: flex;
+}
+
+div.user-data .progress-bar-inline .progress {
+  width: calc(6% * 3);
+  align-self: center;
+  -webkit-align-self: center;
+  margin-left: 6px;
+}
+
+.progress-bar-inline .progress .progress-bar {
+  background-color: rgb(131,147,202);
+}
+
 div.user-course-list-container .user-course-list {
   margin-top: 2.74rem;
   padding: 0 0;
@@ -53,11 +68,15 @@ div.user-course-list-container .user-course-list a small  {
   font-size: 80%;
 }
 
-.carousel-container.carousel.slide {
+div.user-data .carousel-container.carousel.slide {
   padding-right: 30px;
 }
 
-.carousel-container.carousel.slide > div.carousel-inner.dashboard-item-container {
+div.user-data div.carousel-container.carousel.slide + div.carousel-container.carousel.slide {
+  margin-top: 48px;
+}
+
+div.user-data .carousel-container.carousel.slide > div.carousel-inner.dashboard-item-container {
   padding: 0 0;
 }
 
@@ -95,6 +114,24 @@ div.dashboard-item div.card-body {
 
 div.dashboard-item div.card-body h5 > a:hover {
   color: rgb(79,197,221);
+}
+
+div.dashboard-item div.card-footer.links {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 0;
+  padding: .75rem .25rem 0 .25rem;
+}
+
+div.dashboard-item div.card-footer.links a {
+  align-self: center;
+  -webkit-align-self: center;
+  flex: 1;
+  line-height: 1.2;
+  font-weight: 600;
+  font-size: .85rem;
 }
 
 div.dashboard-item div.card-footer p, div.dashboard-item div.card-footer p > span {

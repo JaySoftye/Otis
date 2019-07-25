@@ -47,7 +47,7 @@
     <div class="row user-data">
 
       <div class="col-md-4 user-course-card-container">
-        <h5> Your Next Registered Course</h5>
+        <h4>Your Next Registered Course</h4>
         <div class="card course-card">
           <div class="card-body">
             <h6 class="bold margin-bottom">As a Basic User, you only have access to register for <a class="pd-blue-text bold" href="#">Free Courses</a>.</h6>
@@ -58,7 +58,7 @@
       </div>
 
       <div class="col-md-4 user-course-list-container">
-        <h5>Upcoming New Courses</h5>
+        <h4>Upcoming New Courses</h4>
         <ul class="user-course-list upcoming-new-courses">
           <li>
             <a href="#">Let's Get Rolling with littleBits <small>Monday, June 17th, 10:00am - 11:00am</small></a>
@@ -73,7 +73,7 @@
       </div>
 
       <div class="col-md-4 user-course-list-container">
-        <h5>Recent Courses Added to the Library</h5>
+        <h4>Recent Courses Added to the Library</h4>
         <ul class="user-course-list recent-courses-added">
           <li>
             <a href="#">Tech-Infused Learning: Geometry with Dash <small>Tuesday, June 16th</small></a>
@@ -94,7 +94,7 @@
     <div class="row user-data">
 
       <div id="course-library" class="col-md-8">
-        <h5>Your Courses in Progress</h5>
+        <h4>Your Courses in Progress</h4>
         <p class="bold">You haven’t started learning, visit our <a class="bold" href="#">course library</a> to find a course that interests you.  </p>
         <div class="dashboard-item-container">
           <div class="dashboard-item white-bg">
