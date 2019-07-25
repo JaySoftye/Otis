@@ -380,6 +380,7 @@ nav.navbar.otis-navbar a.otis-logo {
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
 }
 
 #main-nav li.nav-item button.user-icon, #mobile-nav div.dropdown.list-group-item button.user-icon {
@@ -531,6 +532,90 @@ nav.navbar.otis-navbar a.otis-logo {
   color: rgb(255,255,255);
 }
 
+div#login-window .modal-content.login-container {
+  position: relative;
+  display: block;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.login-container .login-section.login-card {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  margin-top: .75rem;
+  border-radius: .51rem;
+  background-color: rgb(255,255,255);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.36);
+}
+
+.login-container .login-section.login-card a img {
+  border-radius: .51rem;
+}
+
+.login-container .login-section.login-card .login-footer svg {
+  margin-top: 1.2rem;
+  border-radius: 0 0 calc(.51rem - 1px) calc(.51rem - 1px);
+}
+
+.login-footer svg a:hover {
+  opacity: 0.66;
+}
+
+.login-container .login-section.login-card .login-form {
+  width: 100%;
+  padding: 3.75rem 3.75rem .75rem 3.75rem;
+}
+
+.login-form .main-login-form > .form-group input {
+  width: 100%;
+  height: calc(1.5em + .75rem + 9px);
+  margin-bottom: .66rem;
+  padding: .36rem .51rem;
+  border-radius: 0;
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(200,200,200);
+  border-left: none;
+  font-family: 'Roboto Condensed', 'Roboto',Helvetica,Arial,san-serif !important;
+  font-weight: 300;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.login-form .main-login-form button.login {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  user-select: none;
+  margin-top: .51rem;
+  padding: .75rem;
+  background-color: rgb(79,197,221);
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  font-family: din-condensed, 'Roboto Condensed', 'Roboto',Helvetica,Arial,san-serif !important;
+  font-weight: 400;
+  font-size: 1.14rem;
+  color: rgb(255,255,255);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.24);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.24);
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.login-form .main-login-form button.login:hover {
+  background-color: rgb(243,217,81);
+  color: rgb(0,0,0);
+}
+
 footer {
   background-color: rgb(236,239,238);
 }
@@ -576,6 +661,14 @@ textarea:focus, input:focus{
   width: 50px;
   z-index: 1200;
   top: 24px;
+}
+
+.modal {
+  z-index: 1500;
+}
+
+.modal-backdrop {
+  z-index: 1250;
 }
 
 /* Smartphones */

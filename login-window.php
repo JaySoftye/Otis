@@ -1,36 +1,104 @@
 <div class="modal" id="login-window" tabindex="-1" role="dialog" aria-labelledby="login-window" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content login-container">
 
-    <div class="modal-content">
-      <div class="modal-body">
-        <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      <section class="login-section login-card">
+        <div class="login-form">
+          <form name="" method="" class="main-login-form">
+            <p class="error hidden text-danger"></p>
+            <input style="display:none">
+            <input type="password" style="display:none">
+            <div class="form-group">
+              <input type="text" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="form-check hidden">
+              <input class="form-check-input" type="checkbox" name="force_logout" value="1" id="allow-force-logout">
+              <label class="form-check-label" for="allow-force-logout">Force other sessions to log out</label>
+            </div>
+            <button type="button" class="login">LOGIN</button>
+          </form>
+        </div>
+        <p class="text-center black-text"><a class="black-text" href="#reset-password-window" data-toggle="modal" data-dismiss="modal" aria-label="Close">Forgot Password?</a> | <a class="black-text" href="https://onlinepd.teq.com/users/register/group">Register Group Code</a><br /><span class="bold">or Sign in with:</span></p>
+        <div class="login-footer">
+          <svg version="1.1" viewBox="0 0 500 60">
+          <a href="https://clever.com/oauth/authorize?response_type=code&redirect_uri=https%3A%2F%2Fonlinepd.teq.com%2Fusers%2Fclever&client_id=341a230237ee5ab721ef&scope=read:user_id+read:teachers">
+          	<g id="clever-login-icon">
+          		<rect x="333.333" y="0.149" style="fill: #506BB3" width="166.667" height="60"/>
+          		<path class="white-fill" d="M389.665,34.287c-3.463,0-5.859-2.903-5.859-6.444c0-3.483,2.453-6.328,5.859-6.328 c2.02,0,3.608,0.871,5.166,2.293l2.828-3.28c-1.876-1.858-4.156-3.135-7.966-3.135c-6.205,0-10.534,4.731-10.534,10.566 c0,5.834,4.416,10.45,10.361,10.45c3.896,0,6.205-1.394,8.283-3.629l-2.828-2.874C393.388,33.358,391.974,34.287,389.665,34.287z" />
+          		<rect x="398.207" y="17.175" class="white-fill" width="4.387" height="21.19"/>
+          		<path class="white-fill" d="M410.733,22.212c-4.502,0-7.648,3.658-7.648,8.099v0.058c0,4.76,3.434,8.041,8.081,8.041 c2.799,0,4.877-1.103,6.32-2.903l-2.511-2.235c-1.212,1.132-2.28,1.597-3.752,1.597c-1.963,0-3.348-1.045-3.781-3.048h10.765 c0.029-0.406,0.058-0.668,0.058-1.103V30.66C418.266,26.247,415.899,22.212,410.733,22.212z M407.385,29.062 c0.346-2.003,1.53-3.309,3.348-3.309c1.847,0,3.002,1.335,3.261,3.309H407.385z"/>
+          		<polygon class="white-fill" points="428.139,22.654 424.646,33.075 421.183,22.654 416.536,22.654 422.626,38.329 426.609,38.329
+          			432.699,22.654 		"/>
+          		<path class="white-fill" d="M438.383,22.212c-4.502,0-7.648,3.658-7.648,8.099v0.058c0,4.76,3.435,8.041,8.081,8.041
+          			c2.8,0,4.878-1.103,6.321-2.903l-2.511-2.235c-1.212,1.132-2.28,1.597-3.752,1.597c-1.962,0-3.348-1.045-3.781-3.048h10.765
+          			c0.029-0.406,0.058-0.668,0.058-1.103V30.66C445.916,26.247,443.549,22.212,438.383,22.212z M435.035,29.062
+          			c0.346-2.003,1.53-3.309,3.348-3.309c1.847,0,3.002,1.335,3.261,3.309H435.035z"/>
+          		<path class="white-fill" d="M450.678,25.941v-3.135h-4.387v15.559h4.387v-5.747c0-3.716,1.789-5.486,4.705-5.486h0.231v-4.615
+          			C453.015,22.4,451.572,23.793,450.678,25.941z"/>
+          	</g>
+          </a>
+
+          <a href="https://launchpad.classlink.com/oauth2/v2/auth?scope=profile&redirect_uri=https%3A%2F%2Fonlinepd.teq.com%2Fusers%2Fclasslink&client_id=c1508959341287bc65f7fc483f9a56b296e6f919a0fb78&response_type=code">
+          	<g id="classlink-login-icon">
+          		<rect x="166.667" y="0.149" style="fill: #34ABCD;" width="166.667" height="60"/>
+          		<path class="white-fill" d="M222.75,36.057c-1.506,0-2.235-0.947-2.235-6.195c0-4.908,0.413-6.681,2.187-6.681 c1.579,0,2.089,1.093,2.089,3.62h3.499c0-2.527-0.364-6.195-5.369-6.195c-5.248,0-5.904,3.742-5.904,9.014s0.656,9.014,5.904,9.014 c4.592,0,5.515-3.232,5.515-6.973h-3.499C224.936,35.401,224.013,36.057,222.75,36.057z"/>
+          		<rect x="229.966" y="20.945" class="white-fill" width="3.353" height="17.347"/>
+          		<path class="white-fill" d="M244.495,28.889L244.495,28.889c-0.001-2.357-0.754-4.009-4.739-4.009c-2.527,0-4.592,1.02-4.592,4.033v0.316 h3.013v-0.364c0-1.02,0.534-1.701,1.555-1.701c1.118,0,1.555,0.607,1.555,1.603c0,0.875-0.34,1.263-1.336,1.531l-1.895,0.51 c-2.308,0.632-3.304,1.628-3.304,4.082c0,1.749,0.826,3.742,3.159,3.742c1.603,0,2.551-0.34,3.328-1.701h0.049 c0.097,0.437,0.194,0.947,0.413,1.36h3.207c-0.34-0.753-0.413-1.312-0.413-2.527V28.889z M241.287,34.332 c0,1.433-1.166,2.017-2.065,2.017c-0.899,0-1.263-0.826-1.263-1.822c0-1.166,0.534-1.822,1.895-2.114 c0.413-0.097,0.972-0.316,1.433-0.656V34.332z"/>
+          		<path class="white-fill" d="M252.609,30.784l-2.017-0.68c-1.118-0.364-1.458-0.899-1.458-1.531c0-0.923,0.729-1.409,1.579-1.409 c1.093,0,1.482,0.656,1.482,1.968h3.013v-0.534c0-2.357-1.433-3.717-4.471-3.717c-3.45,0-4.811,1.774-4.811,3.936 c0,1.846,0.948,2.988,2.794,3.644l2.357,0.85c0.656,0.243,1.215,0.632,1.215,1.482c0,1.045-0.68,1.555-1.701,1.555 c-1.142,0-1.749-0.753-1.749-1.895v-0.437h-3.013v0.462c0,2.502,1.045,4.155,4.811,4.155c2.818,0,4.859-1.361,4.859-4.106 C255.501,32.558,254.723,31.489,252.609,30.784z"/>
+          		<path class="white-fill" d="M263.397,30.784l-2.017-0.68c-1.118-0.364-1.458-0.899-1.458-1.531c0-0.923,0.729-1.409,1.579-1.409 c1.093,0,1.482,0.656,1.482,1.968h3.013v-0.534c0-2.357-1.433-3.717-4.471-3.717c-3.45,0-4.811,1.774-4.811,3.936 c0,1.846,0.948,2.988,2.794,3.644l2.357,0.85c0.656,0.243,1.215,0.632,1.215,1.482c0,1.045-0.68,1.555-1.701,1.555 c-1.142,0-1.749-0.753-1.749-1.895v-0.437h-3.013v0.462c0,2.502,1.045,4.155,4.811,4.155c2.818,0,4.859-1.361,4.859-4.106 C266.288,32.558,265.51,31.489,263.397,30.784z"/>
+          		<polygon class="white-fill" points="271.56,20.945 268.061,20.945 268.061,38.292 277.755,38.292 277.755,35.425 271.56,35.425 	"/>
+          		<rect x="279.335" y="20.75" class="white-fill" width="3.353" height="2.867"/>
+          		<rect x="279.335" y="25.221" class="white-fill" width="3.353" height="13.071"/>
+          		<path class="white-fill" d="M291.143,24.881c-1.409,0-2.624,0.583-3.329,1.871h-0.049v-1.531h-3.207v13.071h3.353v-8.674 c0-1.458,0.632-2.162,1.774-2.162c0.996,0,1.434,0.51,1.434,1.822v9.014h3.353v-9.694 C294.471,26.022,293.232,24.881,291.143,24.881z"/>
+          		<polygon class="white-fill" points="303.048,30.371 306.814,25.221 303.121,25.221 299.744,30.104 299.695,30.104 299.695,20.945  296.342,20.945 296.342,38.292 299.695,38.292 299.695,34.477 300.886,32.922 303.68,38.292 307.372,38.292 	"/> <path class="white-fill" d="M195.595,30.588c-0.001,0-0.003,0-0.004,0c-1.073,1.223-0.005,1.805-0.005,1.805 c0.038,0.019,0.078,0.036,0.122,0.052C195.543,31.799,195.522,31.175,195.595,30.588z"/>
+          		<path class="white-fill" d="M202.592,32.175c-0.839,0.57-1.821,2.472-1.821,2.472l-0.507-0.006c0.332-0.727,0.542-1.327,0.667-1.822 c-0.129,0.044-0.202,0.065-0.202,0.065c-1.011,0.345-2.036,0.525-2.95,0.536c0.959,1.43,2.707,1.686,2.707,1.686 c2.456,0.33,4.319-1.013,5.319-1.988C203.738,31.994,202.592,32.175,202.592,32.175z"/>
+          		<path class="white-fill" d="M210.548,26.892c0,0,1.616-4.024-2.087-6.782c0,0-5.933-3.902-9.248,2.615c0,0-2.373-2.369-5.299-0.531 c-2.502,1.572-2.087,3.697-1.862,4.759c0,0-4.724,1.386-4.481,6.414c0.181,3.746,3.797,4.872,5.205,5.169 c0.308,0.065,0.623,0.096,0.938,0.096h15.505c0.304,0,0.608-0.029,0.906-0.089c1.417-0.287,5.082-1.413,5.013-5.389 C215.053,28.228,210.548,26.892,210.548,26.892z M200.367,35.913c-3.139-0.035-4.254-2.39-4.254-2.39 c-0.063-0.125-0.12-0.249-0.171-0.372c-0.862-0.32-1.371-0.927-1.252-1.829c0.121-0.914,1.144-1.805,1.144-1.805 c0.597-1.846,1.94-3.108,1.94-3.108s1.128-1.202,2.354-1.818l2.136,0.331c-4.843,1.97-5.092,6.051-5.092,6.051 c-0.031,0.613,0.044,1.137,0.189,1.585c0.361-0.026,0.625-0.066,0.625-0.066c1.196-0.183,2.227-0.506,3.1-0.888 c-0.029-0.802-0.395-1.003-0.395-1.003s-0.441-0.501-2.244-0.795l0.173-0.24c0,0,0.893,0.2,1.903,0.006 c1.1-0.211,2.107-0.964,3.223-2.501l0.542-0.024c-1.097,1.455-1.173,2.554-0.989,3.278c1.092-0.814,1.61-1.528,1.61-1.528 c1.97-2.755-0.767-2.337-0.767-2.337l0.824-0.973c4.185,0.907,0.344,4.687,0.344,4.687c-0.445,0.457-0.938,0.851-1.431,1.184 c0.072,0.076,0.798,0.823,2.188,1.492c0.366-0.389,0.561-0.67,0.561-0.67l0.551,0.099C203.907,36.21,200.367,35.913,200.367,35.913 z M201.853,28.062c-0.02,0.461-0.4,0.833-0.862,0.842c-0.51,0.01-0.922-0.411-0.9-0.92c0.02-0.461,0.4-0.833,0.862-0.843 C201.464,27.131,201.875,27.553,201.853,28.062z"/>
+          	</g>
+          </a>
+
+          <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&redirect_uri=https%3A%2F%2Fonlinepd.teq.com%2Fusers%2Fgoogle-signon&response_type=code&client_id=1025352079660-i6bs7s42u18htut1c5r4hr4eiisd48li.apps.googleusercontent.com&access_type=online">
+          	<g id="google-login-icon">
+          		<rect y="0.149" style="fill: #DB3436;" width="166.667" height="60"/>
+          		<path id="path2998" class="white-fill" d="M55.509,24.519H45.153v3.073h7.345c-0.363,4.309-3.948,6.147-7.332,6.147 c-4.33,0-8.108-3.407-8.108-8.182c0-4.651,3.602-8.234,8.118-8.234c3.484,0,5.537,2.221,5.537,2.221l2.152-2.228 c0,0-2.762-3.075-7.799-3.075c-6.414,0-11.376,5.413-11.376,11.261c0,5.73,4.668,11.317,11.54,11.317 c6.044,0,10.468-4.14,10.468-10.263C55.697,25.265,55.509,24.518,55.509,24.519L55.509,24.519z"/>
+          		<path id="path3000" class="white-fill" d="M63.993,22.293c-4.249,0-7.295,3.322-7.295,7.197c0,3.932,2.954,7.316,7.345,7.316 c3.975,0,7.231-3.038,7.231-7.231C71.274,24.768,67.486,22.293,63.993,22.293L63.993,22.293z M64.035,25.144 c2.09,0,4.07,1.69,4.07,4.412c0,2.665-1.972,4.402-4.08,4.402c-2.316,0-4.143-1.855-4.143-4.423 C59.882,27.021,61.687,25.144,64.035,25.144L64.035,25.144z"/>
+          		<path id="path3005" class="white-fill" d="M79.858,22.293c-4.249,0-7.295,3.322-7.295,7.197c0,3.932,2.954,7.316,7.345,7.316 c3.975,0,7.231-3.038,7.231-7.231C87.139,24.768,83.351,22.293,79.858,22.293L79.858,22.293z M79.9,25.144 c2.09,0,4.07,1.69,4.07,4.412c0,2.665-1.972,4.402-4.08,4.402c-2.316,0-4.143-1.855-4.143-4.423 C75.748,27.021,77.552,25.144,79.9,25.144L79.9,25.144z"/>
+          		<path id="path3007" class="white-fill" d="M95.42,22.301c-3.901,0-6.966,3.416-6.966,7.251c0,4.368,3.554,7.264,6.899,7.264 c2.068,0,3.168-0.821,3.98-1.763v1.431c0,2.504-1.52,4.003-3.815,4.003c-2.217,0-3.328-1.648-3.715-2.583l-2.789,1.166 c0.989,2.092,2.981,4.274,6.527,4.274c3.878,0,6.834-2.443,6.834-7.566V22.737h-3.042v1.229 C98.397,22.958,97.117,22.301,95.42,22.301L95.42,22.301z M95.702,25.145c1.912,0,3.876,1.633,3.876,4.421 c0,2.834-1.959,4.397-3.918,4.397c-2.079,0-4.014-1.688-4.014-4.37C91.645,26.808,93.655,25.145,95.702,25.145L95.702,25.145z"/>
+          		<path id="path3011" class="white-fill" d="M115.902,22.284c-3.679,0-6.769,2.927-6.769,7.247c0,4.571,3.443,7.281,7.122,7.281 c3.07,0,4.955-1.68,6.079-3.185l-2.508-1.669c-0.651,1.01-1.739,1.998-3.555,1.998c-2.04,0-2.978-1.117-3.559-2.199l9.73-4.037 l-0.505-1.183C120.997,24.219,118.804,22.284,115.902,22.284L115.902,22.284z M116.029,25.074c1.326,0,2.28,0.705,2.685,1.55 l-6.498,2.716C111.936,27.238,113.928,25.074,116.029,25.074L116.029,25.074z"/>
+          		<path id="path3015" class="white-fill" d="M104.495,36.381h3.196V14.992h-3.196V36.381z"/>
+          	</g>
+          </a>
+          </svg>
+        </div>
+      </section>
+      <section class="login-section login-card">
+        <a href="">
+          <img src="assets/images/otis-login-image-not-a-member.jpg" alt="Not a member? Check out our pricing plans" />
+        </a>
+      </section>
+
     </div>
-    <div class="modal-content">
-      <div class="modal-body">
-        jpg here!
-      </div>
+  </div>
+</div>
+
+<div class="modal" id="reset-password-window" tabindex="-2" role="dialog" aria-labelledby="reset-password-window" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content login-container">
+      <section class="login-section login-card no-margin padding-bottom">
+        <div class="login-form">
+          <h2 class="thin-heading">Forgot Your Password?</h2>
+          <p>Please enter the <strong>email address associated with your account</strong> and follow the instructions to reset your password.</p>
+          <form name="forgot-password" class="forgot-password-form main-login-form" method="POST">
+            <p class="error hidden text-danger"></p>
+            <div class="form-group">
+              <input name="email" type="text" placeholder="Email">
+            </div>
+            <button type="button" class="login">ENTER</button>
+          </form>
+        </div>
+      </section>
     </div>
-
-
   </div>
 </div>
