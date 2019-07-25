@@ -100,6 +100,7 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
 
 .container-fluid.course-categories-container {
   position: relative;
+  padding-bottom: 12.5rem;
 }
 
 .container-fluid.course-categories-container svg {
@@ -110,13 +111,18 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   bottom: 0;
 }
 
-.row.course-selections {
+.row. {
   position: relative;
   z-index: 1200;
   margin-right: -15px;
   margin-left: -15px;
   margin-bottom: 9.375rem;
   padding-top: 3.375rem;
+}
+
+.row.course-selections {
+  position: relative;
+  padding-bottom: 7.5rem;
 }
 
 .row.course-selections div.course-card-container {
@@ -182,13 +188,24 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
 }
 
 .card.course-card .card-header, .card.course-card .card-footer {
-  background-color: rgb(255,255,255);
   border-top: none;
   border-bottom: none;
 }
 
 .card.course-card .card-header:first-child {
   border-radius: calc(.51rem - 1px) calc(.51rem - 1px) 0 0;
+}
+
+.card.course-card .card-header {
+  background-color: rgb(255,255,255);
+}
+
+.card.course-card .card-header.light-grey {
+  background-color: rgb(230,226,231);
+}
+
+.card.course-card .card-header.grey {
+  background-color: rgb(200,200,200);
 }
 
 .card.course-card .card-header.green {
@@ -220,10 +237,6 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   color: rgb(255,255,255);
 }
 
-.card-header ul.nav.course-details li.nav-item:nth-child(1) {
-  margin-right: 15px;
-}
-
 .card-header li.nav-item.category-duration-details {
   padding: .51rem .75rem .51rem 2.1rem;
   background: transparent url('../images/catetory-details-duration-icon.svg') no-repeat left center;
@@ -237,6 +250,12 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
 .card-header li.nav-item.category-chapters-details {
   padding: .51rem .75rem .51rem 2.1rem;
   background: transparent url('../images/catetory-details-chapters-icon.svg') no-repeat left center;
+}
+
+.card-header li.nav-item.playlist-details {
+  padding: .51rem .75rem .51rem 2.1rem;
+  background: transparent url('../images/playlist-title-icon.svg') no-repeat left center;
+  color: rgb(0,0,0);
 }
 
 ul.nav.course-details li.nav-item a {
@@ -253,7 +272,7 @@ ul.nav.course-details li.nav-item a:hover, .card.course-card .card-body p a:hove
 }
 
 .card.course-card .card-body p a {
-  display: block;
+  display: inline-block;
   font-weight: 600;
   color: rgb(0,0,0);
 }
@@ -298,6 +317,7 @@ ul.nav.course-details li.nav-item a:hover, .card.course-card .card-body p a:hove
   height: 60px;
   display: block;
   margin-top: 2rem;
+  background-color: rgb(255,255,255);
   border-radius: 0 0 calc(.51rem - 1px) calc(.51rem - 1px);
 }
 

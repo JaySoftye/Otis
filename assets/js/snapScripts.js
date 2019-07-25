@@ -106,26 +106,27 @@ var fragListLetOtis = new Array, fragLetOtisLoadedCount = 0;
 	loadLetOtisMulti( myLoadLetOtisList );
 var fourthBlob = letOtisBeContainer.path("M151.779,62.117c-34.688,14.518-42.08,23.458-77.864,45.785s-40.72,17.015-20.977,67.477 s93.779,134.903,144.371,181.311s74.036,52.816,95.013,49.612s75.27-46.01,132.031-157.819s33.316-137.83,12.339-147.917 s-166.037-63.57-186.052-63.57S186.466,47.598,151.779,62.117z").attr({ class: "blob pink-fill", });
 
-function isOnScreen(elem) {
-	if( elem.length == 0 ) {
-		return;
-	}
-	var $window = $(window)
-	var viewport_top = $window.scrollTop()
-	var viewport_height = $window.height()
-	var viewport_bottom = viewport_top + viewport_height
-	var $elem = $(elem)
-	var top = $elem.offset().top
-	var height = $elem.height()
-	var bottom = top + height
+$(document).ready( function() {
 
-  return (top >= viewport_top && top < viewport_bottom) ||
-	(bottom > viewport_top && bottom <= viewport_bottom) ||
-	(height > viewport_height && top <= viewport_top && bottom >= viewport_bottom)
-}
-
-$( document ).ready( function() {
 	window.addEventListener('scroll', function(e) {
+
+		function isOnScreen(elem) {
+			if( elem.length == 0 ) {
+				return;
+			}
+			var $window = $(window)
+			var viewport_top = $window.scrollTop()
+			var viewport_height = $window.height()
+			var viewport_bottom = viewport_top + viewport_height
+			var $elem = $(elem)
+			var top = $elem.offset().top
+			var height = $elem.height()
+			var bottom = top + height
+
+		  return (top >= viewport_top && top < viewport_bottom) ||
+			(bottom > viewport_top && bottom <= viewport_bottom) ||
+			(height > viewport_height && top <= viewport_top && bottom >= viewport_bottom)
+		}
 
     if( isOnScreen($("#powerToImpactContainer")) ) {
       $("#powerToImpactContainer .yellow-blob .blob").addClass("popin");
@@ -139,6 +140,13 @@ $( document ).ready( function() {
     if( isOnScreen($('#svgLetOtisBeContainer')) ) {
       $("#svgLetOtisBeContainer").addClass("visible");
  		}
+
+		$('.fade-in-container').each( function(i) {
+			if( isOnScreen($(this)) ) {
+	      $(this).children(".fade-element.fade-down").addClass("animate");
+				$(this).children(".fade-element.fade-up").addClass("animate");
+	 		}
+    });
 
 	});
 });

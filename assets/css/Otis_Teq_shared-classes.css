@@ -55,7 +55,7 @@ a, a:hover, a:focus {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a svg:hover {
@@ -79,15 +79,36 @@ strong, .bold {
 }
 
 .width-full {
-  max-width: 100%;
+  width: 100%;
 }
 
 .width-half {
-  max-width: 50%;
+  width: 50%;
 }
 
 .width-quarter {
-  max-width: 25%;
+  width: 25%;
+}
+
+.height-full {
+  height: 100%;
+}
+
+.height-half {
+  height: 50%;
+}
+
+.height-quarter {
+  height: 25%;
+}
+
+.flex-align-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 .margin-auto {
@@ -235,6 +256,11 @@ strong, .bold {
   opacity: 0;
 }
 
+.dropshadow {
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.24);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.24);
+}
+
 .button {
   display: inline-block;
   margin-top: 18px;
@@ -242,11 +268,23 @@ strong, .bold {
   border-radius: 0;
   font-family: din-condensed, 'Roboto Condensed', 'Roboto',Helvetica,Arial,san-serif !important;
   font-size: 2.25rem;
-  font-weight: 500;
+  font-weight: 600;
+  cursor: pointer !important;
+}
+
+.button:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
+.button.medium-button {
+  padding: .5rem 1.92rem;
+  font-size: 1.53rem;
 }
 
 .button.small-button {
-  padding: .5rem 2.37rem;
+  padding: .66rem 2.37rem .5rem 2.37rem;
+  line-height: 120%;
   font-size: inherit;
 }
 
@@ -256,6 +294,11 @@ p .button {
 
 .button.pd-blue-button {
   background-color: rgb(114,191,219);
+  color: rgb(255,255,255);
+}
+
+.button.orange-button {
+  background-color: rgb(255,168,0);
   color: rgb(255,255,255);
 }
 
@@ -269,7 +312,7 @@ button.admin-menu {
   position: absolute;
   top: -.5%;
   right: 0;
-  z-index: 1500;
+  z-index: 960;
   padding: 0 0;
   background-color: transparent;
   border: none;
@@ -287,7 +330,7 @@ button.admin-menu:hover:after {
 
 #askOtis {
   position: fixed;
-  z-index: 1500;
+  z-index: 999;
   right: 2.4%;
   top: 14.73%;
   cursor: pointer;
@@ -315,9 +358,9 @@ nav.navbar.otis-navbar a.otis-logo {
 
 #main-nav li.nav-item a.nav-link {
   margin-right: 5px;
-  padding-bottom: 3px;
+  border-bottom: 3px solid rgb(255,255,255);
   font-weight: 600;
-  font-size: calc(1vw - 5.52%);
+  font-size: calc(1vw - 6.6%);
   color: rgb(0,0,0);
   -webkit-transition: all 100ms ease;
   transition: all 100ms ease;
@@ -327,6 +370,79 @@ nav.navbar.otis-navbar a.otis-logo {
   border-bottom: 3px solid rgb(114,191,219);
   color: rgb(114,191,219);
 }
+
+#main-nav li.nav-item button.user-icon, #main-nav li.nav-item div.dropdown.user-dropdown button.user-dropdown-menu {
+  display: inline-block;
+  background: none;
+  border: none;
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#main-nav li.nav-item button.user-icon, #mobile-nav div.dropdown.list-group-item button.user-icon {
+  height: 66px;
+  width: 66px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0;
+  background-color: rgb(60, 72, 82);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  border-radius: 50%;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+#main-nav li.nav-item div.dropdown.user-dropdown button.user-dropdown-menu, #main-nav li.nav-item div.dropdown.user-dropdown button.user-dropdown-menu:focus {
+  margin: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: calc(1vw - 6.6%);
+  color: rgb(0,0,0);
+}
+
+#main-nav li.nav-item div.dropdown.user-dropdown button.user-dropdown-menu:hover {
+  color: rgb(114,191,219);
+}
+
+#main-nav li.nav-item div.dropdown.user-dropdown button.user-dropdown-menu::after, #mobile-nav div.mobile-menu a.user-dropdown-link::after  {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+
+#main-nav li.nav-item div.dropdown.user-dropdown div.dropdown-menu {
+  padding: .5rem 0 0 0;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.12);
+}
+
+#main-nav li.nav-item div.dropdown-menu a.dropdown-item {
+  font-weight: 200;
+}
+
+#main-nav li.nav-item div.dropdown-menu a.dropdown-item:hover {
+  background-color: rgba(79,197,221,0.25);
+}
+
+#main-nav li.nav-item div.dropdown-menu a.dropdown-item:last-child {
+  margin-top: .5rem;
+  padding: .75rem 1.5rem;
+  background-color: rgb(79,197,221);
+  border-radius: 0 0 .25rem .25rem;
+  color: rgb(255,255,255);
+}
+
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
@@ -384,11 +500,35 @@ nav.navbar.otis-navbar a.otis-logo {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-#mobile-nav a.list-group-item {
+#mobile-nav {
+  position: relative;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.25);
+}
+
+#mobile-nav div.mobile-menu {
+  border-bottom: 3px solid rgb(236,239,238);
+}
+
+#mobile-nav div.mobile-menu a.nav-link {
   padding: 3% 6%;
   border-radius: 0;
-  text-align: center;
-  font-size: calc(1vh + 50%);
+  font-size: calc(1vh + 24%);
+  color: rgb(0,0,0);
+}
+
+#mobile-nav #mobile-user-menu a.nav-link {
+  padding-left: 10%;
+}
+
+#mobile-nav div.mobile-menu a.nav-link.user-dropdown-link {
+  font-size: calc(1vh + 51%);
+}
+
+#mobile-nav div.mobile-menu a.nav-link:hover {
+  background-color: rgb(79,197,221);
+  color: rgb(255,255,255);
 }
 
 footer {
@@ -432,6 +572,12 @@ textarea:focus, input:focus{
   box-shadow: none;
 }
 
+.carousel-control-next, .carousel-control-prev {
+  width: 50px;
+  z-index: 1200;
+  top: 24px;
+}
+
 /* Smartphones */
 @media only screen
 and (max-width : 480px) {
@@ -448,6 +594,10 @@ and (max-width : 768px) {
   }
   #main-nav, #askOtis {
     display: none;
+  }
+  #mobile-nav #askOtis {
+    display: block;
+    position: absolute !important;
   }
   nav.navbar.otis-navbar {
     padding-right: 1.5rem;

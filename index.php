@@ -3,6 +3,7 @@
 <section class="main-content index-body">
 
   <?php include 'askotis.php';?>
+    <?php include 'login-window.php';?>
 
   <div class="container-fluid pd-blue-bg">
     <div class="row align-items-center padding-top height-large">
@@ -41,7 +42,7 @@
       </div>
     </div>
     <div class="row padding-bottom" id="powerToImpactContainer">
-      <div class="col-md-3 padding-sm">
+      <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
@@ -52,10 +53,10 @@
         	   <path d="M338.992,88.463c-23.698,0-42.909,19.211-42.909,42.909c0,16.683,17.205,65.101,30.248,92.326 c-0.995,0.509-1.946,1.135-2.775,1.972L208.425,342.09c13.722-34.697,26.336-74.61,26.336-91.26 c0-32.215-26.116-58.331-58.331-58.331s-58.331,26.116-58.331,58.331s47.212,151.574,58.331,151.574 c1.747,0,4.385-2.951,7.59-8.041c2.253-0.323,4.426-1.318,6.15-3.061l147.437-149.088c0.514,0.395,0.99,0.66,1.386,0.66 c8.18,0,42.909-87.803,42.909-111.501S362.69,88.463,338.992,88.463z M142.486,250.83c0-18.747,15.197-33.943,33.943-33.943 c18.747,0,33.944,15.197,33.944,33.943s-15.197,33.943-33.944,33.943C157.683,284.773,142.486,269.576,142.486,250.83z M338.992,156.342c-13.79,0-24.97-11.179-24.97-24.97c0-13.79,11.179-24.969,24.97-24.969s24.97,11.179,24.97,24.969 C363.962,145.163,352.782,156.342,338.992,156.342z"/>
           </g>
         </svg>
-        <p class="h5 thin-heading text-center">Drive technology initiatives  </p>
-        <p class="text-center">Relevant and targeted PD is a crucial part of any successful technology roll-out, and our <strong>playlists</strong> are made to help you get you from Point A to Point B.</p>
+        <p class="h5 thin-heading text-center fade-element fade-down quarter-time">Drive technology initiatives  </p>
+        <p class="text-center fade-element fade-up quarter-time">Relevant and targeted PD is a crucial part of any successful technology roll-out, and our <strong>playlists</strong> are made to help you get you from Point A to Point B.</p>
       </div>
-      <div class="col-md-3 padding-sm">
+      <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
@@ -64,10 +65,10 @@
         	   <path d="M367.07,150.083c-0.282-1.911-2.076-3.244-3.987-2.962l-58.641,8.646v-1.151c0-2.973-2.433-5.406-5.406-5.406H142.201 c-2.973,0-5.406,2.433-5.406,5.406v228.298c0,2.973,2.433,5.406,5.406,5.406h156.835c2.973,0,5.406-2.433,5.406-5.406V197.297 l27.651,187.524c0.282,1.911,2.076,3.244,3.986,2.962l61.16-9.018c1.911-0.282,3.244-2.076,2.962-3.986L367.07,150.083z M264.815,177.089c0-4.48,3.632-8.109,8.109-8.109s8.109,3.63,8.109,8.109v38.628c0,4.48-3.632,8.109-8.109,8.109 s-8.109-3.63-8.109-8.109V177.089z M212.679,177.089c0-4.48,3.632-8.109,8.109-8.109c4.477,0,8.109,3.63,8.109,8.109v38.628 c0,4.48-3.632,8.109-8.109,8.109c-4.477,0-8.109-3.63-8.109-8.109V177.089z M160.205,177.089c0-4.48,3.632-8.109,8.109-8.109 c4.477,0,8.109,3.63,8.109,8.109v38.628c0,4.48-3.632,8.109-8.109,8.109c-4.477,0-8.109-3.63-8.109-8.109V177.089z M187.415,372.589 h-38.204v-26.518h38.204V372.589z M239.889,372.589h-38.204v-26.518h38.204V372.589z M292.026,372.589h-38.204v-26.518h38.204 V372.589z M333.507,217.908l-6.589-38.062c-0.764-4.414,2.196-8.61,6.607-9.374c4.411-0.764,8.61,2.193,9.374,6.607l6.589,38.062 c0.764,4.414-2.196,8.61-6.607,9.374C338.469,225.279,334.271,222.322,333.507,217.908z M349.435,374.356l-4.523-26.129 l37.644-6.517l4.524,26.129L349.435,374.356z"/>
           </g>
         </svg>
-        <p class="h5 thin-heading text-center">Customize your PD </p>
-        <p class="text-center">Subscribe to our entire course library, or choose the category that suits you best. We offer <strong>category-based subscriptions</strong> to our Google, Microsoft, Apple, SMART, and ENL/ELL content. </p>
+        <p class="h5 thin-heading text-center fade-element fade-down half-time">Customize your PD </p>
+        <p class="text-center fade-element fade-up half-time">Subscribe to our entire course library, or choose the category that suits you best. We offer <strong>category-based subscriptions</strong> to our Google, Microsoft, Apple, SMART, and ENL/ELL content. </p>
       </div>
-      <div class="col-md-3 padding-sm">
+      <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
@@ -78,10 +79,10 @@
             <path d="M380.697,273.588v-65.994c0-35.397-28.8-64.195-64.195-64.195H153.267c-35.394,0-64.195,28.798-64.195,64.195v78.687 c0,35.397,28.8,64.195,64.195,64.195h151.07c6.669,28.125,31.933,49.137,62.073,49.137c35.204,0,63.846-28.642,63.846-63.846 C430.256,305.478,409.036,280.101,380.697,273.588z M316.758,295.71c-1.125,1.391-2.21,2.815-3.217,4.299 c-0.396,0.584-0.733,1.208-1.11,1.806c-0.702,1.111-1.416,2.213-2.049,3.369c-0.392,0.715-0.718,1.468-1.083,2.199 c-0.543,1.087-1.103,2.163-1.584,3.284c-0.339,0.79-0.61,1.612-0.918,2.417c-0.423,1.108-0.864,2.207-1.226,3.343 c-0.27,0.847-0.472,1.722-0.707,2.584c-0.31,1.134-0.634,2.26-0.881,3.417c-0.191,0.894-0.314,1.809-0.467,2.716 c-0.196,1.164-0.404,2.322-0.536,3.505c-0.104,0.93-0.141,1.876-0.204,2.818c-0.063,0.932-0.18,1.848-0.202,2.79H153.267 c-26.456,0-47.976-21.522-47.976-47.976v-78.687c0-26.453,21.52-47.976,47.976-47.976h163.235 c26.456,0,47.976,21.522,47.976,47.976v64.353c-0.822,0.024-1.62,0.137-2.433,0.192c-0.996,0.068-1.994,0.122-2.977,0.235 c-1.122,0.129-2.22,0.322-3.324,0.508c-0.966,0.163-1.936,0.309-2.887,0.515c-1.088,0.236-2.149,0.538-3.216,0.829 c-0.929,0.253-1.865,0.485-2.776,0.779c-1.054,0.34-2.076,0.746-3.106,1.139c-0.883,0.337-1.777,0.647-2.64,1.021 c-1.018,0.441-1.997,0.95-2.987,1.441c-0.83,0.412-1.674,0.795-2.483,1.242c-0.984,0.543-1.921,1.154-2.872,1.747 c-0.764,0.476-1.548,0.92-2.29,1.427c-0.958,0.655-1.863,1.378-2.782,2.082c-0.679,0.52-1.385,1.006-2.042,1.553 c-0.969,0.806-1.876,1.681-2.796,2.541c-0.548,0.513-1.13,0.991-1.659,1.522c-1.283,1.288-2.497,2.642-3.668,4.035 C317.275,295.071,317.017,295.389,316.758,295.71z M366.41,383.395c-24.311,0-44.388-18.315-47.248-41.861l-0.015-0.127 c-0.082-0.685-0.128-1.307-0.182-1.944c-0.095-1.223-0.187-2.448-0.187-3.695c0-26.263,21.367-47.63,47.633-47.63 c1.79,0,3.548,0.121,5.285,0.312l0.009,0.001c23.776,2.644,42.334,22.845,42.334,47.317 C414.037,362.028,392.671,383.395,366.41,383.395z"/>
           </g>
         </svg>
-        <p class="h5 thin-heading text-center">Build and share your own content </p>
-        <p class="text-center">With OTIS, you can <strong>upload your own PD content</strong> and use our platform as a place to host the in-house training that’s essential for your school or district. </p>
+        <p class="h5 thin-heading text-center fade-element fade-down three-quarter-time">Build and share your own content </p>
+        <p class="text-center fade-element fade-up three-quarter-time">With OTIS, you can <strong>upload your own PD content</strong> and use our platform as a place to host the in-house training that’s essential for your school or district. </p>
       </div>
-      <div class="col-md-3 padding-sm">
+      <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
@@ -99,10 +100,10 @@
           	<path d="M436.95,193.931c7.99,0,14.467-6.477,14.467-14.467s-6.477-14.467-14.467-14.467s-14.467,6.477-14.467,14.467 S428.96,193.931,436.95,193.931z"/>
           </g>
         </svg>
-        <p class="h5 thin-heading text-center">Facilitated viewing </p>
-        <p class="text-center">Bring teachers together with our <strong>group viewing</strong> feature and engage in PD together while still getting individual credit. </p>
+        <p class="h5 thin-heading text-center fade-element fade-down full-time">Facilitated viewing </p>
+        <p class="text-center fade-element fade-up full-time">Bring teachers together with our <strong>group viewing</strong> feature and engage in PD together while still getting individual credit. </p>
       </div>
-      <div class="col-md-3 padding-sm">
+      <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
@@ -112,10 +113,10 @@
             <path d="M166.794,246.16c8.621,0,15.61-6.989,15.61-15.61c0-0.754-0.072-1.489-0.175-2.215l55.326-40.979 c2.526,1.758,5.59,2.795,8.901,2.795c4.022,0,7.676-1.534,10.444-4.032l51.716,28.958c-0.172,0.928-0.273,1.88-0.273,2.858 c0,8.621,6.989,15.61,15.61,15.61c8.621,0,15.61-6.989,15.61-15.61c0-2.377-0.547-4.622-1.497-6.638l46.393-44.626 c2.152,1.119,4.592,1.761,7.185,1.761c8.621,0,15.61-6.989,15.61-15.61c0-8.621-6.989-15.61-15.61-15.61 c-8.621,0-15.61,6.989-15.61,15.61c0,2.377,0.547,4.622,1.497,6.638l-46.393,44.626c-2.152-1.119-4.592-1.761-7.185-1.761c-4.022,0-7.676,1.534-10.443,4.032l-51.716-28.958c0.172-0.927,0.273-1.88,0.273-2.857c0-8.621-6.989-15.61-15.61-15.61 c-8.621,0-15.61,6.989-15.61,15.61c0,1.669,0.268,3.274,0.753,4.782l-53.988,39.988c-2.807-2.702-6.614-4.371-10.817-4.371 c-8.621,0-15.61,6.989-15.61,15.61C151.183,239.171,158.172,246.16,166.794,246.16z"/>
            </g>
         </svg>
-        <p class="h5 thin-heading text-center">Get insightful analytics </p>
-        <p class="text-center">School and district admins have access to <strong>advanced usage analytics</strong>, can see and track teacher progress, recommend courses, and manage licenses. </p>
+        <p class="h5 thin-heading text-center fade-element fade-down quarter-time">Get insightful analytics </p>
+        <p class="text-center fade-element fade-up quarter-time">School and district admins have access to <strong>advanced usage analytics</strong>, can see and track teacher progress, recommend courses, and manage licenses. </p>
       </div>
-      <div class="col-md-3 padding-sm">
+      <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
@@ -124,10 +125,10 @@
         	   <path d="M447.172,170.762c-0.852,0.38-1.589,0.708-2.559,1.14c-0.273-0.687-0.636-1.273-0.728-1.899 c-0.201-1.367-0.218-2.76-0.394-4.131c-0.425-3.308-0.936-6.572-3.112-9.331c-0.674-0.855-4.493,0.573-5.752,1.234 c-0.319-0.249-5.121,0.065-4.982,1.126c0.106,0.811-1.97,7.065-1.866,7.771c0.444,3.018,0.441,6.002-0.174,8.979 c-0.52,2.517-1.184,4.95-4.4,5.225c-0.198,0.017-0.384,0.181-0.625,0.301c0.23,0.487,0.381,0.827,0.55,1.159 c0.953,1.871,0.908,1.982-1.223,2.324c-5.332,0.854-10.69,1.564-15.994,2.567c-6.932,1.311-10.567,6.958-9.177,13.9 c0.06,0.3,0.123,0.6,0.185,0.904c-0.866,0.491-1.83,0.796-2.448,1.435c-1.433,1.483-3.21,1.777-5.111,2.012 c-3.271,0.403-6.525,0.939-10.214,1.483c0.504,2.182,0.908,3.927,1.438,6.223c-1.927,1.698-4.151,3.926-6.647,5.79 c-2.862,2.136-5.929,4.009-8.976,5.882c-1.878,1.154-3.494,3.145-6.255,1.838c-0.906-0.429-2.233,0.091-3.362,0.048 c-0.57-0.022-1.4-0.18-1.617-0.56c-0.215-0.376,0.111-1.146,0.351-1.674c0.309-0.68,0.961-1.245,1.13-1.941 c0.832-3.433,2.441-6.409,4.998-9.027c-0.597-1.252-1.26-2.526-1.816-3.844c-0.58-1.376-0.957-2.847-1.635-4.166 c-0.224-0.436-1.235-0.879-1.673-0.723c-1.976,0.705-4.468,0.91-4.647,3.851c-0.018,0.295-0.366,0.57-0.561,0.855 c-0.203-0.059-0.407-0.119-0.61-0.178c0.136-0.877,0.021-1.908,0.449-2.606c2.062-3.36,1.833-6.935,1.186-10.551 c-0.109-0.608-0.604-1.368-1.135-1.642c-2.514-1.293-5.102-2.44-7.681-3.648c0.892-1.141-5.32-8.81-7.022-8.364 c-2.221,0.582-4.379,1.465-6.491,2.386c-1.702,0.743-10.754-1.983-11.319-2.117c0.246-0.731-1.133-3.762-2.376-2.782 c-2.116,1.668-17.652,5.252-20.055,5.731c-0.099-0.215-3.497-15.599-3.1-16.186c-2.438,0-4.679,0-6.906,0 c-0.027,0.566-0.05,1.029-0.074,1.534c-3.918-0.538-8.636-4.32-10.897-4.285c-3.906,0.061-7.82,0.449-11.714,0.294 c-11.39-0.454-22.787-0.914-34.154-1.738c-11.419-0.829-22.824-1.931-34.201-3.217c-16.066-1.816-31.845-5.338-47.588-8.884 c-9.971-2.246-32.099-8.273-33.176-7.892c-0.419,0.148-0.165,1.742-0.574,2.482c-0.626,1.133-13.256,10.745-13.189,11.409 c0.063,0.621-0.223,5.218-0.385,6.89c-0.175,0.721-3.244,7.296-4.384,8.829c-1.064,1.43-1.03,3.007-1.055,4.755 c-0.021,1.507-3.159,8.122-4.932,9.196c0.181,0.452-2.643,11.226-2.714,12.595c-0.028,0.533-0.411,5.383-1.189,6.635 c-1.129,1.816-2.437,3.571-3.228,5.53c-0.55,1.361-1.028,3.447-0.376,4.467c1.992,3.117,1.178,6.294,1.071,9.504 c-0.035,1.055-0.129,2.172,0.15,3.163c0.901,3.197,2.735,14.459,4.305,16.502c1.858,2.417,1.908,3.94,0.373,6.444 c-0.224,0.365-0.126,1.066,0.056,1.517c1.386,3.435,2.67,6.927,4.307,10.242c1.382,2.798,8.35,11.187,9.431,13.808 c0.253,0.613,0.962,1.338,1.566,1.452c1.872,0.354,9.517,8.987,9.782,9.717c0.377,1.038,15.39,9.821,19.064,8.217 c-0.62,2.413,0.383,3.689,2.128,4.851c5.915,3.942,11.701,8.078,17.595,12.052c0.995,0.671,2.252,1.15,3.441,1.303 c4.868,0.629,22.743,0.833,22.931-0.001c3.426,0.243,6.746,0.503,10.069,0.704c2.215,0.134,28.443,23.724,28.681,22.749 c0.526-2.153,22.509,15.148,23.267,16.598c1.503,2.874,2.715,5.913,3.882,8.947c1.271,3.306,3.725,5.463,6.87,6.529 c3.219,1.091,6.659,1.531,9.887,2.23c-0.195-2.122-0.596-11.231-0.873-11.952c-0.257-0.669,4.43-9.294,4.855-9.389 c0.553-0.123,2.117-3.209,1.773-3.719c0.931,0,14.358-6.314,13.385-9.307c-0.041-0.125,2.358,1.755,5.045,0.439c1.664-0.815,3.509-1.272,5.292-1.826c0.296-0.092,0.745,0.061,1.036,0.241c2.959,1.826,6.147,1.946,9.465,1.415 c1.532-0.245,3.093-0.307,4.456-0.434c0.405,0.745,0.557,1.498,0.995,1.747c1.947,1.108,3.976,2.072,5.974,3.088 c0.977-2.656,3.757-1.956,5.589-2.384c1.999-0.467,4.414,0.597,5.736,3.353c0.904-1.404,1.534-2.383,2.078-3.228 c-1.714-1.284-3.144-2.354-4.564-3.417c2.142-3.514,2.142-3.514,1.926-4.961c-1.107,0.696,9.273-5.384,9.499-6.265 c0.192,0.019,0.385,0.038,0.577,0.056c0.104,0.813,1.891,2.485,2.598,2.485c0.743,1.561,8.674-0.701,10.22,0.276 c2.649,1.674,5.395,2.736,8.564,3.096c2.773,0.315,4.948,0.053,6.294-2.645c0.047-0.095,0.204-0.136,0.766-0.486 c3.647,2.032,7.445,4.344,11.42,6.297c2.784,1.368,2.988,10.487,2.988,12.645c0.13,0.014,3.599,7.226,6.711,7.169 c0.604,1.417,1.474,2.705,1.642,4.077c0.155,1.269,0.792,1.732,1.626,2.45c2.114,1.821,4.125,3.781,6.023,5.829 c0.999,1.078,2.042,2.273,3.461,1.672c1.386-0.588,2.842-1.635,3.613-2.884c0.851-1.379,1.171-3.195,1.344-4.86 c0.406-3.915,0.915-7.869-2.001-11.277c-1.258-1.47-2.308-3.163-3.22-4.878c-3.474-6.535-7.018-13.042-10.192-19.723 c-1.387-2.92-2.936-6.06-2.054-9.529c0.392-1.542,4.215-7.224,5.766-8.309c-0.452-0.924,0.946-3.923,0.964-4.289 c0.085-1.71,3.473-2.724,3.637-3.166c0.501-1.354,3.14-3.52,3.188-3.892c0.343-2.688,7.839-10.895,8.428-12.169 c1.037-2.241,2.344-4.15,5.257-4.516c1.598-0.201,3.078-1.343,4.688-2.097c-0.555-0.979-6.126-20.181-7.942-20.687 c1.539-0.683,2.493-1.106,3.956-1.755c-1.204-1.025-1.572-2.748-1.305-2.788l0,0c-0.098-0.496-0.196-0.993-0.294-1.487 s0.114-4.633,0.455-4.265c0.962,1.038,2.119,7.628,1.976,9.661c0.971-0.659,1.789-1.414,2.132-2.344 c1.113-3.024,1.991-6.135,3.086-9.166c0.501-1.387,1.298-2.667,1.944-3.963c-4.027-0.156-5.66-1.317-5.267-3.431 c1.271-0.213,2.981-0.001,3.48-0.679c1.426-1.937,2.793-4.131,3.352-6.426c0.462-1.901,1.57-4.495-1.226-6.006 c-0.195-0.105-0.197-0.782-0.114-1.154c1.278-5.688,5.847-9.134,11.694-9.241c2.893-0.053,12.512-6.844,11.962-7.85 c-0.391-0.717-1.886-1.251-1.864-1.027c0.055,0.557-6.03-4.213-5.888-8.082c0.152-4.137,2.273-7.183,4.965-10.047 c1.615-1.719,4.262-2.958,2.98-6.302c2.12,0.669,3.364-0.108,4.625-1.221c0.984-0.869,2.198-1.517,3.391-2.095 c0.946-0.458,2.016-0.66,3.032-0.976c0.05-0.213,0.101-0.427,0.151-0.64C450.599,175.646,447.897,174.03,447.172,170.762z"/>
            </g>
         </svg>
-        <p class="h5 thin-heading text-center">Make it count </p>
-        <p class="text-center">As a <strong>state-approved PD provider,</strong> OTIS is a convenient and flexible way to fulfill your state-required PD hours at your convenience.<br /><br /><a href="https://www.teq.com/state-approved/"><strong><u>View state-approved map</u></strong></a></p>
+        <p class="h5 thin-heading text-center fade-element fade-down half-time">Make it count </p>
+        <p class="text-center fade-element fade-up half-time">As a <strong>state-approved PD provider,</strong> OTIS is a convenient and flexible way to fulfill your state-required PD hours at your convenience.<br /><br /><a href="https://www.teq.com/state-approved/"><strong><u>View state-approved map</u></strong></a></p>
       </div>
-      <div class="col-md-3 padding-sm">
+      <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
@@ -142,10 +143,10 @@
            <path d="M338.12,347.083h-31.585c-2.234,0-4.062,1.828-4.062,4.062v65.309c0,2.234,4.062-4.853,19.854-4.853 s19.854,7.086,19.854,4.853v-65.309C342.182,348.91,340.354,347.083,338.12,347.083z"/>
           </g>
         </svg>
-        <p class="h5 thin-heading text-center">Earn certifications </p>
-        <p class="text-center">Become proficient in a specific tool or technology with <strong>certification tracks</strong> in Google, Microsoft, Apple, SMART Boards, and more.</p>
+        <p class="h5 thin-heading text-center fade-element fade-down three-quarter-time">Earn certifications </p>
+        <p class="text-center fade-element fade-up three-quarter-time">Become proficient in a specific tool or technology with <strong>certification tracks</strong> in Google, Microsoft, Apple, SMART Boards, and more.</p>
       </div>
-      <div class="col-md-3 padding-sm">
+      <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
@@ -234,8 +235,8 @@
              c-2.512,2.97-5.849,4.455-10.014,4.455C289.622,154.636,286.03,152.95,282.991,149.577z"/>
            </g>
         </svg>
-        <p class="h5 thin-heading text-center">Let’s pair up </p>
-        <p class="text-center">Just <a class="black-text bold" href="">ASK OTIS</a> to pair with a PD Specialist and get one-on-one support with the platform, guidance on how to get started, help with creating PD playlists, and more!</p>
+        <p class="h5 thin-heading text-center fade-element fade-down full-time">Let’s pair up </p>
+        <p class="text-center fade-element fade-up full-time">Just <a class="black-text bold" href="">ASK OTIS</a> to pair with a PD Specialist and get one-on-one support with the platform, guidance on how to get started, help with creating PD playlists, and more!</p>
       </div>
     </div>
   </div>
@@ -245,9 +246,9 @@
   </svg>
   <div class="container-fluid white-bg" id="svgYourEdtechSkills">
     <div class="row align-items-center">
-      <div class="col-md-6 padding-sm">
-        <h1 class="sub-heading bold text-right">Your Edtech Skills Will Skyrocket!</h1>
-        <h5 class="text-right">Get access to OTIS through a <a href=""><u>school or district subscription</u></a>, or an <a href=""><u>individual account</u></a> and leverage our <strong>professional development sessions to impact student outcomes.</strong></h5>
+      <div class="col-md-6 padding-sm fade-in-container">
+        <h1 class="sub-heading bold text-right fade-element fade-down half-time">Your Edtech Skills Will Skyrocket!</h1>
+        <h5 class="text-right fade-element fade-up half-time">Get access to OTIS through a <a href=""><u>school or district subscription</u></a>, or an <a href=""><u>individual account</u></a> and leverage our <strong>professional development sessions to impact student outcomes.</strong></h5>
       </div>
       <div class="col-md-6">
         <svg class="svg" id="svgYourEdtechSkillsContainer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"></svg>
@@ -263,9 +264,9 @@
       <div class="col-md-6">
         <svg class="svg" id="svgEdtechIsMoreContainer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"></svg>
       </div>
-      <div class="col-md-6 padding-sm">
-        <h1 class="sub-heading bold">Edtech is More Than Just a Buzzword!</h1>
-        <h5>With OTIS you can leverage classroom technology as a powerful tool to help students <strong>learn everything from Computer Science to Social-Emotional skills. </strong></h5>
+      <div class="col-md-6 padding-sm fade-in-container">
+        <h1 class="sub-heading bold fade-element fade-down half-time">Edtech is More Than Just a Buzzword!</h1>
+        <h5 class="fade-element fade-up half-time">With OTIS you can <strong>leverage classroom technology</strong> as a powerful tool to help students learn. Computer science, social-emotional skills, STEM, project-based learning, and anything in between — <strong>OTIS has you covered.</strong></h5>
       </div>
     </div>
   </div>
@@ -275,9 +276,9 @@
   </svg>
   <div class="container-fluid white-bg" id="svgLetOtisBe">
     <div class="row align-items-center">
-      <div class="col-md-6 padding-sm padding-left">
-        <h1 class="sub-heading bold text-right">Let OTIS Be Your Sidekick.</h1>
-        <h5 class="text-right">To us, <strong>educators are superheroes</strong>, but even superheroes need a sidekick from time to time. Whether you’re learning how to integrate new technologies, add to your toolkit, or fine-tune your skills — let OTIS be your trusty sidekick. </h5>
+      <div class="col-md-6 padding-sm padding-left fade-in-container">
+        <h1 class="sub-heading bold text-right fade-element fade-down half-time">Let OTIS Be Your Sidekick.</h1>
+        <h5 class="text-right fade-element fade-up half-time">To us, <strong>educators are superheroes</strong>, but even superheroes need a sidekick from time to time. Whether you’re learning how to integrate new technologies, add to your toolkit, or fine-tune your skills — let OTIS be your trusty sidekick. </h5>
       </div>
       <div class="col-md-6">
         <svg class="svg" id="svgLetOtisBeContainer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"></svg>

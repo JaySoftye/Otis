@@ -1,5 +1,63 @@
 @charset "UTF-8";
 
+.fade-in-container {
+
+}
+
+.fade-in-container > .fade-element {
+  position: relative;
+}
+
+.fade-in-container .fade-element.fade-down.animate {
+  animation-name: fadeDown;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+
+.fade-in-container .fade-element.fade-up.animate {
+  animation-name: fadeUp;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+
+.fade-in-container .fade-down.animate.quarter-time, .fade-in-container .fade-up.animate.quarter-time {
+  animation-duration: 552ms;
+}
+
+.fade-in-container .fade-down.animate.half-time, .fade-in-container .fade-up.animate.half-time {
+  animation-duration: 660ms;
+}
+
+.fade-in-container .fade-down.animate.three-quarter-time, .fade-in-container .fade-up.animate.three-quarter-time {
+  animation-duration: 771ms;
+}
+
+.fade-in-container .fade-down.animate.full-time, .fade-in-container .fade-up.animate.full-time {
+  animation-duration: 882ms;
+}
+
+@keyframes fadeDown {
+  from {
+    top: -54px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    bottom: -54px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
 svg.svg.power-to-impact {
   width: 36%;
 }
@@ -8,7 +66,7 @@ svg.svg .blob {
   opacity: 0;
 }
 
-svg.svg.visible .blob {
+svg.svg.visible > .blob {
   animation-name: bounceIn;
   animation-duration: 900ms;
   animation-timing-function: linear;

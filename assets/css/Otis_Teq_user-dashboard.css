@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+nav.navbar.dashboard-menu {
+
+}
+
+nav.navbar.dashboard-menu a.nav-item {
+  padding: 1.2% 5.1%;
+  text-transform: uppercase;
+  font-size: calc(1vw - 6.6%);
+  color: rgb(0,0,0);
+}
+
+nav.navbar.dashboard-menu a.nav-item.active, nav.navbar.dashboard-menu a.nav-item:hover, nav.navbar.dashboard-menu a.nav-item:focus {
+  background-color: rgb(243,217,81);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.12);
+}
+
+div.user-data {
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+div.user-data:first-child div.user-course-list-container {
+  padding: 0 30px;
+}
+
+div.user-course-list-container .user-course-list {
+  margin-top: 2.74rem;
+  padding: 0 0;
+  list-style: none;
+}
+
+div.user-course-list-container .user-course-list li {
+  margin-bottom: 2.48rem;
+}
+
+div.user-course-list-container .user-course-list a, div.user-course-list-container .user-course-list a small {
+  display: block;
+}
+
+div.user-course-list-container .user-course-list a {
+  font-weight: 600;
+  line-height: 1.36;
+}
+
+div.user-course-list-container .user-course-list a:hover  {
+  color: rgb(0,0,0);
+}
+
+div.user-course-list-container .user-course-list a small  {
+  font-size: 80%;
+}
+
+.carousel-container.carousel.slide {
+  padding-right: 30px;
+}
+
+.carousel-container.carousel.slide > div.carousel-inner.dashboard-item-container {
+  padding: 0 0;
+}
+
+div.dashboard-item-container div.dashboard-item .course-card-container > .card.course-card {
+  height: calc(24vh + 7.5rem);
+  margin-top: 1.35rem;
+  margin-bottom: 1.35rem;
+}
+
+div.carousel-container.carousel.slide > a.carousel-control-prev {
+  left: -30px;
+}
+
+div.carousel-container.carousel.slide > a.carousel-control-next {
+  right: -15px;
+}
+
+div.carousel-container.carousel.slide a.carousel-control-prev svg, div.carousel-container.carousel.slide a.carousel-control-next svg {
+  width: 72%;
+  height: 72%;
+}
+
+div.dashboard-item > div.row > div.course-card-container {
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+div.dashboard-item div.card-header ul.nav.course-details li.nav-item, div.dashboard-item div.card-body h5 > a {
+  color: rgb(0,0,0);
+}
+
+div.dashboard-item div.card-body {
+  overflow-y: auto;
+}
+
+div.dashboard-item div.card-body h5 > a:hover {
+  color: rgb(79,197,221);
+}
+
+div.dashboard-item div.card-footer p, div.dashboard-item div.card-footer p > span {
+  margin: 0 0;
+  font-weight: 400;
+  font-size: .75rem;
+  color: rgb(0,0,0);
+}
+
+div.dashboard-item div.card-footer div.progress {
+  height: 12px;
+}
+
+div.dashboard-item div.card-footer div.progress > div.progress-bar {
+  background-color: rgb(79,197,221);
+}
+
+div.card.course-card.erc-card {
+  border-radius: 0;
+  border-bottom: 5px solid red;
+}
+
+div.card.course-card.erc-card a.erc-link {
+  height: 42%;
+  width: auto;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+div.card.course-card.erc-card div.card-body  {
+  padding: 1.77rem 1.23rem;
+  text-align: center;
+}
+
+div.card.course-card.erc-card div.card-body p > small  {
+  color: rgb(79,197,221);
+}
+
+div.card.course-card.erc-card div.card-body h6 > a  {
+  display: block;
+  padding-top: .66rem;
+  font-size: 1.35rem;
+  color: rgb(0,0,0);
+  cursor: pointer;
+}
+
+div.card-body > ul.standards-list, div.card-body > ul.standards-list li {
+  padding: 0 0;
+  list-style: none;
+}
+
+div.card-body > ul.standards-list li:first-child {
+  color: rgb(0,0,0);
+}
+
+div.card-body > ul.standards-list li {
+  display: block;
+  margin-top: .12rem;
+  line-height: 1.41;
+  font-weight: 600;
+  color: rgb(255,168,0);
+}
