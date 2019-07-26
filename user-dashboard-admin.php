@@ -44,121 +44,6 @@
   <div class="container-fluid light-grey-bg">
     <div class="row user-data">
 
-      <div class="col-md-4 user-course-card-container">
-        <h4> Your Next Registered Course</h4>
-        <div class="card course-card">
-          <div class="card-body">
-            <p class="bold">Looks like you haven’t registered for any courses yet. Go to our <a class="pd-blue-text" href="#">course calendar</a> to view upcoming courses and register.</a></p>
-            <img src="assets/images/otis-course-calendar.svg" />
-            <p><a class="button small-button yellow-button dropshadow text-center" href="#">VIEW CALENDAR</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 user-course-list-container">
-        <h4>Upcoming New Courses</h4>
-        <ul class="user-course-list upcoming-new-courses">
-          <li>
-            <a href="#">Let's Get Rolling with littleBits <small>Monday, June 17th, 10:00am - 11:00am</small></a>
-          </li>
-          <li>
-            <a href="#">Tips and Resources for Starting a Computer Science Club in Your School <small>Tuesday, June 18th, 10:00am - 11:00am</small></a>
-          </li>
-          <li>
-            <a href="#">Sphero BOLT Basics<small>Wednesday, June 19th, 10:00am - 11:00am</small></a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-md-4 user-course-list-container">
-        <h4>Recent Courses Added to the Library</h4>
-        <ul class="user-course-list recent-courses-added">
-          <li>
-            <a href="#">Tech-Infused Learning: Geometry with Dash <small>Tuesday, June 16th</small></a>
-          </li>
-          <li>
-            <a href="#">Using Your Library to Create a Makerspace <small>Monday, June 15th</small></a>
-          </li>
-          <li>
-            <a href="#">Using micro:bit to Code Your Own Firefly Display <small>Monday, June 17th</small></a>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="container-fluid white-bg">
-    <div class="row user-data">
-
-      <div id="course-library" class="col-md-7">
-        <h4>Your Courses in Progress</h4>
-        <p class="bold">You haven’t started learning, visit our <a class="bold" href="#">course library</a> to find a course that interests you.  </p>
-        <div class="dashboard-item-container">
-          <div class="dashboard-item white-bg">
-            <div class="row">
-              <div class="col-sm-12 course-card-container">
-                <div class="card course-card light-grey-bg">
-                  <div class="row align-items-center height-full width-full padding-sm">
-                    <p class="col-md-6">
-                      <img src="assets/images/otis-course-library.svg" />
-                    </p>
-                    <p class="col-md-6 text-center">
-                      <a class="button small-button yellow-button dropshadow text-center" href="course-library-categories.php">VIEW COURSE LIBRARY</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="recently-viewed-courses" class="col-md-5 user-course-list-container">
-
-        <h4>Recently Viewed</h4>
-        <p class="bold">Are you ready to start now?</p>
-
-        <div class="dashboard-item-container">
-          <div class="dashboard-item white-bg">
-            <div class="row">
-
-              <div class="col-sm-6 course-card-container">
-                <div class="card course-card">
-                  <div class="card-header orange">
-                    <ul class="nav course-details">
-                      <li class="nav-item thin-heading">Certification</li>
-                    </ul>
-                  </div>
-                  <div class="card-body">
-                    <h5><a href="#">Teq DTC: SMART Learning Suite Session 4 - Sound & Object Animation</a></h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 course-card-container">
-                <div class="card course-card">
-                  <div class="card-header green">
-                    <ul class="nav course-details">
-                      <li class="nav-item thin-heading">Courses</li>
-                    </ul>
-                  </div>
-                  <div class="card-body">
-                    <h5><a href="#">Teq DTC: SMART Learning Suite Session 4 - Sound & Object Animation</a></h5>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid light-grey-bg">
-    <div class="row user-data">
-
       <div class="col-md-3 user-course-card-container">
         <h4>Analytics</h4>
         <p class="padding-top">
@@ -227,6 +112,121 @@
         </p>
       </div>
 
+    </div>
+  </div>
+
+  <div class="container-fluid white-bg">
+    <div class="row user-data">
+
+      <div class="col-md-4 user-course-card-container">
+        <h4> Your Next Registered Course</h4>
+        <div class="card course-card light-grey-bg">
+          <div class="card-body">
+            <p class="bold">Looks like you haven’t registered for any courses yet. Go to our <a class="pd-blue-text" href="#">course calendar</a> to view upcoming courses and register.</a></p>
+            <img src="assets/images/otis-course-calendar.svg" />
+            <p><a class="button small-button yellow-button dropshadow text-center" href="#">VIEW CALENDAR</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 user-course-list-container">
+        <h4>Upcoming New Courses</h4>
+        <ul class="user-course-list upcoming-new-courses">
+          <li>
+            <a href="#">Let's Get Rolling with littleBits <small>Monday, June 17th, 10:00am - 11:00am</small></a>
+          </li>
+          <li>
+            <a href="#">Tips and Resources for Starting a Computer Science Club in Your School <small>Tuesday, June 18th, 10:00am - 11:00am</small></a>
+          </li>
+          <li>
+            <a href="#">Sphero BOLT Basics<small>Wednesday, June 19th, 10:00am - 11:00am</small></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 user-course-list-container">
+        <h4>Recent Courses Added to the Library</h4>
+        <ul class="user-course-list recent-courses-added">
+          <li>
+            <a href="#">Tech-Infused Learning: Geometry with Dash <small>Tuesday, June 16th</small></a>
+          </li>
+          <li>
+            <a href="#">Using Your Library to Create a Makerspace <small>Monday, June 15th</small></a>
+          </li>
+          <li>
+            <a href="#">Using micro:bit to Code Your Own Firefly Display <small>Monday, June 17th</small></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid light-grey-bg">
+    <div class="row user-data">
+
+      <div id="course-library" class="col-md-7">
+        <h4>Your Courses in Progress</h4>
+        <p class="bold">You haven’t started learning, visit our <a class="bold" href="#">course library</a> to find a course that interests you.  </p>
+        <div class="dashboard-item-container">
+          <div class="dashboard-item light-grey-bg">
+            <div class="row">
+              <div class="col-sm-12 course-card-container">
+                <div class="card course-card white-bg">
+                  <div class="row align-items-center height-full width-full padding-sm">
+                    <p class="col-md-6">
+                      <img src="assets/images/otis-course-library.svg" />
+                    </p>
+                    <p class="col-md-6 text-center">
+                      <a class="button small-button yellow-button dropshadow text-center" href="course-library-categories.php">VIEW COURSE LIBRARY</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="recently-viewed-courses" class="col-md-5 user-course-list-container">
+
+        <h4>Recently Viewed</h4>
+        <p class="bold">Are you ready to start now?</p>
+
+        <div class="dashboard-item-container">
+          <div class="dashboard-item light-grey-bg">
+            <div class="row">
+
+              <div class="col-sm-6 course-card-container">
+                <div class="card course-card">
+                  <div class="card-header orange">
+                    <ul class="nav course-details">
+                      <li class="nav-item thin-heading">Certification</li>
+                    </ul>
+                  </div>
+                  <div class="card-body">
+                    <h5><a href="#">Teq DTC: SMART Learning Suite Session 4 - Sound & Object Animation</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 course-card-container">
+                <div class="card course-card">
+                  <div class="card-header green">
+                    <ul class="nav course-details">
+                      <li class="nav-item thin-heading">Courses</li>
+                    </ul>
+                  </div>
+                  <div class="card-body">
+                    <h5><a href="#">Teq DTC: SMART Learning Suite Session 4 - Sound & Object Animation</a></h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 

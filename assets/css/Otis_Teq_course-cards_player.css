@@ -322,6 +322,10 @@ ul.nav.course-details li.nav-item a:hover, .card.course-card .card-body p a:hove
   border-radius: 0 0 calc(.51rem - 1px) calc(.51rem - 1px);
 }
 
+.card.course-card .card-footer.completed-certificate {
+  height: 84px;
+}
+
 .card.course-card .card-footer div.course-rating, .card.course-card .card-footer div.course-footer {
   height: 24px;
   width: 50%;

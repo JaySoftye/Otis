@@ -264,44 +264,67 @@
     <div class="row padding-top padding-bottom user-data">
 
       <div id="recommended-playlist-carousel" class="col-md-7 carousel-container carousel slide" data-ride="carousel" data-interval="false">
-        <h4>Your Recommended Playlists</h4>
+        <h4>Your Favorite Courses</h4>
 
           <div class="carousel-inner dashboard-item-container">
             <div class="carousel-item dashboard-item light-grey-bg active">
               <div class="row">
                 <div class="col-sm-4 course-card-container">
                   <div class="card course-card">
-                    <div class="card-header grey">
-                      <ul class="nav course-details">
-                        <li class="nav-item thin-heading playlist-details">District</li>
-                      </ul>
-                    </div>
-                    <div class="card-body">
-                      <h5><a href="#">Google Act 48</a></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4 course-card-container">
-                  <div class="card course-card">
-                    <div class="card-header">
-                      <ul class="nav course-details">
-                        <li class="nav-item thin-heading playlist-details">School</li>
-                      </ul>
-                    </div>
-                    <div class="card-body">
-                      <h5><a href="#">SMART Notebook Updates</a></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4 course-card-container">
-                  <div class="card course-card">
                     <div class="card-header light-blue">
                       <ul class="nav course-details">
-                        <li class="nav-item thin-heading playlist-details">OTIS</li>
+                        <li class="nav-item thin-heading">Course</li>
                       </ul>
                     </div>
                     <div class="card-body">
-                      <h5><a href="#">Gloucester Township Google Playlist</a></h5>
+                      <h5><a href="#">Labdisc:Solubility</a></h5>
+                    </div>
+                    <div class="card-footer">
+                      <p><span class="course-progress">70</span>% Completed</p>
+                      <div class="progress">
+                        <div class="progress-bar" style="width:70%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 course-card-container">
+                  <div class="card course-card">
+                    <div class="card-header green">
+                      <ul class="nav course-details">
+                        <li class="nav-item thin-heading">Course</li>
+                      </ul>
+                    </div>
+                    <div class="card-body">
+                      <h5><a href="#">What’s New in SMART Notebook 2014?</a></h5>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="block text-center">
+                        <img class="height-full" src="assets/images/take-quiz.svg" />
+                      </a>
+                    </div>
+                    <div class="card-footer no-margin">
+                      <p><span class="course-progress">90</span>% Completed</p>
+                      <div class="progress">
+                        <div class="progress-bar" style="width:90%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 course-card-container">
+                  <div class="card course-card">
+                    <div class="card-header yellow">
+                      <ul class="nav course-details">
+                        <li class="nav-item thin-heading">Course</li>
+                      </ul>
+                    </div>
+                    <div class="card-body">
+                      <h5><a href="#">Teq DTC: SMART Learning Suite Session 4 - Sound & Object Animation</a></h5>
+                    </div>
+                    <div class="card-footer">
+                      <p><span class="course-progress">100</span>% Completed</p>
+                      <div class="progress">
+                        <div class="progress-bar" style="width:100%"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -311,13 +334,39 @@
               <div class="row">
                 <div class="col-sm-4 course-card-container">
                   <div class="card course-card">
-                    <div class="card-header grey">
+                    <div class="card-header pink">
                       <ul class="nav course-details">
-                        <li class="nav-item thin-heading playlist-details">District</li>
+                        <li class="nav-item thin-heading">Course</li>
                       </ul>
                     </div>
                     <div class="card-body">
-                      <h5><a href="#">Robotics in the Classroom</a></h5>
+                      <h5><a href="#">What’s New in SMART Notebook 2014?</a></h5>
+                    </div>
+                    <div class="card-footer">
+                      <p><span class="course-progress">100</span>% Completed</p>
+                      <div class="progress">
+                        <div class="progress-bar" style="width:100%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 course-card-container">
+                  <div class="card course-card">
+                    <div class="card-header orange">
+                      <ul class="nav course-details">
+                        <li class="nav-item thin-heading">Course</li>
+                      </ul>
+                    </div>
+                    <div class="card-body">
+                      <h5><a href="#">Best Practices for Using Your SMART Board as a Station</a></h5>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="block text-center">
+                        <img class="height-full" src="assets/images/take-quiz.svg" />
+                      </a>
+                    </div>
+                    <div class="card-footer links">
+                      <a href="" class="block text-center red-text">ASSIGNMENT PENDING REVIEW</a>
                     </div>
                   </div>
                 </div>
@@ -336,7 +385,7 @@
             	 <polygon points="15.058,12.5 10.378,19.3 12.287,19.3 16.967,12.5 12.287,5.7 10.378,5.7 "/>
             </svg>
           </a>
-        <p><a class="thin-heading bold" href="#">VIEW ALL PLAYLISTS</a></p>
+        <p><a class="thin-heading bold" href="#">VIEW ALL</a></p>
       </div>
 
       <div id="featured-erc-lesson" class="col-md-5 user-course-list-container">
@@ -370,6 +419,63 @@
         <p><a class="thin-heading bold" href="#">VIEW MORE LESSONS</a></p>
 
       </div>
+    </div>
+  </div>
+
+  <div class="container-fluid white-bg">
+    <div class="row user-data">
+
+      <div id="TeqDTC-MicrosoftOffice365" class="col-md-12 carousel-container carousel slide" data-ride="carousel" data-interval="false">
+        <h4>Your Recommended Playlists</h4>
+
+        <div class="carousel-inner dashboard-item-container">
+          <div class="carousel-item dashboard-item white-bg  active">
+            <div class="row">
+              <div class="col-md course-card-container">
+                <div class="card course-card">
+                  <div class="card-header grey">
+                    <ul class="nav course-details">
+                      <li class="nav-item thin-heading playlist-details">District</li>
+                    </ul>
+                  </div>
+                  <div class="card-body">
+                    <h5><a href="#">Google Act 48</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md course-card-container">
+                <div class="card course-card">
+                  <div class="card-header light-grey">
+                    <ul class="nav course-details">
+                      <li class="nav-item thin-heading playlist-details">School</li>
+                    </ul>
+                  </div>
+                  <div class="card-body">
+                    <h5><a href="#">SMART Notebook Updates</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md course-card-container">
+                <div class="card course-card">
+                  <div class="card-header light-blue">
+                    <ul class="nav course-details">
+                      <li class="nav-item thin-heading playlist-details">OTIS</li>
+                    </ul>
+                  </div>
+                  <div class="card-body">
+                    <h5><a href="#">Gloucester Township Google Playlist</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md course-card-container"></div>
+              <div class="col-md course-card-container"></div>
+            </div>
+          </div>
+        </div>
+
+        <p><a class="thin-heading bold" href="#">VIEW ALL PLAYLISTS</a></p>
+      </div>
+
     </div>
   </div>
 
