@@ -80,7 +80,7 @@
           </g>
         </svg>
         <p class="h5 thin-heading text-center fade-element fade-down three-quarter-time">Build and share your own content </p>
-        <p class="text-center fade-element fade-up three-quarter-time">With OTIS, you can <strong>upload your own PD content</strong> and use our platform as a place to host the in-house training that’s essential for your school or district. </p>
+        <p class="text-center fade-element fade-up three-quarter-time"><strong>Upload your own PD content</strong> and use OTIS to host all of the online PD that’s essential for your educators.</p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
@@ -236,7 +236,7 @@
            </g>
         </svg>
         <p class="h5 thin-heading text-center fade-element fade-down full-time">Let’s pair up </p>
-        <p class="text-center fade-element fade-up full-time">Just <a class="black-text bold" href="">ASK OTIS</a> to pair with a PD Specialist and get one-on-one support with the platform, guidance on how to get started, help with creating PD playlists, and more!</p>
+        <p class="text-center fade-element fade-up full-time">Just <a class="black-text bold" href="">“ASK OTIS”</a> to connect with a Teq PD Specialist for one-on-one guidance on integrating your tech into instruction or simply on how to use OTIS’s online PD features.</p>
       </div>
     </div>
   </div>
