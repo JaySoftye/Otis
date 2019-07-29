@@ -126,7 +126,7 @@
            </g>
         </svg>
         <p class="h5 thin-heading text-center fade-element fade-down half-time">Make it count </p>
-        <p class="text-center fade-element fade-up half-time">As a <strong>state-approved PD provider,</strong> OTIS is a convenient and flexible way to fulfill your state-required PD hours at your convenience.<br /><br /><a href="https://www.teq.com/state-approved/"><strong><u>View state-approved map</u></strong></a></p>
+        <p class="text-center fade-element fade-up half-time">As a <strong>state-approved PD provider,</strong> OTIS is a convenient and flexible way to fulfill state-required PD hours at your convenience.<br /><br /><a href="https://www.teq.com/state-approved/"><strong><u>View state-approved map</u></strong></a></p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">

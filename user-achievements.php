@@ -23,9 +23,9 @@
 
   <div class="container-fluid pd-blue-bg">
     <nav class="navbar navbar-expand-lg dashboard-menu">
-      <a class="nav-item thin-heading" href="#">My Dashboard</a>
-      <a class="nav-item thin-heading" href="#">Progress Tracker</a>
-      <a class="nav-item thin-heading active" href="#">Achievements</a>
+      <a class="nav-item thin-heading" href="user-dashboard-teacher.php">My Dashboard</a>
+      <a class="nav-item thin-heading" href="user-progress-tracker.php">Progress Tracker</a>
+      <a class="nav-item thin-heading active" href="user-achievements.php">Achievements</a>
       <a class="nav-item thin-heading" href="#">Reports</a>
       <a class="nav-item thin-heading" href="#">Account Info</a>
     </nav>
