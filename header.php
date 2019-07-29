@@ -14,6 +14,7 @@
   <link href="assets/css/Otis_Teq_index-animation.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_course-cards_player.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_user-dashboard.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="assets/css/Otis_Teq_erc.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -22,9 +23,15 @@
 <body>
 
 <nav class="navbar navbar-expand-lg otis-navbar">
-  <a class="otis-logo" href="index.php">
-    <img src="assets/images/Otis-main-brand-logo.png" width="360" height="96" class="d-inline-block align-top" alt="">
-  </a>
+  <?php if($logged_in == True) { ?>
+    <a class="otis-logo" href="index.php">
+      <img src="assets/images/Otis-ERC-brand-logo.png" width="360" height="96" class="d-inline-block align-top" alt="">
+    </a>
+  <?php } else { ?>
+    <a class="otis-logo" href="index.php">
+      <img src="assets/images/Otis-main-brand-logo.png" width="360" height="96" class="d-inline-block align-top" alt="">
+    </a>
+  <?php } ?>
   <button class="navbar-toggler mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav" aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation" onclick="mobileNav(this)">
     <div class="bar1"></div>
     <div class="bar2"></div>

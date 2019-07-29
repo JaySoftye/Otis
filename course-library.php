@@ -68,7 +68,7 @@
           <option value="">ISTE Aligned</option>
           <option value="">Earns Certificate</option>
           <option value="">no Certificate</option>
-          <option value="">Product Familirization</option>
+          <option value="">Product Familiarization</option>
           <option value="">Certifications Courses</option>
           <option value="">Tech-Infused Lessons</option>
           <option value="">Frameworks/Resources</option>

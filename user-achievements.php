@@ -43,7 +43,7 @@
       </div>
       <div class="col-md">
         <h3 class="thin-heading thin no-margin user-courses-taken">154.4</h3>
-        <p class="bold">Completed Credit Hours</p>
+        <p class="bold">Completed Hours</p>
       </div>
       <div class="col-md">
         <h3 class="thin-heading thin no-margin user-courses-taken">2</h3>
