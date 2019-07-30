@@ -199,6 +199,36 @@ div.select-filter .form-checkbox:checked {
   background-position: right center;
 }
 
+a.erc-back-button {
+  padding: 25px;
+  text-transform: uppercase;
+  font-family: din-condensed, 'Roboto Condensed', 'Roboto',Helvetica,Arial,san-serif !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgb(0,0,0);
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+a.erc-back-button:hover {
+  color: rgb(79,197,221);
+}
+
+a.erc-back-button svg {
+  height: 42px;
+  width: auto;
+}
+
+a.erc-back-button svg polygon {
+  fill: rgb(0,0,0);
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+a.erc-back-button:hover svg polygon {
+  fill: rgb(79,197,221);
+}
+
 /* Laptops and Tablets */
 @media only screen
 and (max-width : 768px) {
