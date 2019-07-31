@@ -15,6 +15,7 @@
   <link href="assets/css/Otis_Teq_course-cards_player.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_user-dashboard.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_erc.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="assets/css/Otis_Teq_course-calendar.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 

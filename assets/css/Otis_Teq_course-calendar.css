@@ -1,0 +1,385 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+/**
+ * Teq Online Professional Development Course Calendar
+ */
+
+body.event-calendar div.modal-backdrop {
+  z-index: -1 !important;
+}
+
+body.event-calendar div.modal {
+  top: 18% !important;
+}
+
+
+div#course-calendar-date-selector h2 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+div#course-calendar-date-selector .carousel-control-prev-icon {
+  background-image: url('images/course-calendar-carousel-prev-icon.svg');
+}
+
+div#course-calendar-date-selector .carousel-control-next-icon {
+  background-image: url('images/course-calendar-carousel-next-icon.svg');
+}
+
+h3.popover-header {
+  background-color: rgb(109, 140, 188);
+}
+
+h3.popover-header small {
+  font-weight: 700;
+  color: white;
+}
+
+a.calendar-view-change {
+  font-weight: 700;
+  margin-right: 1.5rem;
+  opacity: 0.25;
+}
+
+a.calendar-view-change:hover, a.calendar-view-change:focus, a.calendar-view-change.active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+a.calendar-view-change img {
+  width: 8.5%;
+}
+
+div#calendar-wrap, div.calendar, div.calendar ul.days, div.calendar ul.weekdays {
+	width: 100%;
+}
+
+div#calendar-wrap {
+  padding: 10px;
+}
+
+div.calendar ul.days, div.calendar ul.weekdays {
+  margin-bottom: 0;
+	padding: 0 0;
+  list-style: none;
+  display: table;
+}
+
+div.calendar ul.days {
+  height: 10.25rem;
+  min-height: 10.25rem;
+}
+
+div.calendar ul.weekdays {
+  height: inherit;
+  min-height: 0;
+}
+
+div.calendar li.day {
+  width: 14%;
+	display: block;
+  z-index: 900;
+  margin: 1px;
+}
+
+div.calendar ul.weekdays li.day {
+  background-color: rgb(64, 85, 117);
+	padding: .25rem;
+  display: table-cell;
+	border: none !important;
+	font-size: 1rem;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+}
+
+div.calendar ul.days li.day {
+  height: 100%;
+	min-height: 10.25rem;
+  display: table-cell;
+  vertical-align: top;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.65);
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.65);
+}
+
+div.calendar span.date {
+  float: right;
+  padding: .15rem;
+  font-size: 1rem;
+	color: rgb(64, 85, 117);
+  font-weight: 700;
+  text-align: center;
+}
+
+div.calendar a.event {
+  display: block;
+  padding: .25rem;
+  line-height: 1rem;
+}
+
+div.calendar li.day a.event:hover, div.calendar li.day a.event:focus {
+  background-color: rgba(200, 222, 255, 0.25);
+  text-decoration: none;
+}
+
+div.calendar li.day.empty a.event:hover, div.calendar li.day.empty a.event:focus {
+  background: none;
+  text-decoration: none;
+}
+
+div.calendar a.event span.calendar-course-type {
+  height: 1.75rem;
+  float: left;
+}
+
+div.calendar a.event span.week-of-date {
+  display: none;
+}
+
+a.event span.calendar-course-type img {
+  width: inherit;
+  height: inherit;
+}
+
+div.calendar p.event-title {
+  padding: 25% 2% 1rem 2%;
+  display: block;
+  margin: 0 0;
+	font-weight: 700;
+  cursor: pointer;
+}
+
+div.calendar p.event-description {
+  display: none;
+}
+
+div.calendar .other-month {
+	background: #f5f5f5;
+  z-index: -1;
+	color: #666;
+}
+
+div.calendar div.dropdown {
+  width: 20px;
+  position: absolute;
+  z-index: 950;
+  margin-top: -2rem;
+  margin-left: 8.25rem;
+}
+
+div.calendar div.dropdown a.dropdown-toggle {
+  margin-left: 10%;
+}
+
+div.calendar div.dropdown a.dropdown-toggle::after {
+  border: none;
+}
+
+div.calendar div.dropdown img {
+  height: 1.5rem;
+}
+
+/**
+ * Course Calendar List View
+ */
+
+div.calender.list-view {
+  padding: 10px;
+}
+
+div.calender.list-view div#course-calendar-date-selector {
+  margin-bottom: 50px;
+}
+
+div.calendar.list-view .weekdays, div.calendar.list-view .other-month, div.calendar.list-view li.day.disabled, div.calendar.list-view li.day.empty {
+  display: none !important;
+}
+
+div.calendar.list-view ul.days {
+  height: inherit;
+  min-height: auto;
+}
+
+div.calendar.list-view li.day {
+   height: auto !important;
+   border: 1px solid #ededed;
+   width: 100%;
+   margin-bottom: -1px;
+ }
+
+div.calendar.list-view li.day span.date {
+  display: none;
+}
+
+div.calendar.list-view ul.days li.day {
+  display: block;
+  margin-bottom: 10px;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+div.calendar.list-view a.event span.week-of-date, div.calendar.list-view p.event-description {
+  display: inline-block;
+}
+
+div.calendar.list-view span.week-of-date strong {
+  font-size: 2.5rem;
+}
+
+div.calendar.list-view li.day p.event-title {
+  padding: 20px 10px 10px 10px;
+  font-size: 1.5rem;
+}
+
+div.calendar.list-view li.day div.dropdown {
+  position: inherit;
+  margin-left: 97%;
+}
+
+div.calendar.list-vie li.day:hover, div.calendar.list-view li.day:focus {
+  background-color: none;
+}
+
+div.calendar.list-view li.day a.event:hover, div.calendar.list-view li.day a.event:focus {
+  background-color: transparent;
+}
+
+div.calendar.list-view li.day small {
+  font-weight: 700;
+}
+
+div.calendar.list-view a.event {
+  background-color: rgba(236, 238, 239, 0.25) !important;
+  padding: 10px 10px 30px 10px;
+  margin-top: 1.5rem;
+  border-right: 5px solid rgba(64, 85, 117, 1);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
+  line-height: 1.25rem;
+}
+
+div.calendar.list-view a.event:hover, div.calendar.list-view a.event:focus {
+  background-color: rgba(200, 222, 255, 0.5) !important;
+}
+
+div.calendar.list-view a.event span.calendar-course-type {
+  float: none;
+}
+
+div.calendar.list-view a.event span.date, div.calendar.list-view a.event span.week-of-date {
+  float: right;
+}
+
+div.calendar.list-view span.date {
+  display: block;
+  text-align: right;
+  font-size: 2.5rem;
+}
+
+div.calendar.list-view a.event span.week-of-date {
+  font-size: 1.25rem;
+}
+
+@media(max-width: 768px) {
+
+  div.popover {
+    display: none;
+  }
+
+  div#course-calendar-date-selector {
+    margin-bottom: 50px;
+  }
+
+	div.calendar .weekdays, div.calendar .other-month {
+		display: none !important;
+	}
+
+  div.calendar ul.days {
+    height: inherit;
+    min-height: auto;
+  }
+
+	div.calendar li.day {
+		height: auto !important;
+		width: 100%;
+		margin-bottom: -1px;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+	}
+
+	div.calendar span.date {
+		display: none;
+	}
+
+  div.calendar a.event span.week-of-date {
+    display: block;
+    font-size: 1.25rem;
+  }
+
+  div.calendar span.week-of-date strong {
+    font-size: 2.5rem;
+  }
+
+  div.calendar ul.days li.day {
+    padding: 0 0;
+    display: block;
+  }
+
+  div.calendar li.day p.event-title {
+    padding: 20px 10px 10px 10px;
+    font-size: 1.5rem;
+  }
+
+  div.calendar p.event-description {
+    display: block;
+  }
+
+  div.calendar li.day.disabled, div.calendar li.day.empty, div.calendar li.day div.dropdown {
+    display: none !important;
+  }
+
+  div.calendar li.day a.event:hover, div.calendar li.day a.event:focus {
+    background-color: transparent;
+  }
+
+  div.calendar li.day small {
+    font-weight: 700;
+  }
+
+  div.calendar a.event {
+    background-color: rgba(236, 238, 239, 0.25) !important;
+    padding: 10px 10px 30px 10px;
+    margin-top: 1.5rem;
+    border-right: 5px solid rgba(64, 85, 117, 1);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
+    line-height: 1.25rem;
+  }
+
+  div.calendar a.event span.calendar-course-type {
+    float: none;
+  }
+
+  div.calendar a.event span.date, div.calendar a.event span.week-of-date {
+    float: right;
+  }
+
+  div.calendar a.event span.date {
+    font-size: 2.5rem;
+  }
+
+  div.calendar a.event span.week-of-date {
+    font-size: 1.25rem;
+  }
+
+}

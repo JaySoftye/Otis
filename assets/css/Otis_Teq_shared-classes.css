@@ -669,7 +669,7 @@ footer .footer-content .row {
 }
 
 .main-content .container-fluid, footer .footer-content {
-  padding: 0 15% 0 9%;
+  padding: 0 10.72% 0 7.5%;
 }
 
 .main-content .row {
@@ -681,7 +681,6 @@ footer .footer-content .row {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   transform-origin: center center;
-
 }
 
 .floating.slow {
@@ -796,6 +795,9 @@ and (max-width : 768px) {
 and (max-width : 1224px) {
   .hide-large {
     display: none;
+  }
+  .main-content .container-fluid, footer .footer-content {
+    padding: 0 9% 0 6%;
   }
 }
 
