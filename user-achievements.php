@@ -26,8 +26,8 @@
       <a class="nav-item thin-heading" href="user-dashboard-teacher.php">My Dashboard</a>
       <a class="nav-item thin-heading" href="user-progress-tracker.php">Progress Tracker</a>
       <a class="nav-item thin-heading active" href="user-achievements.php">Achievements</a>
+      <a class="nav-item thin-heading" href="user-account-info.php">Account Info</a>
       <a class="nav-item thin-heading" href="#">Reports</a>
-      <a class="nav-item thin-heading" href="#">Account Info</a>
     </nav>
   </div>
 
