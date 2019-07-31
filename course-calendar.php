@@ -7,6 +7,13 @@
 
 <section class="main-content">
 
+  <script>
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
   <section class="container-fluid course-background" style="background-image: url('<?php echo $default_background_image_url; ?>');">
     <div class="course-background-gradient-cover"></div>
     <div class="row">
@@ -21,44 +28,66 @@
   </section>
 
   <section class="container-fluid">
-    <div class="row align-items-center padding-bottom">
-      <div class="col-md-3 col-sm-6">
-        <p><img src="assets/course-calendar-type-icons.svg" /></p>
-      </div>
-      <div class="col-md-9 col-sm-6">
-        <p><small class="blue-text">To view course details simply <strong>click on the course title</strong>.</small></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="container-fluid">
-    <div class="row align-items-center padding-bottom">
-      <div class="col-md-6">
-        <div id="course-calendar-date-selector" class="carousel slide" >
+    <div class="row align-items-center padding-top">
+      <div class="col">
+        <div id="course-calendar-date-selector" class="carousel-container carousel slide" data-ride="carousel" data-interval="false">
           <div class="carousel-inner" role="listbox">
-            <div class="carousel-item">
-              <h2>June 2017</h2>
-            </div>
-            <div class="carousel-item active">
-              <h2>July 2017</h2>
-            </div>
-            <div class="carousel-item">
-              <h2>August 2017</h2>
-            </div>
+            <div class="carousel-item">January</div>
+            <div class="carousel-item">February</div>
+            <div class="carousel-item">March</div>
+            <div class="carousel-item">April</div>
+            <div class="carousel-item">May</div>
+            <div class="carousel-item">June</div>
+            <div class="carousel-item active">July</div>
+            <div class="carousel-item">August</div>
+            <div class="carousel-item">September</div>
+            <div class="carousel-item">October</div>
+            <div class="carousel-item">November</div>
+            <div class="carousel-item">December</div>
           </div>
           <a class="carousel-control-prev" href="#course-calendar-date-selector" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <svg version="1.1" viewBox="0 0 25 25">
+            	 <circle class="light-grey-fill dropshadow" cx="12.5" cy="12.5" r="11.109"/>
+            	 <polygon class="st1" points="14.622,5.7 12.713,5.7 8.033,12.5 12.713,19.3 14.622,19.3 9.942,12.5 "/>
+            </svg>
           </a>
           <a class="carousel-control-next" href="#course-calendar-date-selector" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <svg version="1.1" viewBox="0 0 25 25">
+            	 <circle class="light-grey-fill dropshadow" cx="12.5" cy="12.5" r="11.109"/>
+            	 <polygon points="15.058,12.5 10.378,19.3 12.287,19.3 16.967,12.5 12.287,5.7 10.378,5.7 "/>
+            </svg>
           </a>
         </div>
       </div>
-      <div class="col-md-6 hide-small text-right">
-        <a class="calendar-view-change active" id="course-calendar-view"><img src="assets/course-calendar-calendar-view.svg" /> Calendar View</a>
-        <a class="calendar-view-change" id="course-list-view"><img src="assets/course-calendar-list-view.svg" /> List View</a>
+      <div class="col d-flex justify-content-center timezone-selection-container">
+        <div class="timezone-selection">
+          <strong>Time Zone</strong>
+          <select name="timezone" data-url="/users/set-timezone">
+            <option value="eastern" selected="selected">Eastern</option>
+            <option value="central">Central</option>
+            <option value="mountain">Mountain</option>
+            <option value="pacific">Pacific</option>
+            <option value="hawaii">Hawaii</option>
+            <option value="alaska">Alaska</option>
+            <option value="atlantic">Atlantic</option>
+            <option value="saskatchewan">Saskatchewan</option>
+            <option value="newfoundland">Newfoundland</option>
+          </select>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center view-buttons-container">
+        <div class="view-buttons">
+          <strong>Views</strong>
+          <a class="calendar-view-change active" id="course-calendar-view">
+            <img src="assets/images/course-calendar-calendar-view.svg">
+          </a>
+          <a class="calendar-view-change" id="course-list-view">
+            <img src="assets/images/course-calendar-list-view.svg">
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center course-type-container">
+        <img class="width-full" src="assets/images/course-calendar-type-icons.svg">
       </div>
     </div>
   </section>
@@ -161,12 +190,11 @@
                   title="<small>July 6, 1:00PM - 3:00PM EST</small>"
                   data-content="<p>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
                 <span class="week-of-date">Thursday <strong>6</strong></span>
-                <span class="calendar-course-type"><img src="assets/course-calendar-free-icon.svg" /></span>
                 <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix I</p>
                 <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
                 <small>1:00pm to 3:00pm EST</small>
               </a>
-              <?php include 'course-calendar-admin-menu.php'; ?>
+              <span class="date">6</span>
               <a class="event" href="course-details.php"
                   tabindex="0"
                   role="button"
@@ -175,32 +203,15 @@
                   data-trigger="hover"
                   data-placement="top"
                   title="<small>July 6, 4:00PM - 5:00PM EST</small>"
-                  data-content="<p>We further explore the wonders of Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. </p>">
+                  data-content="<p>The purpose of a traditional school library is to is to encourage curiosity, innovation, and problem-solving. Did you know the purpose of a makerspace is the same? If you have been thinking about creating a maker space in your library, go ahead and take the plunge! In this session we'll talk about the many advantages of giving students a hands-on place to learn and apply concepts from all fields of study.</p>">
                 <span class="week-of-date">Thursday <strong>6</strong></span>
-                <span class="calendar-course-type"><img src="assets/course-calendar-free-icon.svg" /></span>
-                <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix II</p>
-                <p class="event-description">We further explore the wonders of Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. </p>
+                <p class="event-title">Using Your Library to Create a Makerspace</p>
+                <p class="event-description">The purpose of a traditional school library is to is to encourage curiosity, innovation, and problem-solving. Did you know the purpose of a makerspace is the same? If you have been thinking about creating a maker space in your library, go ahead and take the plunge! In this session we'll talk about the many advantages of giving students a hands-on place to learn and apply concepts from all fields of study.</p>
                 <small>4:00pm to 5:00pm EST</small>
               </a>
-              <?php include 'course-calendar-admin-menu.php'; ?>
             </li>
-            <li class="day">
-              <a class="event" href="course-details.php"
-                  tabindex="0"
-                  role="button"
-                  data-html="true"
-                  data-toggle="popover"
-                  data-trigger="hover"
-                  data-placement="top"
-                  title="<small>July 6, 10:00AM - 11:00AM EST</small>"
-                  data-content="<p><span>Digital Manipulatives for the Science Classroom</span>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
-                <span class="week-of-date">Friday <strong>7</strong></span>
-                <span class="calendar-course-type"><img src="assets/course-calendar-certification-icon.svg" /></span>
-                <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix</p>
-                <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
-                <small>1:00pm to 3:00pm EST</small>
-              </a>
-              <?php include 'course-calendar-admin-menu.php'; ?>
+            <li class="day empty">
+              <span class="date">7</span>
             </li>
             <li class="day empty">
               <a class="event">
@@ -223,10 +234,21 @@
                <p class="event-title"></p>
               </a>
             </li>
-            <li class="day empty">
+            <li class="day free-course">
               <span class="date">11</span>
-              <a class="event">
-               <p class="event-title"></p>
+              <a class="event" href="course-details.php"
+                  tabindex="0"
+                  role="button"
+                  data-html="true"
+                  data-toggle="popover"
+                  data-trigger="hover"
+                  data-placement="top"
+                  title="<small>July 11, 4:00PM - 5:00PM EST</small>"
+                  data-content="<p>Looking for technology-infused learning ideas for your math classroom? In this session, we'll guide you through a geometry lesson that will put your students' critical thinking and measuring skills to the test! Geared towards 3rd through 6th grade students, this lesson will incorporate one of Teq's favorite robots: Dash! In this lesson, students will apply their understanding of geometry to create different shapes using their Dash robot. Students will explore angles, quadrilaterals, polygons, algorithms, design planning, and block-based coding.</p>">
+                <span class="week-of-date">Tuesday <strong>11</strong></span>
+                <p class="event-title">Tech-Infused Learning: Geometry with Dash</p>
+                <p class="event-description">Looking for technology-infused learning ideas for your math classroom? In this session, we'll guide you through a geometry lesson that will put your students' critical thinking and measuring skills to the test! Geared towards 3rd through 6th grade students, this lesson will incorporate one of Teq's favorite robots: Dash! In this lesson, students will apply their understanding of geometry to create different shapes using their Dash robot. Students will explore angles, quadrilaterals, polygons, algorithms, design planning, and block-based coding.</p>
+                <small>4:00pm to 5:00pm EST</small>
               </a>
             </li>
             <li class="day empty">
@@ -274,16 +296,38 @@
                <p class="event-title"></p>
               </a>
             </li>
-            <li class="day empty">
+            <li class="day live-course">
               <span class="date">19</span>
-              <a class="event">
-               <p class="event-title"></p>
+              <a class="event" href="course-details.php"
+                  tabindex="0"
+                  role="button"
+                  data-html="true"
+                  data-toggle="popover"
+                  data-trigger="hover"
+                  data-placement="top"
+                  title="<small>July 18, 11:00AM to 12:00pm EST</small>"
+                  data-content="<p>Clubs can be an exciting way to get students involved in programs outside of the classroom. Join us to learn about setting up your own computer science club, measuring the impact once it’s up and running, and growing your program to have a positive impact on even more students in your school!</p>">
+                <span class="week-of-date">Wednesday <strong>18</strong></span>
+                <p class="event-title">Tips and Resources for Starting a Computer Science Club in Your School</p>
+                <p class="event-description">Clubs can be an exciting way to get students involved in programs outside of the classroom. Join us to learn about setting up your own computer science club, measuring the impact once it’s up and running, and growing your program to have a positive impact on even more students in your school!</p>
+                <small>11:00AM to 12:00pm EST</small>
               </a>
             </li>
-            <li class="day empty">
+            <li class="day empty certification-course">
               <span class="date">20</span>
-              <a class="event">
-               <p class="event-title"></p>
+              <a class="event" href="course-details.php"
+                  tabindex="0"
+                  role="button"
+                  data-html="true"
+                  data-toggle="popover"
+                  data-trigger="hover"
+                  data-placement="top"
+                  title="<small>July 20, 11:00AM to 12:00pm EST</small>"
+                  data-content="<p>Get ready for some campfire tales with this digital storytelling course featuring Sphero. In this great cross-curricular session, we'll show you how to code your device to tell your favorite stories. Lights, Sphero, Action!</p>">
+                <span class="week-of-date">Thursday <strong>20</strong></span>
+                <p class="event-title">Digital Storytelling Around the Campfire with Sphero</p>
+                <p class="event-description">Get ready for some campfire tales with this digital storytelling course featuring Sphero. In this great cross-curricular session, we'll show you how to code your device to tell your favorite stories. Lights, Sphero, Action!</p>
+                <small>11:00AM to 12:00pm EST</small>
               </a>
             </li>
             <li class="day empty">
@@ -315,15 +359,13 @@
                   data-toggle="popover"
                   data-trigger="hover"
                   data-placement="top"
-                  title="<small>July 6, 10:00AM - 11:00AM EST</small>"
-                  data-content="<p><span>Digital Manipulatives for the Science Classroom</span>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
+                  title="<small>July 24, 11:00AM to 12:00pm EST</small>"
+                  data-content="<p>Get ready for some campfire tales with this digital storytelling course featuring Sphero. In this great cross-curricular session, we'll show you how to code your device to tell your favorite stories. Lights, Sphero, Action!</p>">
                 <span class="week-of-date">Monday <strong>24</strong></span>
-                <span class="calendar-course-type"><img src="assets/course-calendar-live-icon.svg" /> <img src="assets/course-calendar-certification-icon.svg" /></span>
-                <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix</p>
-                <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
-                <small>1:00pm to 3:00pm EST</small>
+                <p class="event-title">Bloxels Basics</p>
+                <p class="event-description">earn how your students can turn their stories into 13-bit video games with Bloxels! Starting with a physical game board and blocks, students can design the layouts, characters, and art for their game before going digital. Game elements can be edited and customized, and it's easy to collaborate. The possibilities are endless! Bloxels can be used in a variety of class subjects, and are suitable for elementary through high school.</p>
+                <small>11:00AM to 12:00pm EST</small>
               </a>
-              <?php include 'course-calendar-admin-menu.php'; ?>
             </li>
             <li class="day empty">
               <span class="date">25</span>
