@@ -1,5 +1,6 @@
 <?php
   $ercIndex = True;
+  $logged_in = True;
   include 'header.php';
 ?>
 <?php include 'askotis.php';?>

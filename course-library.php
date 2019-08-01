@@ -129,10 +129,10 @@
             <div class="card-header green">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
-                  <a href="#">8hr 54min</a>
+                  <a href="course-details.php">8hr 54min</a>
                 </li>
                 <li class="nav-item category-sessions-details">
-                  <a href="#">12 Sessions</a>
+                  <a href="course-details.php">12 Sessions</a>
                 </li>
                 <li class="nav-item">
                 </li>
@@ -140,7 +140,7 @@
               <button class="admin-menu" type="button"></button>
             </div>
             <div class="card-body">
-              <p><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></p>
+              <p><a href="course-details.php">Digital Teacher iPad Certification 7: iPhoto</a></p>
               <p>With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
             </div>
             <div class="card-footer">

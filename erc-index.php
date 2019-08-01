@@ -1,17 +1,14 @@
 <?php
   $ercIndex = True;
+  $logged_in = True;
   include 'header.php';
 ?>
 <?php include 'askotis.php';?>
   <?php include 'login-window.php';?>
 
-  <?php
-    $default_background_image_url='assets/images/default-course-background_lg.jpg';
-  ?>
-
 <section class="main-content thin-search-bar">
 
-  <div class="container-fluid erc course-background" style="background-image: url('<?php echo $default_background_image_url; ?>');">
+  <div class="container-fluid erc course-background lessons">
     <div class="course-background-gradient-cover"></div>
     <div class="row">
       <div class="col-md-6 course-search-field">
@@ -300,9 +297,6 @@
         </div>
 
       </div>
-    <svg version="1.1" viewBox="0 0 600 103">
-    	 <path class="pd-blue-fill" d="M600,103.5V31.453c-69.209,10.354-117.449,10.97-167.539-0.395c-19.904-4.516-56.294-13.321-94.03-12.518 c-16.291,0.347-28.846,2.982-45.128,3.552c-33.654,1.177-61.406-5.531-90.319-6.3c-36.548-0.971-61.23,6.535-97.388,10.992 C71.228,31.02,17.97,31.453,0,31.453L0,103.5H600z"/>
-    </svg>
   </div>
 
   <?php include 'digital-online-certifications.php';?>

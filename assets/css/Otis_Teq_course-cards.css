@@ -8,6 +8,10 @@
   background-repeat: no-repeat;
 }
 
+.main-content .container-fluid.course-background.lessons {
+  background-image: url('../images/default-erc-search-background_lg.jpg');
+}
+
 .main-content .container-fluid.course-background div.course-background-gradient-cover {
   height: 100%;
   width: 100%;

@@ -12,10 +12,11 @@
 
   <link href="assets/css/Otis_Teq_shared-classes.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_index-animation.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="assets/css/Otis_Teq_course-cards_player.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="assets/css/Otis_Teq_course-cards.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_user-dashboard.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_erc.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_course-calendar.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="assets/css/Otis_Teq_course-details.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -42,6 +43,14 @@
   <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav mr-auto"></ul>
     <ul class="nav justify-content-end flex-align-center">
+      <?php if($ercIndex == True) { ?>
+        <li class="nav-item">
+          <a class="nav-link thin-heading" href="erc-index.php">LESSONS MAIN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link thin-heading" href="index.php">OTIS.COM</a>
+        </li>
+      <?php } else { ?>
       <li class="nav-item">
         <a class="nav-link thin-heading" href="course-calendar.php">UPCOMING COURSES</a>
       </li>
@@ -57,8 +66,8 @@
       <li class="nav-item">
         <a class="nav-link thin-heading" href="#">BLOG</a>
       </li>
-
-      <?php if($logged_in == False) { ?>
+      <?php }
+        if($logged_in == False) { ?>
         <li class="nav-item">
           <a class="nav-link thin-heading" href="#">PRICING</a>
         </li>
