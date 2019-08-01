@@ -6,7 +6,7 @@
 <?php include 'header.php';?>
   <?php include 'askotis.php';?>
 
-<section class="main-content">
+<section class="main-content thin-search-bar">
 
   <div class="container-fluid course-background" style="background-image: url('<?php echo $default_background_image_url; ?>');">
     <div class="course-background-gradient-cover"></div>
@@ -180,7 +180,24 @@
             <div id="renew-submit">
               <button type="submit" class="edit dropshadow">RENEW</button>
             </div>
-            <label class="link pd-blue-text"><strong>REQUEST FULL ACCESS</strong></label>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <form method="post" class="profile-form user-license-info">
+      <div class="row align-items-center account-card">
+        <div class="col-md-10 user-license-info">
+          <h6><strong>License Information</strong></h6>
+          <div id="basic-lic">
+            <h6>Basic Account</h6>
+            <h6>Access to Select Content</h6>
+            <h6>Access to Basic Use Videos</h6>
+          </div>
+        </div>
+        <div class="col-md-2 user-license-info">
+          <div class="form-group">
+            <button class="membership dropshadow">Try a full membership</button>
           </div>
         </div>
       </div>
@@ -194,52 +211,62 @@
           event.preventDefault();
           $('#edit-email-notifications').addClass('hidden');
           $('div#submit-email-notifications').removeClass('hidden');
-          $('div#email-notifications').slideToggle();
+          $('form.user-email-notifications input.form-check-input').prop("disabled", false);
         });
         $('#submit-email-notifications label#cancel-close').click(function() {
           $('#edit-email-notifications').removeClass('hidden');
           $('div#submit-email-notifications').addClass('hidden');
-          $('div#email-notifications').slideToggle();
+          $('form.user-email-notifications input.form-check-input').prop("disabled", true);
         });
         $('#submit-email-notifications button#submit-email-notifications-button').click(function() {
           event.preventDefault();
-          console.log('user-email-notifications submitted');
+          console.log('user-account-profile submitted');
+
+          $('form.user-email-notifications').find('input.form-check-input').each(function() {
+            if ($(this).prop('checked' )== false) {
+              $(this).parent('label').addClass('disabled')
+            } else {
+              $(this).parent('label').removeClass('disabled')
+            }
+          });
+
+          $('form.user-email-notifications input.form-check-input').prop("disabled", true);
           $('#edit-email-notifications').removeClass('hidden');
           $('div#submit-email-notifications').addClass('hidden');
-          $('div#email-notifications').slideToggle();
+
         });
       });
       </script>
       <div class="row account-card">
         <div class="col-md-10">
           <h6><strong>Configure your email notifications below</strong></h6>
-          <div id="email-notifications" class="row" style="display: none;">
-            <div class="col-md-6 user-email-notifications">
+          <div id="email-notifications" class="row">
+            <div class="col-md-6 no-padding user-email-notifications">
               <div class="form-check">
                 <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" name="register_course" value="1" checked="">Email me when I register for a course</label>
+                <input type="checkbox" class="form-check-input" name="register_course" value="1" checked="" disabled="disabled">Email me when I register for a course</label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" name="day_before_course" value="1" checked="">Email me a reminder the day before a course</label>
+                <input type="checkbox" class="form-check-input" name="day_before_course" value="1" checked="" disabled="disabled">Email me a reminder the day before a course</label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input" name="week_before_course" value="1" checked="">Email me a reminder the week before a course</label>
+                  <input type="checkbox" class="form-check-input" name="week_before_course" value="1" checked="" disabled="disabled">Email me a reminder the week before a course</label>
               </div>
             </div>
-            <div class="col-md-6 user-email-notifications">
+            <div class="col-md-6 no-padding user-email-notifications">
               <div class="form-check">
                 <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" name="receive_news" value="1" checked="">Email me with News about Opd</label>
+                <input type="checkbox" class="form-check-input" name="receive_news" value="1" checked="" disabled="disabled">Email me with News about Opd</label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" name="receive_marketing" value="1" checked="">Email me with Sales / Marketing promotions</label>
+                <input type="checkbox" class="form-check-input" name="receive_marketing" value="1" checked="" disabled="disabled">Email me with Sales / Marketing promotions</label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" name="receive_replies" value="1" checked="">Email me when someone replies to one of my Discussion posts</label>
+                <input type="checkbox" class="form-check-input" name="receive_replies" value="1" checked="" disabled="disabled">Email me when someone replies to one of my Discussion posts</label>
               </div>
             </div>
           </div>
@@ -464,16 +491,22 @@
       <div class="row account-card">
         <div class="col-md-10 user-state-certification">
           <h6><strong>State Approved Certification Registration</strong></h6>
-          <div id="state-certification" class="form-row" style="display: none;">
-            <div class="col">
-              <p class="thin-heading bold">The information you provide here is required by the State of  for you to receive state-approved PD hours.</p>
-              <div class="form-group">
-                <label>Please Provide Month and Day of Birth (mm/dd)</label>
-                <input class="form-control" type="text" name="CA[1]" value="" placeholder="mm/dd">
+          <div id="state-certification" style="display: none;">
+            <div class="row">
+              <p class="thin-heading bold">As required by the NYSED Office of teaching Initiatives, the information you provide here is required for you to receive state-approved PD hours. If you have any questions about CTLE Requirments, please contact the NYSED Office of Teacher Initiatives.</p>
+            </div>
+            <div class="form-row">
+              <div class="col-3">
+                <div class="form-group">
+                  <label>The Month and Day of Birth (mm/dd)</label>
+                  <input class="form-control" type="text" name="CA[1]" value="" placeholder="mm/dd">
+                </div>
               </div>
-              <div class="form-group">
-                <label>As required by the NYSED Office of teaching Initiatives, please provide the last 4 digits of your Social Secuirty Number. If you have any questions about CTLE Requirments, please contact the NYSED Office of Teacher Initiatives.</label>
-                <input class="form-control" type="text" name="CA[7]" value="" placeholder="####">
+              <div class="col-3">
+                <div class="form-group">
+                  <label>The Last 4 digits of your Social Secuirty Number.</label>
+                  <input class="form-control" type="text" name="CA[7]" value="" placeholder="####">
+                </div>
               </div>
             </div>
           </div>
@@ -532,34 +565,31 @@
       </script>
       <div class="row account-card">
         <div class="col-md-10 user-cc-info">
-          <h6><strong>State Approved Certification Registration</strong></h6>
+          <h6><strong>Preferred Payment Method</strong> | <strong>Credit Card Information</strong></h6>
           <div id="cc-info" style="display: none;">
             <div class="form-group form-row">
               <div class="col">
                 <label for="first_name">Cardholder First Name:</label>
-                <input class="form-control" type="text" id="first_name" name="first_name" value="jay">
+                <input class="form-control" type="text" id="cc_first_name" name="cc_first_name" value="jay">
               </div>
-            </div>
-
-            <div class="form-group form-row">
               <div class="col">
                 <label for="last_name">Cardholder Last Name:</label>
-                <input class="form-control" type="text" id="last_name" name="last_name" value="softye">
+                <input class="form-control" type="text" id="cc_last_name" name="cc_last_name" value="softye">
               </div>
             </div>
 
             <div class="form-group form-row">
               <div class="col">
                 <label for="address">Billing Address:</label>
-                <input class="form-control" type="text" id="address" name="address" value="" placeholder="Street Address">
+                <input class="form-control" type="text" id="cc_address" name="cc_address" value="" placeholder="Street Address">
               </div>
             </div>
             <div class="form-group form-row">
               <div class="col">
-                <input class="form-control" type="text" id="city" name="city" value="" placeholder="City">
+                <input class="form-control" type="text" id="cc_city" name="cc_city" value="" placeholder="City">
               </div>
               <div class="col">
-                <select id="state" name="state" class="form-control" autocomplete="off">
+                <select id="cc_state" name="cc_tate" class="form-control" autocomplete="off">
                   <option value="">State</option>
                   <option value="AL">Alabama</option>
                   <option value="AK">Alaska</option>
@@ -615,7 +645,7 @@
                 </select>
               </div>
               <div class="col">
-                <input class="form-control" type="text" id="zipcode" name="zipcode" value="11730" placeholder="Zip Code">
+                <input class="form-control" type="text" id="cc_zipcode" name="cc_zipcode" value="11730" placeholder="Zip Code">
               </div>
             </div>
             <div class="form-group form-row">
@@ -623,8 +653,6 @@
                 <label for="cardnumber">Card Number:</label>
                 <input class="form-control" type="text" id="cardnumber" name="cardnumber" value="">
               </div>
-            </div>
-            <div class="form-group form-row">
               <div class="col">
                 <label for="expmonth">Expiration Date:</label>
                 <div class="form-row">
@@ -671,25 +699,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="form-group form-row">
-              <label for="cvv">Security Code (CVV):</label>
-              <input class="form-control" type="text" id="cvv" name="cvv" value="">
-            </div>
-
-            <div class="form-group form-row promo-code-group">
-              <label class="col-md-3 col-sm-3 col-form-label text-right "><strong>Enter a discount code:</strong></label>
-              <input class="form-control" type="text" id="promo_code" name="promo_code" value="">
-            </div>
-
-            <div class="form-group form-row">
-              <div class="form-check">
-                <label class="form-check-label">
-                <input type="checkbox" id="recurring" class="form-check-input" name="recurring" value="1" checked="">
-                  <strong>Enable automatic renewal</strong>
-                  <br />
-                  <span class="small">Your credit card will be automatically charged at the end of your yearly subscription. This will lock in any discounts you have on your individual account, otherwise you will be subject to full price on renewal.</span>
-                </label>
+              <div class="col">
+                <label for="cvv">Security Code (CVV):</label>
+                <input class="form-control" type="text" id="cvv" name="cvv" value="">
               </div>
             </div>
           </div>
@@ -697,10 +709,115 @@
         <div class="col-md-2 user-cc-info">
           <div class="form-group">
             <div id="edit-cc-info">
-              <button type="button" id="edit-cc-info-button" class="edit dropshadow">Edit Details</button>
+              <button type="button" id="edit-cc-info-button" class="edit dropshadow">Edit Payment</button>
             </div>
             <div id="submit-cc-info" class="hidden">
               <button type="submit" id="submit-cc-info-button" class="submit dropshadow">Submit Changes</button>
+              <label id="cancel-close" class="link pd-blue-text"><strong>CANCEL</strong></label>
+              <button type="button" id="submit-payment-delete-button" class="edit dropshadow">DELETE Payment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <form method="post" class="profile-form user-renewal-order-history">
+      <script>
+      // HELPER FUNCTIONS
+      $(document).ready(function() {
+        $('#edit-renewal-order-history button#edit-renewal-order-history-button').click(function() {
+          event.preventDefault();
+          $('#edit-renewal-order-history').addClass('hidden');
+          $('div#submit-renewal-order-history').removeClass('hidden');
+          $('div#renewal-order-history').slideToggle();
+        });
+        $('#submit-renewal-order-history label#cancel-close').click(function() {
+          $('#edit-renewal-order-history').removeClass('hidden');
+          $('div#submit-renewal-order-history').addClass('hidden');
+          $('div#renewal-order-history').slideToggle();
+        });
+
+        $('#submit-renewal-order-history button#submit-renewal-order-history-button').click(function() {
+          event.preventDefault();
+          console.log('user-renewal-order-history submitted');
+
+          if ($('form.user-renewal-order-history input#recurring').prop('checked' )== false) {
+            $('form.user-renewal-order-history label#automatic-renewal small').hide();
+            $('form.user-renewal-order-history label#automatic-renewal span#recurring-status').empty().html('OFF');
+          } else if ($('form.user-renewal-order-history input#recurring').prop('checked' )== true) {
+            $('form.user-renewal-order-history label#automatic-renewal small').show();
+            $('form.user-renewal-order-history label#automatic-renewal span#recurring-status').empty().html('ON');
+          } else {
+            $('form.user-renewal-order-history label#automatic-renewal span#recurring-status').empty().html('NA');
+          }
+
+          $('#edit-renewal-order-history').removeClass('hidden');
+          $('div#submit-renewal-order-history').addClass('hidden');
+          $('div#renewal-order-history').slideToggle();
+
+        });
+
+      });
+      </script>
+      <div class="row account-card">
+        <div class="col-md-10 user-renewal-order-history">
+          <h6><strong>RENEWAL OPTIONS</strong> | <strong>ORDER HISTORY</strong></h6>
+          <div id="renewal-order-history" style="display: none;">
+
+            <div class="form-group form-row padding-bottom">
+              <div class="col">
+                <div class="form-check">
+                  <label id="automatic-renewal" class="form-check-label">
+                  <input type="checkbox" id="recurring" class="form-check-input" name="recurring" value="1" checked="">
+                    <strong>Automatic Renewal - <span id="recurring-status" class="bold">ON</span> </strong>
+                    <br />
+                    <small>You will receive an email reminder 3 days before your renewal date and your <em class="bold">Prefered Payment Method</em> will be automatically charged at the end of your yearly subscription. This will lock in any discounts you have on your individual account, otherwise you will be subject to full price on renewal. <strong>Users that renew early will receive a discounted rate of $299.00.</strong></small>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <section id="order-history" class="border-top">
+              <div class="row order-item">
+                <div class="col-md-9">
+                  <p>
+                    <span class="bold">OTIS Annual Subscription</span>
+                    <br />Purchase date: <span id="purchase-date">07/24/2019</span>
+                    <br />Expires <span id="expiration-date">07/24/2020</span>
+                  </p>
+                </div>
+                <div class="col-md-3">
+                  <p class="text-right">
+                    <a href="" class="pd-blue-text bold">PRINT RECEIPT</a>
+                  </p>
+                </div>
+              </div>
+              <div class="row order-item">
+                <div class="col-md-9">
+                  <p>
+                    <span class="bold">OTIS Single User</span>
+                    <br />Purchase date: <span id="purchase-date">01/24/2015</span>
+                    <br />Expires <span id="expiration-date">01/24/2016</span>
+                  </p>
+                </div>
+                <div class="col-md-3">
+                  <p class="text-right">
+                    <a href="" class="pd-blue-text bold">PRINT RECEIPT</a>
+                  </p>
+                </div>
+                <hr />
+              </div>
+            </section>
+
+          </div>
+        </div>
+        <div class="col-md-2 user-renewal-order-history">
+          <div class="form-group">
+            <div id="edit-renewal-order-history">
+              <button type="button" id="edit-renewal-order-history-button" class="edit dropshadow">See Details</button>
+            </div>
+            <div id="submit-renewal-order-history" class="hidden">
+              <button type="submit" id="submit-renewal-order-history-button" class="submit dropshadow">Submit Changes</button>
               <label id="cancel-close" class="link pd-blue-text"><strong>CANCEL</strong></label>
             </div>
           </div>

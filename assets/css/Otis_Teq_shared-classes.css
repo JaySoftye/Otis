@@ -204,6 +204,10 @@ strong, .bold {
  color: rgb(64,85,117) !important;
 }
 
+.yellow-text {
+  color: rgb(243,217,81) !important;
+}
+
 .white-text {
  color: white !important;
 }
@@ -384,8 +388,9 @@ nav.navbar.otis-navbar {
   padding-bottom: 0;
 }
 
-nav.navbar.otis-navbar a.otis-logo {
-  margin-bottom: -.5rem;
+nav.navbar.otis-navbar a.otis-logo, nav.navbar.otis-navbar a.otis-logo img, nav.navbar.otis-navbar a.otis-logo svg {
+  height: 96px;
+  width: 360px;
 }
 
 #main-nav li.nav-item a.nav-link {
@@ -669,7 +674,11 @@ footer .footer-content .row {
 }
 
 .main-content .container-fluid, footer .footer-content {
-  padding: 0 10.72% 0 7.5%;
+  padding: 0 10.71% 0 7.5%;
+}
+
+.main-content.thin-search-bar .container-fluid.course-background .course-search-field {
+  padding: 2.64rem 0;
 }
 
 .main-content .row {

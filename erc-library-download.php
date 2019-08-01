@@ -1,5 +1,5 @@
 <?php
-  $logged_in = True;
+  $ercIndex = True;
   include 'header.php';
 ?>
 <?php include 'askotis.php';?>
@@ -9,7 +9,7 @@
     $default_background_image_url='assets/images/default-course-background_lg.jpg';
   ?>
 
-<section class="main-content">
+<section class="main-content thin-search-bar">
 
   <div class="container-fluid erc course-background" style="background-image: url('<?php echo $default_background_image_url; ?>');">
     <div class="course-background-gradient-cover"></div>

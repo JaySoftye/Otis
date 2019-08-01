@@ -6,7 +6,7 @@
 <?php include 'header.php';?>
   <?php include 'askotis.php';?>
 
-<section class="main-content">
+<section class="main-content thin-search-bar">
 
   <div class="container-fluid course-background" style="background-image: url('<?php echo $default_background_image_url; ?>');">
     <div class="course-background-gradient-cover"></div>

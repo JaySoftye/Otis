@@ -4,7 +4,7 @@
 
 <section class="main-content">
 
-  <div class="container-fluid course-background" style="background-image: url('https://onlinepd.teq.com/uploads/category-images/apple_lg.jpg');">
+  <div class="container-fluid course-background" style="background-image: url('assets/images/apple_lg.jpg');">
     <div class="course-background-gradient-cover"></div>
     <div class="row">
       <div class="col-md-6 course-search-field">

@@ -5,7 +5,7 @@
     $default_background_image_url='assets/images/default-course-background_lg.jpg';
   ?>
 
-<section class="main-content">
+<section class="main-content thin-search-bar">
 
   <script>
   $(document).ready(function(){

@@ -1,29 +1,23 @@
 <footer>
   <div class="container-fluid footer-content">
     <div class="row">
-      <div class="col-md-5 padding-sm">
+      <div class="col-md-3 padding-sm">
+        <p class="sub-heading h4 bold">OTIS is Online Technology and Instructional Sessions</p>
+        <p class="h5 dark-blue-text">Questions?</p>
+        <p class="h5 dark-blue-text">Request a feature.</p>
+        <p class="h5 dark-blue-text">Report a bug.</p>
+        <br />
         <p class="h5 dark-blue-text">
-          <span class="sub-heading h4 bold">OTIS is Online Technology and<br />Instructional Sessions</span>
-          <br />Questions?
-          <br />Request a feature.
-          <br />Report a bug.
-          <br />
-          <br />
+          <a class="bold" href="mailto:onlinepd@teq.com"><u>onlinepd@teq.com</u></a>
+          <br />877.455.9369
         </p>
-        <p><a class="h5 bold" href="mailto:onlinepd@teq.com">onlinepd@teq.com</a></p>
       </div>
       <div class="col-md-3 padding-sm">
-        <h6 class="dark-blue-text">
-          Teq
-          <br />7 Norden Lane
-          <br />Huntington Station, NY
-          <br/>11766
-          <br /><br />
-          <strong>877.455.9369</strong>
-        </h6>
-      </div>
-      <div class="col-md-4 padding-sm">
-        <h6 class="dark-blue-text bold margin-left">Follow Us:</h6>
+        <h6 class="dark-blue-text bold">Teq</h6>
+        <h6 class="dark-blue-text">7 Norden Lane</h6>
+        <h6 class="dark-blue-text">Huntington Station, NY 11766</h6>
+        <br />
+        <h6 class="dark-blue-text bold">Follow Us:</h6>
         <ul class="nav">
             <li class="nav-item">
               <a class="nav-icon" href="https://www.facebook.com/myTeq/"><img src="assets/images/facebook-icon.svg" alt="facebook"></a>
@@ -39,11 +33,22 @@
             </li>
         </ul>
       </div>
+      <div class="col-md-3 padding-sm">
+        <p class="sub-heading h4 bold">SUPPORT</p>
+        <p class="h5"><a class="dark-blue-text" href="#">How To Videos</a></p>
+        <p class="h5"><a class="dark-blue-text" href="#"><a class="dark-blue-text" href="#">FAQ's</a></p>
+      </div>
+      <div class="col-md-3 padding-sm">
+        <p class="sub-heading h4 bold">ABOUT US</p>
+        <p class="h5"><a class="dark-blue-text" href="#">Who We Are</a></p>
+        <p class="h5"><a class="dark-blue-text" href="#"><a class="dark-blue-text" href="#">Careers</a></p>
+        <p class="h5"><a class="dark-blue-text" href="#"><a class="dark-blue-text" href="#">Contact</a></p>
+      </div>
     </div>
     <div class="row">
       <div class="col-md">
-        <p class="dark-blue-text bold text-center">
-          Copyright © Teq <a class="dark-blue-text" href="#">Privacy Policy</a>, <a class="dark-blue-text" href="#">Terms</a>
+        <p class="dark-blue-text bold text-right">
+          Copyright © Teq <a class="dark-blue-text bold" href="#"><u>Privacy Policy</u></a>, <a class="dark-blue-text bold" href="#"><u>Terms</u></a>
         </p>
       </div>
     </div>

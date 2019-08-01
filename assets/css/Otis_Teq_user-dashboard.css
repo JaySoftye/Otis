@@ -26,8 +26,8 @@ nav.navbar.dashboard-menu a.nav-item.active, nav.navbar.dashboard-menu a.nav-ite
 }
 
 div.user-data {
-  padding-top: 4.8rem;
-  padding-bottom: 4.8rem;
+  padding-top: 2.1rem;
+  padding-bottom: 2.1rem;
 }
 
 div.user-data:first-child div.user-course-list-container {
@@ -238,6 +238,10 @@ div.row.account-card {
   box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.12);
 }
 
+div.row.account-card h6:first-child {
+  margin-top: .75rem;
+}
+
 div.row.account-card .profile-photo {
   height: 124px;
   width: 124px;
@@ -269,14 +273,12 @@ form.profile-form div.form-group label.link:hover {
   text-decoration: underline;
 }
 
-form.profile-form button.submit, form.profile-form button.edit {
+form.profile-form button.submit, form.profile-form button.edit, form.profile-form button.membership {
   width: 100%;
   display: block;
   float: right;
-  margin-top: -.75rem;
   padding: .75rem 0;
   outline: none;
-  white-space: nowrap;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
@@ -290,6 +292,11 @@ form.profile-form button.edit {
 
 form.profile-form button.submit {
   background: rgb(243,217,81);
+}
+
+form.profile-form button.membership {
+  background-color: rgb(255,168,0);
+  color: rgb(255,255,255);
 }
 
 form.profile-form input[type=file] {
@@ -342,6 +349,10 @@ form.profile-form .form-group input.form-control:disabled, form.profile-form .fo
   color: rgb(0,0,0);
 }
 
+form.profile-form div.form-check {
+  padding-left: 1.83rem;
+}
+
 form.profile-form div.form-check input.form-check-input {
   height: 18px;
   width: 18px;
@@ -361,15 +372,32 @@ form.profile-form div.form-check input.form-check-input {
 form.profile-form div.form-check input.form-check-input:checked {
   background-color: rgb(243,217,81);
   border-color: rgb(243,217,81);
-  }
+}
 
 form.profile-form div.form-check input.form-check-input:checked::before {
-    position: absolute;
-    top: -3px;
-    left: 3px;
-    content: '\02143';
-    transform: rotate(40deg);
-    font-size: 12px;
-    font-weight: 500;
-    color: rgb(0,0,0);
-  }
+  position: absolute;
+  top: -3px;
+  left: 3px;
+  content: '\02143';
+  transform: rotate(40deg);
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(0,0,0);
+}
+
+form.profile-form div.form-check label.form-check-label {
+  cursor: pointer;
+}
+
+form.profile-form div.form-check label.form-check-label.disabled {
+  text-decoration: line-through;
+}
+
+form.profile-form label.form-check-label input.form-check-input[disabled] {
+  opacity: 0.24;
+}
+
+section#order-history div.order-item {
+  padding: 21px 15px 3px 15px;
+  border-bottom: 1px solid rgb(200,200,200);
+}
