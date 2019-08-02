@@ -42,30 +42,48 @@
           <button class="admin-menu" type="button"></button>
         </div>
         <div class="nav-item group-view-container">
-          <a class="button small-button green-button no-margin group-view" href="#">GROUP VIEW</a>
+          <a class="button medium-button green-button no-margin group-view" href="#">GROUP VIEW</a>
         </div>
       </div>
     </div>
   </div>
 
+  <script>
+    //hide menu helper function
+    $(document).ready(function() {
+      $('button.minimize-maximize').click(function() {
+        $(this).toggleClass('show');
+        if($('div.session-chapter-container').hasClass('maximize')) {
+          $('div.session-chapter-container').removeClass('maximize').addClass('minimize');
+        } else if($('div.session-chapter-container').hasClass('minimize')) {
+          $('div.session-chapter-container').removeClass('minimize').addClass('maximize');
+        } else {
+          $('div.session-chapter-container').addClass('minimize');
+        }
+      });
+    });
+  </script>
+
   <div class="container-fluid">
     <div class="row player-details">
-      <div class="col-md-3">
+
+      <div class="col-md-3 session-chapter-container">
+        <button type="button" class="minimize-maximize"></button>
         <ul class="course-sessions-list">
-          <li>Sessions</li>
-          <li><a href="#"><a href="#">Introduction</a></a>
+          <li id="session-chapter-menu">Sessions</li>
+          <li><a href="#">Introduction</a></a>
           <li><a href="#">Support Resources</a></li>
           <li><a href="#">Chrome</a></li>
           <li><a href="#">Drive</a></li>
           <li><a href="#">Optimizing Communication</a></li>
-          <li><a href="#">Staying Organized</a></li>
+          <li><a class="complete" href="#">Staying Organized</a></li>
           <li><a href="#">Collaborating with Docs & Drawings</a></li>
           <li><a href="#">Slides</a></li>
           <li><a href="#">Sheets</a></li>
           <li><a href="#">Forms</a></li>
-          <li><a href="#">Classroom</a></li>
-          <li><a href="#">
-            <ol>
+          <li><a class="active pink" href="#">Classroom</a></li>
+          <li>
+            <ol class="course-chapters-list">
               <li><a href="#">Recap of Session 10 - Forms</a></li>
               <li><a href="#">Classroom Help Center</a></li>
               <li><a href="#">Stream</a></li>
@@ -74,31 +92,55 @@
               <li><a href="#">Grades</a></li>
               <li><a href="#">Assignment 1</a></li>
             </ol>
-          </a></li>
+          </li>
           <li><a href="#">Sites</a></li>
           <li><a href="#"> YouTube</a></li>
           <li><a href="#">Additional Google Tools</a></li>
           <li><a href="#">Final Assignment</a></li>
         </ul>
       </div>
-      <div class="col-md">
+
+      <div class="col-md flow-player-container">
         <img class="width-full" src="assets/images/preview-screen.jpg" />
+
+        <div class="row course-details-content">
+          <div class="col-xs-1 badge-container hide-medium">
+            <object type="image/svg+xml" data="assets/images/ISTE_seal_of_alignment.svg"></object>
+            <img class="width-half block margin-auto" src="https://onlinepd.teq.com/uploads/badge/Google-Throwdown.png">
+          </div>
+          <div class="col-md no-padding">
+            <h2 class="course-details-content-title pink-text">
+              Classroom
+              <svg version="1.1" viewBox="0 0 50 50">
+            	   <path class="pink-fill" d="M24.009,1.239C11.81,1.239,1.89,11.895,1.89,25s9.92,23.761,22.119,23.761S46.127,38.105,46.127,25 S36.208,1.239,24.009,1.239z M33.392,37.673c-0.268,0.864-0.804,1.296-1.609,1.44c-0.536,0.144-1.072-0.144-1.609-0.576 c-1.877-1.872-6.166-6.624-7.909-8.496c-0.402-0.432-0.536-0.864-0.536-1.44c0-4.032,0-14.977,0-19.153 c0-1.152,0.804-2.016,1.877-2.016c1.072,0,1.877,0.864,1.877,2.016c0,1.872,0,10.369,0,12.241c0,1.728,0,3.744,0,5.472 c0,0.288,0.134,0.576,0.268,0.72c1.475,1.584,5.496,5.904,6.971,7.632C33.392,36.089,33.527,36.809,33.392,37.673z"/>
+             </svg>
+              <span class="course-duration pink-text">9hr 43min</span>
+            </h2>
+            <p>The second installment in our Chromebooks Concentration Series walks you through the steps to plan and set-up Chromebooks in your classroom, while discussing behavior management techniques at every step. Then, we arm you with a plethora of apps and extensions that may be beneficial to your classroom such as Turn Off the Lights, Google Keep, and Google Cast. This is a session you won’t want to miss. See you there!</p>
+          </div>
+          <div class="col-md-2">
+            <object type="image/svg+xml" data="assets/images/course-quiz-icon.svg"></object>
+            <h5 class="text-center"><a class="button small-button yellow-button text-center no-margin" href="#">TAKE QUIZ</a></h5>
+          </div>
+        </div>
+
       </div>
+
     </div>
   </div>
 
-  <section class="container-fluid light-grey-bg">
-    <div class="row">
-      <div class="col-lg-8 col-sm-12">
-        <ul class="nav nav-tabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link" href="#courese-discussion-tab" role="tab" data-toggle="tab" aria-controls="courese-discussion-tab" aria-expanded="false"><img src="assets/images/course-discussion-icon.svg" width="150" height="25px" alt="Discussion" /></a>
+  <section class="container-fluid">
+    <div class="row course-details-extra-content">
+      <div class="col">
+        <ul class="nav" role="tablist">
+          <li>
+            <a class="thin-heading h5 black-text active" href="#courese-discussion-tab" role="tab" data-toggle="tab" aria-controls="courese-discussion-tab" aria-expanded="true">DISCUSSION</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#course-files-tab" role="tab" data-toggle="tab" aria-controls="course-files-tab" aria-expanded="false"><img src="assets/images/course-files-icon.svg"  width="150" height="25px" alt="Files" /></a>
+          <li>
+            <a class="thin-heading h5 black-text" href="#course-files-tab" role="tab" data-toggle="tab" aria-controls="course-files-tab" aria-expanded="false">FILE & LINKS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#course-assignments-tab" role="tab" data-toggle="tab" aria-controls="course-assignments-tab" aria-expanded="true"><img src="assets/images/course-assignments-icon.svg" width="150" height="25px" alt="Assignments"  /></a>
+          <li>
+            <a class="thin-heading h5 black-text" href="#course-assignments-tab" role="tab" data-toggle="tab" aria-controls="course-assignments-tab" aria-expanded="false">ASSIGNMENTS</a>
           </li>
         </ul>
       </div>

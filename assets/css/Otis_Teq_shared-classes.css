@@ -204,8 +204,20 @@ strong, .bold {
  color: rgb(64,85,117) !important;
 }
 
+.light-blue-text {
+  color: rgb(114,191,219) !important;
+}
+
+.pink-text {
+  color: rgb(227,128,177) !important;
+}
+
 .yellow-text {
   color: rgb(243,217,81) !important;
+}
+
+.green-text {
+  color: rgb(204,239,157) !important;
 }
 
 .white-text {
@@ -214,6 +226,14 @@ strong, .bold {
 
 .black-text {
  color: black !important;
+}
+
+.light-grey-text {
+  color: rgb(230,226,231) !important;
+}
+
+.grey-text {
+  color: rgb(200,200,200) !important;
 }
 
 .orange-text {
@@ -265,7 +285,7 @@ strong, .bold {
 }
 
 .pink-fill {
-  fill: rgb(243,203,223);
+  fill: rgb(227,128,177);
 }
 
 .lavender-fill {
@@ -355,9 +375,10 @@ p .button {
 .button.group-view {
   padding-left: 3.9rem;
   background-image: url('../images/group-view-icon.svg');
-  background-size: contain;
+  background-size: 33px;
   background-repeat: no-repeat;
-  background-position: 18px 3px;
+  background-position: 30px 6px;
+  font-size: 1.2rem;
   text-indent: 9px;
 }
 
@@ -758,11 +779,20 @@ footer .footer-content .row {
 }
 
 /** OVER-RIDES **/
+button, button:focus, button:active {
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 textarea:focus, input:focus{
-    outline: none;
+  outline: none;
 }
 *:focus {
-    outline: none;
+  outline: none;
 }
 .form-control:focus {
   border-color: inherit;
