@@ -280,6 +280,10 @@ strong, .bold {
   fill: rgb(75,101,175);
 }
 
+.green-fill {
+  fill: rgb(169, 224, 140);
+}
+
 .opacity-quarter {
   opacity: .25;
 }
@@ -341,6 +345,20 @@ p .button {
 .button.yellow-button {
   background-color: rgb(243,217,81);
   color: rgb(0,0,0);
+}
+
+.button.green-button {
+  background-color: rgb(169,224,140);
+  color: rgb(255,255,255);
+}
+
+.button.group-view {
+  padding-left: 3.9rem;
+  background-image: url('../images/group-view-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 18px 3px;
+  text-indent: 9px;
 }
 
 button.admin-menu {

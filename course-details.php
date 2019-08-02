@@ -8,37 +8,42 @@
 
 <section class="main-content thin-search-bar course-details">
 
-  <div class="container-fluid course-background" style="background-image: url('<?php echo $default_background_image_url; ?>');">
-    <div class="course-background-gradient-cover"></div>
-    <div class="row">
-      <div class="col-md-6 course-search-field">
-        <form id="search-form" method="GET" action="" data-section="">
-          <div class="form-group search-input">
-            <input type="text" class="form-control" id="search-field" name="" value="" placeholder="Search Courses">
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
+  <?php include 'search-field.php';?>
 
   <div class="container-fluid">
     <div class="row title-nav">
       <div class="col-md-3">
-        <h6 class="sub-heading">OTIS Digital Teacher Certification</h6>
+        <h6>OTIS Digital Teacher Certification</h6>
         <h1 class="course-details-title">Google Educator Basics</h1>
       </div>
       <div class="col-md justify-content-end flex-align-center">
-        <div class="col p-2">
+        <div class="col nav-item certification-duration-container">
           <svg version="1.1" viewBox="0 0 50 50">
           	 <path class="black-fill" d="M24.009,1.239C11.81,1.239,1.89,11.895,1.89,25s9.92,23.761,22.119,23.761S46.127,38.105,46.127,25 S36.208,1.239,24.009,1.239z M33.392,37.673c-0.268,0.864-0.804,1.296-1.609,1.44c-0.536,0.144-1.072-0.144-1.609-0.576 c-1.877-1.872-6.166-6.624-7.909-8.496c-0.402-0.432-0.536-0.864-0.536-1.44c0-4.032,0-14.977,0-19.153 c0-1.152,0.804-2.016,1.877-2.016c1.072,0,1.877,0.864,1.877,2.016c0,1.872,0,10.369,0,12.241c0,1.728,0,3.744,0,5.472 c0,0.288,0.134,0.576,0.268,0.72c1.475,1.584,5.496,5.904,6.971,7.632C33.392,36.089,33.527,36.809,33.392,37.673z"/>
           </svg>
           <span class="certification-duration">9hr 43min</span>
         </div>
-        <div class="p-2">Flex item</div>
-        <div class="p-2 ">
+        <div class="nav-item favorite-icon-container">
+
+          <script>
+            //FAVORITE CLICK FUNCTION
+            $(document).ready(function() {
+              $('path#favorite-icon').click(function() {
+                $(this).toggleClass('selected');
+              });
+            });
+          </script>
+
+          <svg version="1.1" viewBox="0 0 50 50" id="favorite-icon">
+          	<path id="favorite-icon" d="M24.987,44.81c-3.196,0-22.86-13.321-22.86-26.303c0-7.357,5.964-13.321,13.321-13.321 c3.743,0,7.119,1.548,9.539,4.034c2.42-2.485,5.797-4.034,9.539-4.034c7.357,0,13.321,5.964,13.321,13.321 C47.847,31.489,28.183,44.81,24.987,44.81z"/>
+          </svg>
+        </div>
+        <div class="nav-item admin-menu-container">
           <button class="admin-menu" type="button"></button>
         </div>
-        <div class="p-2">Flex item</div>
+        <div class="nav-item group-view-container">
+          <a class="button small-button green-button no-margin group-view" href="#">GROUP VIEW</a>
+        </div>
       </div>
     </div>
   </div>
@@ -48,32 +53,32 @@
       <div class="col-md-3">
         <ul class="course-sessions-list">
           <li>Sessions</li>
-          <li>Introduction</li>
-          <li>Support Resources</li>
-          <li>Chrome</li>
-          <li>Drive</li>
-          <li>Optimizing Communication</li>
-          <li>Staying Organized</li>
-          <li>Collaborating with Docs & Drawings</li>
-          <li>Slides</li>
-          <li>Sheets</li>
-          <li>Forms</li>
-          <li>Classroom</li>
-          <li>
+          <li><a href="#"><a href="#">Introduction</a></a>
+          <li><a href="#">Support Resources</a></li>
+          <li><a href="#">Chrome</a></li>
+          <li><a href="#">Drive</a></li>
+          <li><a href="#">Optimizing Communication</a></li>
+          <li><a href="#">Staying Organized</a></li>
+          <li><a href="#">Collaborating with Docs & Drawings</a></li>
+          <li><a href="#">Slides</a></li>
+          <li><a href="#">Sheets</a></li>
+          <li><a href="#">Forms</a></li>
+          <li><a href="#">Classroom</a></li>
+          <li><a href="#">
             <ol>
-              <li>Recap of Session 10 - Forms</li>
-              <li>Classroom Help Center</li>
-              <li>Stream</li>
-              <li>Classwork</li>
-              <li>People</li>
-              <li>Grades</li>
-              <li>Assignment 1</li>
+              <li><a href="#">Recap of Session 10 - Forms</a></li>
+              <li><a href="#">Classroom Help Center</a></li>
+              <li><a href="#">Stream</a></li>
+              <li><a href="#">Classwork</a></li>
+              <li><a href="#">People</a></li>
+              <li><a href="#">Grades</a></li>
+              <li><a href="#">Assignment 1</a></li>
             </ol>
-          </li>
-          <li>Sites</li>
-          <li> YouTube</li>
-          <li>Additional Google Tools</li>
-          <li>Final Assignment</li>
+          </a></li>
+          <li><a href="#">Sites</a></li>
+          <li><a href="#"> YouTube</a></li>
+          <li><a href="#">Additional Google Tools</a></li>
+          <li><a href="#">Final Assignment</a></li>
         </ul>
       </div>
       <div class="col-md">

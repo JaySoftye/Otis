@@ -8,18 +8,7 @@
 
 <section class="main-content thin-search-bar">
 
-  <div class="container-fluid erc course-background lessons">
-    <div class="course-background-gradient-cover"></div>
-    <div class="row">
-      <div class="col-md-6 course-search-field">
-        <form id="search-form" method="GET" action="" data-section="">
-          <div class="form-group search-input">
-            <input type="text" class="form-control" id="search-field" name="" value="" placeholder="Search ERC Lessons">
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
+  <?php include 'search-field.php';?>
 
 <script type="text/javascript">
   $(document).ready(function() {
