@@ -328,6 +328,18 @@ ul.nav.course-details li.nav-item a:hover, .card.course-card .card-body p a:hove
   height: 84px;
 }
 
+.card.course-card .card-footer.completed-certificate a {
+  width: 50%;
+}
+
+.card-footer.completed-certificate a img {
+  float: left;
+}
+
+.card-footer.completed-certificate a:first-child img {
+  float: right;
+}
+
 .card.course-card .card-footer div.course-rating, .card.course-card .card-footer div.course-footer {
   height: 24px;
   width: 50%;
