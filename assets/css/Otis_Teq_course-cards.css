@@ -189,6 +189,18 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   text-align: left;
 }
 
+.card.course-card .card-body.empty {
+  position: relative;
+}
+
+.card.course-card .card-body.empty p {
+  width: 81%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .card.course-card .card-header, .card.course-card .card-footer {
   border-top: none;
   border-bottom: none;

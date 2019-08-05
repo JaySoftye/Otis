@@ -1,0 +1,94 @@
+@charset "UTF-8"; 
+
+section.teq-talk {
+  min-height: 100vh;
+  background: url('images/teq-talk-bg.jpg') no-repeat center top;
+  background-size: contain;
+  padding-top: calc(10rem + 25px);
+  padding-bottom: calc(10rem + 25px);
+}
+
+section.teq-talk .card-container {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.posts-container article.post-card {
+  position: relative;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: calc(.375rem + 1px);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(210,212,212,0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(210,212,212,0.5);
+  box-shadow: 0px 0px 5px 0px rgba(210,212,212,0.5);
+}
+
+.posts-container article.post-card div.card-contents {
+  padding: 35px 20px 5px 20px;
+}
+
+.posts-container article.post-card a.card-link, article.post-card a.card-link img {
+  width: 100%;
+  display: block;
+  background-color: rgb(109, 140, 188);
+  border-top-left-radius: calc(.375rem - 1px);
+  border-top-right-radius: calc(.375rem - 1px);
+  -webkit-transition: opacity 15s;
+  transition: opacity .15s;
+}
+
+article.post-card a.card-link:hover img {
+  opacity: 0.25;
+}
+
+div.card-contents h4 a {
+  font-weight: bold;
+}
+
+div.card-contents p {
+  margin-top: 3.675rem;
+  margin-bottom: 3.675rem;
+}
+
+div.card-contents p:nth-child(3) {
+  display: none !important;
+}
+
+div.card-contents p.article-link a {
+  display: block;
+  padding: 10px 5px;
+  margin: 0 30%;
+  border-radius: 50px;
+  border: solid 1px rgb(109, 140, 188);
+  outline: none;
+  font-size: .9rem;
+  text-align: center;
+  color: rgb(109, 140, 188);
+}
+
+div.card-contents p.article-link a:hover {
+  background-color: rgb(109, 140, 188);
+  color: #ffffff;
+}
+
+div.card-contents div.article-footer {
+  text-align: center;
+}
+
+div.card-contents div.article-footer small {
+  color: rgb(208, 208, 208);
+}
+
+@media(max-width: 768px) {
+  section.teq-talk {
+    padding-top: calc(10rem - 100px);
+  }
+  section.teq-talk .posts-container {
+    max-height: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+  }
+}

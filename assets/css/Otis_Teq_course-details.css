@@ -170,8 +170,8 @@ ul.course-sessions-list li a, ul.course-sessions-list li p.course-description {
 }
 
 ul.course-sessions-list li a:hover {
+  background-color: rgb(236,239,238);
   font-weight: 600;
-  background-color: rgb(236,239,238)
 }
 
 ul.course-sessions-list li a.active {
@@ -219,6 +219,18 @@ ul.course-sessions-list li a.complete {
   opacity: .24;
 }
 
+ol.course-chapters-list li a:hover {
+  background-color: transparent;
+  font-weight: 600;
+  color: rgb(0,0,0);
+}
+
+ol.course-chapters-list li a.active {
+  background-color: rgb(236,239,238);
+  font-weight: 600;
+  color: rgb(0,0,0);
+}
+
 ol.course-chapters-list li {
   margin: 6px 0;
 }
@@ -229,6 +241,15 @@ ol.course-chapters-list li a {
   background-size: 36px;
   background-repeat: no-repeat;
   background-position: 24px -3px;
+  font-size: .75rem;
+}
+
+ol.course-chapters-list li a.complete {
+  padding: 6px 54px;
+  background-image: url('../images/course-completed-icon.svg');
+  background-size: 21px;
+  background-repeat: no-repeat;
+  background-position: 30px 3px;
   font-size: .75rem;
 }
 

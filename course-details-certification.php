@@ -90,9 +90,9 @@
             <li><a class="active pink" href="#">Classroom</a></li>
             <li>
               <ol class="course-chapters-list">
-                <li><a href="#">Recap of Session 10 - Forms</a></li>
-                <li><a href="#">Classroom Help Center</a></li>
-                <li><a href="#">Stream</a></li>
+                <li><a class="complete" ref="#">Recap of Session 10 - Forms</a></li>
+                <li><a class="complete" href="#">Classroom Help Center</a></li>
+                <li><a class="active" href="#">Stream</a></li>
                 <li><a href="#">Classwork</a></li>
                 <li><a href="#">People</a></li>
                 <li><a href="#">Grades</a></li>
@@ -120,9 +120,9 @@
           <li><a class="active pink" href="#">Classroom</a></li>
           <li>
             <ol class="course-chapters-list">
-              <li><a href="#">Recap of Session 10 - Forms</a></li>
-              <li><a href="#">Classroom Help Center</a></li>
-              <li><a href="#">Stream</a></li>
+              <li><a class="complete" ref="#">Recap of Session 10 - Forms</a></li>
+              <li><a class="complete" href="#">Classroom Help Center</a></li>
+              <li><a class="active" href="#">Stream</a></li>
               <li><a href="#">Classwork</a></li>
               <li><a href="#">People</a></li>
               <li><a href="#">Grades</a></li>

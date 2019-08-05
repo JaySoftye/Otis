@@ -78,8 +78,8 @@
           <ul id="session-chapter-menu-select" class="course-sessions-list">
             <li>
               <ol class="course-chapters-list">
-                <li><a href="#">Recap of Session 10 - Forms</a></li>
-                <li><a href="#">Classroom Help Center</a></li>
+                <li><a class="complete" href="#">Recap of Session 10 - Forms</a></li>
+                <li><a class="active" href="#">Classroom Help Center</a></li>
                 <li><a href="#">Stream</a></li>
                 <li><a href="#">Classwork</a></li>
                 <li><a href="#">People</a></li>
@@ -93,8 +93,8 @@
           <li class="list-title">Chapters</li>
           <li>
             <ol class="course-chapters-list">
-              <li><a href="#">Recap of Session 10 - Forms</a></li>
-              <li><a href="#">Classroom Help Center</a></li>
+              <li><a class="complete" href="#">Recap of Session 10 - Forms</a></li>
+              <li><a class="active" href="#">Classroom Help Center</a></li>
               <li><a href="#">Stream</a></li>
               <li><a href="#">Classwork</a></li>
               <li><a href="#">People</a></li>

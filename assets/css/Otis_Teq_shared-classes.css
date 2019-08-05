@@ -88,34 +88,42 @@ strong, .bold {
 
 .width-full {
   width: 100%;
+  overflow: auto;
 }
 
 .width-three-quarters {
   width: 75%;
+  overflow: auto;
 }
 
 .width-half {
   width: 50%;
+  overflow: auto;
 }
 
 .width-quarter {
   width: 25%;
+  overflow: auto;
 }
 
 .height-full {
   height: 100%;
+  overflow: auto;
 }
 
 .height-three-quarters {
   height: 75%;
+  overflow: auto;
 }
 
 .height-half {
   height: 50%;
+  overflow: auto;
 }
 
 .height-quarter {
   height: 25%;
+  overflow: auto;
 }
 
 .flex-align-center {
