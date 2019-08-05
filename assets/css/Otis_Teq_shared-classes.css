@@ -357,6 +357,11 @@ p .button {
   color: rgb(255,255,255);
 }
 
+.button.light-grey-button {
+  background-color: rgb(236,239,238);
+  color: rgb(0,0,0);
+}
+
 .button.orange-button {
   background-color: rgb(255,168,0);
   color: rgb(255,255,255);
@@ -370,16 +375,6 @@ p .button {
 .button.green-button {
   background-color: rgb(169,224,140);
   color: rgb(255,255,255);
-}
-
-.button.group-view {
-  padding-left: 3.9rem;
-  background-image: url('../images/group-view-icon.svg');
-  background-size: 33px;
-  background-repeat: no-repeat;
-  background-position: 30px 6px;
-  font-size: 1.2rem;
-  text-indent: 9px;
 }
 
 button.admin-menu {

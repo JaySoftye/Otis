@@ -6,7 +6,7 @@
     </div>
   </div>
   <div class="row align-items-center padding-bottom digital-certification-container">
-    <div class="col-md">
+    <div class="col-sm-6 col-md">
       <a href="">
         <svg id="google-digital-teacher-certification" version="1.1" viewBox="0 0 150 63">
         <g class="digital-certification-button-container">
@@ -21,7 +21,7 @@
         </svg>
       </a>
     </div>
-    <div class="col-md">
+    <div class="col-sm-6 col-md">
       <a href="">
         <svg id="smart-digital-teacher-certification" version="1.1" viewBox="0 0 150 63">
         <g class="digital-certification-button-container">
@@ -35,7 +35,7 @@
         </svg>
       </a>
     </div>
-    <div class="col-md">
+    <div class="col-sm-6 col-md">
       <a href="">
         <svg id="apple-digital-teacher-certification" version="1.1" viewBox="0 0 150 63">
         <g class="digital-certification-button-container">
@@ -46,7 +46,7 @@
         </svg>
       </a>
     </div>
-    <div class="col-md">
+    <div class="col-sm-6 col-md">
       <a href="">
         <svg id="microsoft-digital-teacher-certification" version="1.1" viewBox="0 0 150 63">
         <g class="digital-certification-button-container">
@@ -68,7 +68,7 @@
         </svg>
       </a>
     </div>
-    <div class="col-md">
+    <div class="col-sm-6 col-md">
       <a href="">
         <svg id="adobe-digital-teacher-certification" version="1.1" viewBox="0 0 150 63">
         <g class="digital-certification-button-container">
@@ -85,7 +85,7 @@
         </svg>
       </a>
     </div>
-    <div class="col-md">
+    <div class="col-sm-6 col-md">
       <a href="">
         <svg id="promethean-digital-teacher-certification" version="1.1" viewBox="0 0 150 63">
         <g class="digital-certification-button-container">

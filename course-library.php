@@ -120,10 +120,10 @@
             <div class="card-header green">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
-                  <a href="course-details.php">8hr 54min</a>
+                  <a href="course-details-certification.php">8hr 54min</a>
                 </li>
                 <li class="nav-item category-sessions-details">
-                  <a href="course-details.php">12 Sessions</a>
+                  <a href="course-details-certification.php">12 Sessions</a>
                 </li>
                 <li class="nav-item">
                 </li>
@@ -131,7 +131,7 @@
               <button class="admin-menu" type="button"></button>
             </div>
             <div class="card-body">
-              <p><a href="course-details.php">Digital Teacher iPad Certification 7: iPhoto</a></p>
+              <p><a href="course-details-certification.php">Digital Teacher iPad Certification 7: iPhoto</a></p>
               <p>With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
             </div>
             <div class="card-footer">
@@ -155,17 +155,17 @@
             <div class="card-header yellow">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
-                  <a href="#">46min</a>
+                  <a href="course-details-single-course.php">46min</a>
                 </li>
                 <li class="nav-item"></li>
                 <li class="nav-item category-chapters-details">
-                  <a href="#">5 Chapters</a>
+                  <a href="course-details-single-course.php">5 Chapters</a>
                 </li>
               </ul>
               <button class="admin-menu" type="button"></button>
             </div>
             <div class="card-body">
-              <p><a href="#">Creating Multi-Touch Books with iBooks Author</a></p>
+              <p><a href="course-details-single-course.php">Creating Multi-Touch Books with iBooks Author</a></p>
               <p>The new generation, referred to as Gen Z, is growing up in a world where everyday they are immersed in technology. Students have become producers and creators of content, desiring to put their skills to use... </p>
             </div>
             <div class="card-footer">

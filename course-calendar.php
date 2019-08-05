@@ -169,7 +169,7 @@
             </li>
             <li class="day">
               <span class="date">6</span>
-              <a class="event" href="course-details.php"
+              <a class="event" href="course-details-certification.php"
                   tabindex="0"
                   role="button"
                   data-html="true"
@@ -177,14 +177,14 @@
                   data-trigger="hover"
                   data-placement="top"
                   title="<small>July 6, 1:00PM - 3:00PM EST</small>"
-                  data-content="<p>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
+                  data-content="<p>Join us for the fourth session of our Google Educator Basics Digital Teacher Certification (DTC) to learn how to utilize Google Drive in your classroom. With discussion topics like uploading content, making and sharing documents, and creating a paperless classroom, it's sure to be a wild ride!</p>">
                 <span class="week-of-date">Thursday <strong>6</strong></span>
-                <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix I</p>
-                <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
+                <p class="event-title">Teq DTC: Google Educator Basics Session 4 - Drive</p>
+                <p class="event-description">Join us for the fourth session of our Google Educator Basics Digital Teacher Certification (DTC) to learn how to utilize Google Drive in your classroom. With discussion topics like uploading content, making and sharing documents, and creating a paperless classroom, it's sure to be a wild ride!</p>
                 <small>1:00pm to 3:00pm EST</small>
               </a>
               <span class="date">6</span>
-              <a class="event" href="course-details.php"
+              <a class="event" href="course-details-single-course.php"
                   tabindex="0"
                   role="button"
                   data-html="true"
@@ -225,7 +225,7 @@
             </li>
             <li class="day free-course">
               <span class="date">11</span>
-              <a class="event" href="course-details.php"
+              <a class="event" href="course-details-single-course.php"
                   tabindex="0"
                   role="button"
                   data-html="true"
@@ -287,7 +287,7 @@
             </li>
             <li class="day live-course">
               <span class="date">19</span>
-              <a class="event" href="course-details.php"
+              <a class="event" href="course-details-single-course.php"
                   tabindex="0"
                   role="button"
                   data-html="true"
@@ -304,7 +304,7 @@
             </li>
             <li class="day empty certification-course">
               <span class="date">20</span>
-              <a class="event" href="course-details.php"
+              <a class="event" href="course-details-single-course.php"
                   tabindex="0"
                   role="button"
                   data-html="true"
@@ -341,7 +341,7 @@
             </li>
             <li class="day">
               <span class="date">24</span>
-              <a class="event" href="course-details.php"
+              <a class="event" href="course-details-single-course.php"
                   tabindex="0"
                   role="button"
                   data-html="true"
@@ -349,10 +349,10 @@
                   data-trigger="hover"
                   data-placement="top"
                   title="<small>July 24, 11:00AM to 12:00pm EST</small>"
-                  data-content="<p>Get ready for some campfire tales with this digital storytelling course featuring Sphero. In this great cross-curricular session, we'll show you how to code your device to tell your favorite stories. Lights, Sphero, Action!</p>">
+                  data-content="<p>Congratulations! You have made it to the last session in our Google Educator Basics Certification series! You are one assignment away from earning your certificate and this session is going to give you all the tips, tricks, and details you need to make that happen! We will provide you with plenty of example final assignments, a detailed look at the rubric, and a review of the Google Educator Certification process should you decide to move forward.</p>">
                 <span class="week-of-date">Monday <strong>24</strong></span>
-                <p class="event-title">Bloxels Basics</p>
-                <p class="event-description">earn how your students can turn their stories into 13-bit video games with Bloxels! Starting with a physical game board and blocks, students can design the layouts, characters, and art for their game before going digital. Game elements can be edited and customized, and it's easy to collaborate. The possibilities are endless! Bloxels can be used in a variety of class subjects, and are suitable for elementary through high school.</p>
+                <p class="event-title">Teq DTC: Google Educator Basics Session 15 - Final Assignment</p>
+                <p class="event-description">Congratulations! You have made it to the last session in our Google Educator Basics Certification series! You are one assignment away from earning your certificate and this session is going to give you all the tips, tricks, and details you need to make that happen! We will provide you with plenty of example final assignments, a detailed look at the rubric, and a review of the Google Educator Certification process should you decide to move forward.</p>
                 <small>11:00AM to 12:00pm EST</small>
               </a>
             </li>
