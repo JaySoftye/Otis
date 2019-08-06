@@ -61,7 +61,7 @@
         <a class="nav-link thin-heading" href="erc-index.php">LESSONS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link thin-heading" href="#">SKILLS</a>
+        <a class="nav-link thin-heading" href="smart-skills.php">SKILLS</a>
       </li>
       <li class="nav-item">
         <a class="nav-link thin-heading" href="blog.php">BLOG</a>
@@ -103,8 +103,8 @@
     <a class="nav-link thin-heading" href="course-calendar.php">UPCOMING COURSES</a>
     <a class="nav-link thin-heading" href="course-library-categories.php">COURSE LIBRARY</a>
     <a class="nav-link thin-heading" href="erc-index.php">LESSONS</a>
-    <a class="nav-link thin-heading" href="#">SKILLS</a>
-    <a class="nav-link thin-heading" href="">BLOG</a>
+    <a class="nav-link thin-heading" href="smart-skills.php">SKILLS</a>
+    <a class="nav-link thin-heading" href="blog.php">BLOG</a>
     <?php if($logged_in == False) { ?>
       <a class="nav-link thin-heading" href="#">PRICING</a>
     <?php } ?>

@@ -187,6 +187,7 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
 .card.course-card .card-body {
   padding: 1.77rem 1.23rem;
   text-align: left;
+  overflow: auto;
 }
 
 .card.course-card .card-body.empty {
@@ -438,4 +439,33 @@ div.digital-certification-container .digital-certification-button-container .dig
 
 div.digital-certification-container .digital-certification-button-container:hover .digital-certification-button {
   fill: rgb(0,0,0);
+}
+
+.row.smart-skills-container {
+  padding-bottom: 6rem;
+}
+
+.row.smart-skills-container .course-card-container {
+  padding: 9px !important;
+}
+
+.row.smart-skills-container .course-card-container .card-body.empty {
+  display: flex;
+  align-items: center;
+  -ms-flex-align: center;
+  justify-content: center;
+}
+
+.row.smart-skills-container .card-body.empty a {
+  padding: 2.64rem 0;
+  text-align: center;
+  line-height: 1.26;
+  font-size: calc(2vw - 1%);
+  color: rgb(255,255,255);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.row.smart-skills-container .card-body.empty a:hover {
+  color: rgb(0,0,0);
 }

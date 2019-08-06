@@ -92,6 +92,59 @@ div.dashboard-item-container div.dashboard-item .course-card-container > .card.c
   height: calc(24vh + 7.5rem);
   margin-top: 1.35rem;
   margin-bottom: 1.35rem;
+  overflow: auto;
+}
+
+.row.smart-skill-selected > .course-card-container {
+  padding: 9px;
+}
+
+.row.smart-skill-selected > .course-card-container .card.course-card {
+  height: calc(21vh + 8.7rem);
+  margin-top: 9px;
+  margin-bottom: 0;
+  border: none;
+  background-color: rgb(255,255,255);
+}
+
+.row.smart-skills-container > .course-card-container .card.course-card {
+  height: calc(18vh + 7.5rem);
+  margin-top: 9px;
+  margin-bottom: 0;
+  border: none;
+}
+
+.row.smart-skills-container > .course-card-container:nth-child(odd) .card.course-card {
+  background-color: rgb(114,191,219);
+}
+
+.row.smart-skills-container > .course-card-container:nth-child(even) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(7n+7) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(9n+9) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(11n+11) .card.course-card {
+  background-color: rgb(131,147,202);
+}
+
+.row.smart-skills-container > .course-card-container:nth-child(8n+8) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(10n+10) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(12n+12) .card.course-card {
+  background-color: rgb(114,191,219);
+}
+
+.row.smart-skills-container > .course-card-container:nth-child(16n+16) .card.course-card {
+  background-color: rgb(131,147,202);
+}
+
+.row.smart-skill-selected > .course-card-container .card.course-card > .card-body {
+  padding: 1rem;
+  line-height: 1.35;
+  text-align: left;
+  overflow: auto;
+}
+
+.row.smart-skill-selected > .course-card-container .card.course-card > .card-body a:hover {
+  text-decoration: underline;
+  color: rgb(114,191,219);
+}
+
+.row.smart-skill-selected > .course-card-container .card.course-card > .card-body p:nth-child(2) {
+  margin-top: .24rem;
+  font-size: 87%;
 }
 
 div.carousel-container.carousel.slide > a.carousel-control-prev {
