@@ -201,6 +201,11 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   transform: translate(-50%, -50%);
 }
 
+.card.course-card .card-body.blog-body p:nth-child(3) {
+  display: none;
+  font-size: .135rem;
+}
+
 .card.course-card .card-header, .card.course-card .card-footer {
   border-top: none;
   border-bottom: none;

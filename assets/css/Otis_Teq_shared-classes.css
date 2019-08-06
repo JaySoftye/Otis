@@ -345,6 +345,11 @@ strong, .bold {
   cursor: pointer !important;
 }
 
+.button.block {
+  width: 100%;
+  display: block;
+}
+
 .button.medium-button {
   padding: .5rem 1.92rem;
   font-size: 1.53rem;

@@ -17,7 +17,6 @@
   <link href="assets/css/Otis_Teq_erc.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_course-calendar.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/Otis_Teq_course-details.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="assets/css/Otis_Teq_blog.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -65,7 +64,7 @@
         <a class="nav-link thin-heading" href="#">SKILLS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link thin-heading" href="#">BLOG</a>
+        <a class="nav-link thin-heading" href="blog.php">BLOG</a>
       </li>
       <?php }
         if($logged_in == False) { ?>
