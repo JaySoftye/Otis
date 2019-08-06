@@ -1,6 +1,6 @@
 <a class="button medium-button green-button no-margin group-view" href="#group-viewing" data-toggle="modal">GROUP VIEW</a>
 
-<div class="modal" id="group-viewing" tabindex="-1" role="dialog" aria-labelledby="lgroup-viewing" aria-hidden="true">
+<div class="modal" id="group-viewing" tabindex="-1" role="dialog" aria-labelledby="group-viewing" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
 

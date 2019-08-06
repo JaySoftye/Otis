@@ -418,7 +418,7 @@ div.modal-content .close.popup-close {
   height: 2.5rem;
   width: 100% !important;
   margin-bottom: .51rem;
-  border: 1.2px solid rgb(236,239,238);
+  border: 1.2px solid rgb(200,200,200);
   padding: .51rem 3rem .51rem 1rem;
   border-radius: 0;
   outline: none;
@@ -432,10 +432,10 @@ div.modal-content .close.popup-close {
 }
 
 .form-row.no-margin .popup-form-field input {
-  border-top: 1.2px solid rgb(236,239,238);
-  border-right: 1.2px solid rgb(236,239,238);
+  border-top: 1.2px solid rgb(200,200,200);
+  border-right: 1.2px solid rgb(200,200,200);
   border-bottom: none;
-  border-left: 1.2px solid rgb(236,239,238);
+  border-left: 1.2px solid rgb(200,200,200);
 }
 
 .popup-form-field select  {
@@ -476,158 +476,39 @@ div.modal-content .close.popup-close {
   background-image: url(../images/remove-share-user-btn.svg);
 }
 
-div.course-quiz .modal-header, .modal-header.green {
-  background-color: rgb(161, 215, 132);
+.modal-body .course-quiz-form {
+  padding: 30px 0;
 }
 
-div.course-quiz form.good-response-feedback {
-  background: transparent url('../images/satisfaction-very-good-icon.svg') no-repeat center top;
-  background-size: 15%;
-  padding-top: 5rem;
+.course-quiz-form .form-group {
+  margin-bottom: 1.5rem;
 }
 
-div.course-quiz form.bad-response-feedback {
-  background: transparent url('../images/satisfaction-bad-icon.svg') no-repeat center top;
-  background-size: 15%;
-  padding-top: 5rem;
-}
-
-div.course-quiz-form .form-check-label {
+.course-quiz-form .form-group:nth-child(odd), .course-satifaction-form.satisfaction-survey-active .form-group {
+  position: relative;
   padding-left: 0;
 }
 
-div.satisfaction-survey-active .form-check {
-  background-size: cover;
-  background-position: top center;
-  background-color: transparent;
-  background-repeat: no-repeat;
-}
-
-div.satisfaction-survey-active  .form-check.bad {
-  background-image: url('../images/satisfaction-bad-icon.svg');
-}
-
-div.satisfaction-survey-active  .form-check.fair {
-  background-image: url('../images/satisfaction-fair-icon.svg');
-}
-
-div.satisfaction-survey-active  .form-check.good {
-  background-image: url('../images/satisfaction-good-icon.svg');
-}
-
-div.satisfaction-survey-active  .form-check.very-good {
-  background-image: url('../images/satisfaction-very-good-icon.svg');
-}
-
-div.satisfaction-survey-active  .form-check label {
-  padding: 2.5rem 0 0 .5rem;
-  text-align: center;
-}
-
-.course-quiz-form legend, .satisfaction-survey-active legend {
-  padding: 0 .5rem;
+.course-quiz-form .form-group legend.col-form-legend, .course-satifaction-form.satisfaction-survey-active .form-group legend.col-form-legend {
+  font-family: 'Roboto Condensed', 'Roboto',Helvetica,Arial,san-serif !important;
+  font-weight: 600;
   font-size: 1rem;
-  font-weight: 700;
-  color: rgb(64, 85, 117);
 }
 
-aside#live-chat-container {
-  background-color: white;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+.course-satifaction-form.satisfaction-survey-active .form-group legend.col-form-legend, .course-satifaction-form.satisfaction-survey-active .form-group .row {
+  width: 50%;
+  max-width: 50%;
 }
 
-aside#live-chat-container .box-header {
-  background-color: rgba(109, 140, 188, 1);
-  padding: .25rem 0;
-}
-
-aside#live-chat-container a.dropdown-toggle.participants {
-  width: 36px;
-  height: 36px;
-  padding-top: .35rem;
-  background-color: white;
-  display: inline-block;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  text-align: center;
-  text-indent: 3px;
-  font-weight: 700;
-  color: rgb(0, 180, 228);
-  white-space: nowrap;
-}
-
-aside#live-chat-container #live-chat-box {
-  height: 20rem;
-  max-height: 20rem;
-  margin-bottom: 4rem;
-  overflow-y: auto;
-}
-
-#live-chat-box p {
-  width: 100%;
-  padding: 5px 10px;
-  border-bottom: thin solid rgb(236, 238, 239);
-}
-
-#live-chat-box p small {
+.row.satisfaction-survey-options .col, .form-check.col label.form-check-label, .form-check.col label.form-check-label input.form-check-input {
+  position: relative;
   display: block;
-  font-weight: 700;
+  margin: 0 auto;
+  font-size: .75rem;
 }
 
-aside#live-chat-container #live-chat-form {
-  width: 100%;
-  background-color: white;
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 15px;
-}
-
-div.getting-started-header {
-  background-image: url('../images/getting-started-header-bg.jpg');
-}
-
-div.getting-started-header ul {
-  padding-left: 1.25rem;
-}
-
-div.getting-started-header p {
-  margin-bottom: .1rem;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  color: white;
-}
-
-div.getting-started-header section.getting-started-bar {
-  background-color: rgba(64, 85, 117, 0.5);
-  margin-top: 2.5rem;
-}
-
-section.getting-started-bar select {
-  width: 80%;
-  height: 2.5rem;
-  background-size: 10%;
-  padding: .5rem 2.75rem .5rem 1.5rem;
-  border-color: transparent;
-  outline: none;
-  text-align: left;
-  font-weight: 500;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-div.category-events div.video-thumb img {
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-div.category-events div.video-thumb video {
-  width: 100%;
-  max-width: 100%;
-  cursor: pointer;
+.course-satifaction-form.satisfaction-survey-active .form-group legend.col-form-legend {
+  float: left;
 }
 
 @media only screen

@@ -115,7 +115,7 @@
             <img class="inline-block" src="https://onlinepd.teq.com/uploads/badge/Google-Throwdown.png" />
           </div>
           <div class="col-md no-padding">
-            <h5 class="text-right"><a class="button small-button take-quiz yellow-button text-center" href="#">TAKE QUIZ</a></h5>
+            <?php include 'course-quiz.php';?>
           </div>
         </div>
 
