@@ -92,7 +92,7 @@ div.session-chapter-container button.minimize-maximize {
   width: 27px;
   position: absolute;
   right: 0;
-  z-index: 1500;
+  z-index: 1200;
   transform: rotate(0deg);
   background-image: url('../images/course-session-list-minimize-icon.svg');
   background-size: contain;
@@ -383,24 +383,110 @@ div.files-list-attachments a.link {
   background-image: url('../images/file-link-icon.svg');
 }
 
-div.course-quiz .modal-header, .modal-header.green  {
+div.modal-content .close.popup-close {
+  height: 36px;
+  width: 36px;
+  position: absolute;
+  top: 12px;
+  right: 9px;
+  line-height: 1;
+  opacity: 1;
+  text-shadow: none;
+}
+
+.modal-content .close.popup-close span {
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(0,0,0);
+}
+
+.modal-body .sharing-section .form-row {
+  margin-top: 2.1rem;
+  margin-bottom: 2.1rem;
+}
+
+.sharing-section .schools-selected button.remove-item {
+  margin-right: 9px;
+  padding: .51rem;
+}
+
+.sharing-section .schools-selected button.remove-item:hover {
+  background-color: rgb(236,239,238);
+}
+
+.popup-form-field select, .popup-form-field input {
+  height: 2.5rem;
+  width: 100% !important;
+  margin-bottom: .51rem;
+  border: 1.2px solid rgb(236,239,238);
+  padding: .51rem 3rem .51rem 1rem;
+  border-radius: 0;
+  outline: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(0,0,0);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-row.no-margin .popup-form-field input {
+  border-top: 1.2px solid rgb(236,239,238);
+  border-right: 1.2px solid rgb(236,239,238);
+  border-bottom: none;
+  border-left: 1.2px solid rgb(236,239,238);
+}
+
+.popup-form-field select  {
+  background: transparent;
+  background-image: url(../images/dropdown-arrow-icon.svg);
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: right center !important;
+}
+
+.popup-form-field select.user-selection, .popup-form-field select.selected-users {
+  height: calc(9rem + 12px);
+  background-image: none;
+}
+
+.popup-form-field button {
+  height: 60px;
+  width: 60px;
+  padding: 0 0;
+  outline: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.popup-form-field button:hover {
+  opacity: 0.66;
+}
+
+.popup-form-field button.add-share-user-btn {
+  background-image: url(../images/add-share-user-btn.svg);
+}
+
+.popup-form-field button.remove-share-user-btn {
+  background-image: url(../images/remove-share-user-btn.svg);
+}
+
+div.course-quiz .modal-header, .modal-header.green {
   background-color: rgb(161, 215, 132);
 }
 
-div.modal-header h3 {
-  margin: 0 auto;
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: white;
-}
-
-div.course-quiz form.good-response-feedback  {
+div.course-quiz form.good-response-feedback {
   background: transparent url('../images/satisfaction-very-good-icon.svg') no-repeat center top;
   background-size: 15%;
   padding-top: 5rem;
 }
 
-div.course-quiz form.bad-response-feedback  {
+div.course-quiz form.bad-response-feedback {
   background: transparent url('../images/satisfaction-bad-icon.svg') no-repeat center top;
   background-size: 15%;
   padding-top: 5rem;

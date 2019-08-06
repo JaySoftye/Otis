@@ -42,7 +42,7 @@
           <button class="admin-menu" type="button"></button>
         </div>
         <div class="nav-item group-view-container">
-          <a class="button medium-button green-button no-margin group-view" href="#">GROUP VIEW</a>
+          <?php include 'group-viewing.php';?>
         </div>
       </div>
     </div>
