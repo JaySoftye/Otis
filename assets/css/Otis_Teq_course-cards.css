@@ -125,6 +125,7 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
 
 .dropdown.type-id-dropdown-container div.dropdown-menu a.dropdown-item.selected {
   opacity: 0.48;
+  pointer-events: none !important;
 }
 
 .dropdown.type-id-dropdown-container div.dropdown-menu a.dropdown-item.selected::after {

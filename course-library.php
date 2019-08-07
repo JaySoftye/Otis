@@ -74,6 +74,10 @@
         <div class="dropdown type-id-dropdown-container">
           <button type="button" id="type-id-dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type</button>
           <div class="dropdown-menu" name="type_id" aria-labelledby="type-id-dropdown-button">
+            <a class="dropdown-item" href="#" value=""><span></span> All Types</a>
+            <a class="dropdown-item" href="#" value=""><span></span> FREE</a>
+            <a class="dropdown-item" href="#" value=""><span></span> Earn's Certificate</a>
+            <a class="dropdown-item" href="#" value=""><span></span> no Certificate</a>
             <a class="dropdown-item" href="#" value=""><span class="product-familiarization"></span> Product Familiarization</a>
             <a class="dropdown-item" href="#" value=""><span class="tech-infused-lessons"></span> Certifications Courses</a>
             <a class="dropdown-item" href="#" value=""><span class="frameworks-resources"></span> Tech-Infused Lessons</a>
@@ -84,6 +88,9 @@
         </div>
         <select id="type-id-dropdown-select" class="course-search-filter-item" name="type_id" data-value="">
           <option disabled="disabled" selected="">Type</option>
+          <option value="">FREE</option>
+          <option value="">Earn's Certificate</option>
+          <option value="">no Certificate</option>
           <option value="">Product Familiarization</option>
           <option value="">Certifications Courses</option>
           <option value="">Tech-Infused Lessons</option>
