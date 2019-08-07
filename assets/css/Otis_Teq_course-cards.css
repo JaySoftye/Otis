@@ -313,6 +313,13 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   color: rgb(255,255,255);
 }
 
+.card-header li.nav-item.title {
+  width: 100%;
+  padding: .51rem .75rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 .card-header li.nav-item.category-duration-details {
   padding: .51rem .75rem .51rem 2.1rem;
   background: transparent url('../images/catetory-details-duration-icon.svg') no-repeat left center;
@@ -331,6 +338,7 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
 .card-header li.nav-item.playlist-details {
   padding: .51rem .75rem .51rem 2.1rem;
   background: transparent url('../images/playlist-title-icon.svg') no-repeat left center;
+  text-indent: 36px;
   color: rgb(0,0,0);
 }
 

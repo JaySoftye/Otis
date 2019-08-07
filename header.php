@@ -71,7 +71,7 @@
       <?php }
         if($logged_in == False) { ?>
         <li class="nav-item">
-          <a class="nav-link thin-heading" href="#">PRICING</a>
+          <a class="nav-link thin-heading" href="pricing.php">PRICING</a>
         </li>
         <li class="nav-item">
           <a class="button small-button pd-blue-button no-margin" href="#login-window" data-toggle="modal">LOGIN</a>
@@ -108,7 +108,7 @@
     <a class="nav-link thin-heading" href="smart-skills.php">SKILLS</a>
     <a class="nav-link thin-heading" href="blog.php">BLOG</a>
     <?php if($logged_in == False) { ?>
-      <a class="nav-link thin-heading" href="#">PRICING</a>
+      <a class="nav-link thin-heading" href="pricing.php">PRICING</a>
     <?php } ?>
   </div>
 

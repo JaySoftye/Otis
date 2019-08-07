@@ -37,12 +37,20 @@ object {
   font-weight: 600;
 }
 
+.extra-large-heading {
+  font-size: 4.2rem;
+}
+
 .large-heading {
   font-size: 3.6rem;
 }
 
 .medium-heading {
   font-size: 2.64rem;
+}
+
+.small-heading {
+  font-size: 57%;
 }
 
 a {
@@ -64,6 +72,10 @@ a:hover img {
 
 strong, .bold {
   font-weight: 700 !important;
+}
+
+.caps {
+  text-transform: uppercase;
 }
 
 .thin {
@@ -371,6 +383,16 @@ p .button {
 
 .button.pd-blue-button {
   background-color: rgb(114,191,219);
+  color: rgb(255,255,255);
+}
+
+.button.blue-button {
+  background-color: rgb(131,147,202);
+  color: rgb(255,255,255);
+}
+
+.button.pink-button {
+  background-color: rgb(227,128,177);
   color: rgb(255,255,255);
 }
 
@@ -788,6 +810,18 @@ footer .footer-content .row {
   to   {
     transform: translate(0, -0px);
   }
+}
+
+.pricing-container {
+  height: auto;
+  width: 100%;
+  display: block;
+  background-image: url('../images/otis-pricing-guide-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-clip-path: url(#hero-clip);
+  clip-path: url(#hero-clip);
 }
 
 /** OVER-RIDES **/
