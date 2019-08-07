@@ -115,19 +115,19 @@ div.dashboard-item-container div.dashboard-item .course-card-container > .card.c
 }
 
 .row.smart-skills-container > .course-card-container:nth-child(odd) .card.course-card {
-  background-color: rgb(114,191,219);
+  background-color: rgb(131,147,202);
 }
 
 .row.smart-skills-container > .course-card-container:nth-child(even) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(7n+7) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(9n+9) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(11n+11) .card.course-card {
-  background-color: rgb(131,147,202);
-}
-
-.row.smart-skills-container > .course-card-container:nth-child(8n+8) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(10n+10) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(12n+12) .card.course-card {
   background-color: rgb(114,191,219);
 }
 
-.row.smart-skills-container > .course-card-container:nth-child(16n+16) .card.course-card {
+.row.smart-skills-container > .course-card-container:nth-child(8n+8) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(10n+10) .card.course-card, .row.smart-skills-container > .course-card-container:nth-child(12n+12) .card.course-card {
   background-color: rgb(131,147,202);
+}
+
+.row.smart-skills-container > .course-card-container:nth-child(16n+16) .card.course-card {
+  background-color: rgb(114,191,219);
 }
 
 .row.smart-skill-selected > .course-card-container .card.course-card > .card-body {
@@ -139,7 +139,7 @@ div.dashboard-item-container div.dashboard-item .course-card-container > .card.c
 
 .row.smart-skill-selected > .course-card-container .card.course-card > .card-body a:hover {
   text-decoration: underline;
-  color: rgb(114,191,219);
+  color: rgb(131,147,202);
 }
 
 .row.smart-skill-selected > .course-card-container .card.course-card > .card-body p:nth-child(2) {
@@ -165,6 +165,10 @@ div.dashboard-item > div.row > div.course-card-container {
   padding-right: 2.5px;
 }
 
+div.dashboard-item div.card-header ul.nav.course-details li.nav-item {
+  padding: .51rem 0rem;
+}
+
 div.dashboard-item div.card-header ul.nav.course-details li.nav-item, div.dashboard-item div.card-body h5 > a {
   color: rgb(0,0,0);
 }
@@ -183,7 +187,7 @@ div.dashboard-item div.card-footer.links {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 0;
-  padding: .75rem .25rem 0 .25rem;
+  padding: .75rem .25rem;
 }
 
 div.dashboard-item div.card-footer.links a {

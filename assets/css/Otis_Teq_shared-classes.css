@@ -197,11 +197,11 @@ strong, .bold {
 }
 
 .teq-blue-text {
- color: rgb(0,180,228) !important;
+  color: rgb(0,180,228) !important;
 }
 
 .pd-blue-text {
- color: rgb(114,191,219) !important;
+  color: rgb(114,191,219) !important;
 }
 
 .dark-blue-text {
@@ -209,7 +209,11 @@ strong, .bold {
 }
 
 .blue-text {
- color: rgb(64,85,117) !important;
+  color: rgb(64,85,117) !important;
+}
+
+.smart-skills-blue-text {
+  color: rgb(131,147,202) !important;
 }
 
 .light-blue-text {
@@ -229,11 +233,11 @@ strong, .bold {
 }
 
 .white-text {
- color: white !important;
+  color: white !important;
 }
 
 .black-text {
- color: black !important;
+  color: black !important;
 }
 
 .light-grey-text {
@@ -393,8 +397,8 @@ p .button {
 button.admin-menu {
   height: auto;
   position: absolute;
-  top: -.5%;
-  right: 0;
+  top: -1.2%;
+  right: 3px;
   z-index: 960;
   padding: 0 0;
   background-color: transparent;
@@ -403,7 +407,7 @@ button.admin-menu {
 
 button.admin-menu:after {
   content: '\2807';
-  font-size: 48px;
+  font-size: 45px;
   color: rgb(169,224,140);
 }
 

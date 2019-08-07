@@ -68,7 +68,7 @@
                     </div>
                     <div class="card-footer">
                       <a href="" class="block text-center">
-                        <img class="height-full" src="assets/images/take-quiz.svg" />
+                        <img class="width-three-quarters" src="assets/images/take-quiz.svg" />
                       </a>
                     </div>
                     <div class="card-footer no-margin">
@@ -258,7 +258,7 @@
                   </div>
                   <div class="card-footer">
                     <a href="" class="block text-center">
-                      <img class="height-full" src="assets/images/take-quiz.svg" />
+                      <img class="width-three-quarters" src="assets/images/take-quiz.svg" />
                     </a>
                   </div>
                   <div class="card-footer links">
@@ -278,7 +278,7 @@
                   </div>
                   <div class="card-footer">
                     <a href="" class="block text-center">
-                      <img class="height-full" src="assets/images/take-quiz.svg" />
+                      <img class="width-three-quarters" src="assets/images/take-quiz.svg" />
                     </a>
                   </div>
                   <div class="card-footer links">
@@ -298,7 +298,7 @@
                   </div>
                   <div class="card-footer">
                     <a href="" class="block text-center">
-                      <img class="height-full" src="assets/images/take-quiz.svg" />
+                      <img class="width-three-quarters" src="assets/images/take-quiz.svg" />
                     </a>
                   </div>
                   <div class="card-footer links">
@@ -415,7 +415,7 @@
                   </div>
                   <div class="card-footer">
                     <a href="" class="block text-center">
-                      <img class="height-full" src="assets/images/take-quiz.svg" />
+                      <img class="width-three-quarters" src="assets/images/take-quiz.svg" />
                     </a>
                   </div>
                   <div class="card-footer links">
@@ -535,7 +535,7 @@
                   </div>
                   <div class="card-footer">
                     <a href="" class="block text-center">
-                      <img class="height-full" src="assets/images/take-quiz.svg" />
+                      <img class="width-three-quarters" src="assets/images/take-quiz.svg" />
                     </a>
                   </div>
                   <div class="card-footer links">
@@ -555,7 +555,7 @@
                   </div>
                   <div class="card-footer">
                     <a href="" class="block text-center">
-                      <img class="height-full" src="assets/images/take-quiz.svg" />
+                      <img class="width-three-quarters" src="assets/images/take-quiz.svg" />
                     </a>
                   </div>
                   <div class="card-footer links"></div>

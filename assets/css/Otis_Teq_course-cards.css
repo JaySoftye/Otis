@@ -81,7 +81,7 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   cursor: pointer;
 }
 
-.course-filters .course-search-filters-container select.course-search-filter-item, .course-filters .course-sort-filters-container select.course-sort-filter-item {
+.course-filters .course-search-filters-container select.course-search-filter-item, .course-filters .course-sort-filters-container select.course-sort-filter-item, .course-search-filters-container .dropdown.type-id-dropdown-container button#type-id-dropdown-button {
   height: 2.5rem;
   max-width: 153px;
   margin-top: .51rem;
@@ -98,6 +98,59 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.course-search-filters-container .dropdown.type-id-dropdown-container {
+  display: inline-block;
+}
+
+.course-filters .course-search-filters-container select#type-id-dropdown-select {
+  display: none;
+}
+
+.course-search-filters-container .dropdown.type-id-dropdown-container button#type-id-dropdown-button {
+  width: 153px;
+  text-align: left;
+}
+
+.course-search-filters-container .dropdown.type-id-dropdown-container div.dropdown-menu {
+  background-color: rgba(100,100,100,.96);
+}
+
+.dropdown.type-id-dropdown-container div.dropdown-menu a.dropdown-item {
+  position: relative;
+  padding: .24rem 24px .24rem 30px;
+  color: rgb(255,255,255);
+}
+
+.dropdown.type-id-dropdown-container div.dropdown-menu a.dropdown-item.selected {
+  opacity: 0.48;
+}
+
+.dropdown.type-id-dropdown-container div.dropdown-menu a.dropdown-item.selected::after {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  content: '\02143';
+  transform: rotate(40deg);
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(255,255,255);
+}
+
+.dropdown.type-id-dropdown-container div.dropdown-menu a.dropdown-item:hover {
+  background-color: rgb(167,114,172);
+  color: rgb(255,255,255);
+}
+
+.dropdown.type-id-dropdown-container div.dropdown-menu a.dropdown-item > span {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 3px;
+  right: 0;
+  display: inline-block;
+  margin-right: 6px;
 }
 
 .container-fluid.course-categories-container {
@@ -136,6 +189,7 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   flex-shrink: 1;
   flex-basis: auto;
   margin-top: 2.74rem;
+  border: none;
   border-radius: .51rem;
   -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.12);
   box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.12);
@@ -217,6 +271,7 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
 }
 
 .card.course-card .card-header {
+  padding: .39rem 1.5rem;
   background-color: rgb(255,255,255);
 }
 
@@ -228,28 +283,28 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   background-color: rgb(200,200,200);
 }
 
-.card.course-card .card-header.green {
-  background-color: rgb(204,239,157);
+.card.course-card .card-header.green, .product-familiarization {
+  background-color: rgb(204,239,157) !important;
 }
 
-.card.course-card .card-header.yellow {
-  background-color: rgb(243,217,81);
+.card.course-card .card-header.yellow, .tech-infused-lessons {
+  background-color: rgb(243,217,81) !important;
 }
 
-.card.course-card .card-header.light-blue {
-  background-color: rgb(114,191,219);
+.card.course-card .card-header.light-blue, .frameworks-resources {
+  background-color: rgb(114,191,219) !important;
 }
 
-.card.course-card .card-header.pink {
-  background-color: rgb(227,128,177);
+.card.course-card .card-header.pink, .instructional-skills {
+  background-color: rgb(227,128,177) !important;
 }
 
-.card.course-card .card-header.blue {
-  background-color: rgb(131,147,202);
+.card.course-card .card-header.blue, .certification-sessions {
+  background-color: rgb(131,147,202) !important;
 }
 
-.card.course-card .card-header.orange {
-  background-color: rgb(232,159,95);
+.card.course-card .card-header.orange, .school-uploaded {
+  background-color: rgb(232,159,95) !important;
 }
 
 .card-header ul.nav.course-details li.nav-item {
@@ -278,6 +333,10 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
   color: rgb(0,0,0);
 }
 
+.row.smart-skill-selected .card.course-card .card-header {
+  background-color: rgb(131,147,202);
+}
+
 ul.nav.course-details li.nav-item a {
   color: rgb(255,255,255);
 }
@@ -292,9 +351,14 @@ ul.nav.course-details li.nav-item a:hover, .card.course-card .card-body p a:hove
 }
 
 .card.course-card .card-body p a {
-  display: inline-block;
+  display: block;
   font-weight: 600;
+  font-size: 1.14rem;
   color: rgb(0,0,0);
+}
+
+.card.course-card .card-body p a:hover {
+  text-decoration: underline !important;
 }
 
 .card.course-card .card-body a.course-card-link {
@@ -334,10 +398,9 @@ ul.nav.course-details li.nav-item a:hover, .card.course-card .card-body p a:hove
 }
 
 .card.course-card .card-footer {
-  height: 60px;
   display: block;
   margin-top: 2rem;
-  padding: .66rem 1.25rem;
+  padding: .24rem 1.24rem .75rem 1.24rem;
   background-color: rgb(255,255,255);
   border-radius: 0 0 calc(.51rem - 1px) calc(.51rem - 1px);
 }
@@ -400,7 +463,7 @@ ul.nav.course-details li.nav-item a:hover, .card.course-card .card-body p a:hove
 }
 
 .card-footer div.course-rating span.five-stars {
-  background-image: url('../images/ccourse-star-rating-5.svg');
+  background-image: url('../images/course-star-rating-5.svg');
 }
 
 .card-footer div.course-rating span i {
@@ -468,4 +531,14 @@ div.digital-certification-container .digital-certification-button-container:hove
 
 .row.smart-skills-container .card-body.empty a:hover {
   color: rgb(0,0,0);
+}
+
+@media only screen
+and (max-width : 768px) {
+  .course-filters .course-search-filters-container select#type-id-dropdown-select {
+    display: inline-block;
+  }
+  .course-search-filters-container .dropdown.type-id-dropdown-container button#type-id-dropdown-button {
+    display: none;
+  }
 }

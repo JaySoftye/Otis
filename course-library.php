@@ -14,27 +14,45 @@
     $(document).on('click', 'div.course-tag-container span.course-tag-item',  function() {
       var filter = $(this).attr('filter');
       var filterOption = $(this).attr('filter-option');
+
       var filterMenu = $(".course-filters").find('[name="' + filter + '"]');
       var filterMenuOption = filterMenu.find("option:contains('" + filterOption + "')");
 
+      var filterMenuOptionLink = $( "div.dropdown-menu a.dropdown-item:contains('" + filterOption + "')" ).removeClass('selected');
+
         filterMenuOption.prop('disabled', false);
         filterMenu.prop('selectedIndex', 0);
+        filterMenuOptionLink.removeClass('selected');
 
-        console.log(filter + ' with the selected option ' + filterOption);
+        console.log(filter + ' with the selected option ' + filterOption + ' removed');
 
       $(this).remove();
     });
 
-      $("select.course-search-filter-item").change(function() {
-        var selectedFilter = $(this).attr("name");
-        var selectedFilterOption = $(this).children("option:selected").text();
+    $("select.course-search-filter-item").change(function() {
+      var selectedFilter = $(this).attr("name");
+      var selectedFilterOption = $(this).children("option:selected").text();
 
-          $("div.course-tag-container").append( '<span class="course-tag-item" filter="' + selectedFilter + '" filter-option="' + selectedFilterOption + '">' + selectedFilterOption + '<button class="close-tag" type="button">X</button></span>' );
+        $("div.course-tag-container").append( '<span class="course-tag-item" filter="' + selectedFilter + '" filter-option="' + selectedFilterOption + '">' + selectedFilterOption + '<button class="close-tag" type="button">X</button></span>' );
 
-          $("select.course-search-filter-item option:selected").attr('disabled', 'disabled')
+        $("select.course-search-filter-item option:selected").attr('disabled', 'disabled')
 
         console.log(selectedFilter + ' menu with the option ' + selectedFilterOption);
     });
+
+    $( ".dropdown.type-id-dropdown-container a.dropdown-item" ).each(function(i) {
+      $(this).on("click", function() {
+        var selectedFilter = $(this).parent().attr("name");
+        var selectedFilterOption = $(this).text();
+          $(this).addClass('selected');
+
+          $("div.course-tag-container").append( '<span class="course-tag-item" filter="' + selectedFilter + '" filter-option="' + selectedFilterOption + '">' + selectedFilterOption + '<button class="close-tag" type="button">X</button></span>' );
+
+        console.log(selectedFilter + ' menu with the option' + selectedFilterOption);
+
+      });
+    });
+
   });
 </script>
 
@@ -53,12 +71,19 @@
           <option value="">Administrator</option>
           <option value="">Parents</option>
         </select>
-        <select class="course-search-filter-item" name="type_id" data-value="">
+        <div class="dropdown type-id-dropdown-container">
+          <button type="button" id="type-id-dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type</button>
+          <div class="dropdown-menu" name="type_id" aria-labelledby="type-id-dropdown-button">
+            <a class="dropdown-item" href="#" value=""><span class="product-familiarization"></span> Product Familiarization</a>
+            <a class="dropdown-item" href="#" value=""><span class="tech-infused-lessons"></span> Certifications Courses</a>
+            <a class="dropdown-item" href="#" value=""><span class="frameworks-resources"></span> Tech-Infused Lessons</a>
+            <a class="dropdown-item" href="#" value=""><span class="instructional-skills"></span> Frameworks/Resources</a>
+            <a class="dropdown-item" href="#" value=""><span class="certification-sessions"></span> Instructional Skills</a>
+            <a class="dropdown-item" href="#" value=""><span class="school-uploaded"></span> School Uploaded Content</a>
+          </div>
+        </div>
+        <select id="type-id-dropdown-select" class="course-search-filter-item" name="type_id" data-value="">
           <option disabled="disabled" selected="">Type</option>
-          <option value="">Free</option>
-          <option value="">ISTE Aligned</option>
-          <option value="">Earns Certificate</option>
-          <option value="">no Certificate</option>
           <option value="">Product Familiarization</option>
           <option value="">Certifications Courses</option>
           <option value="">Tech-Infused Lessons</option>
@@ -117,7 +142,7 @@
 
         <div class="col-md-4 course-card-container">
           <div class="card course-card">
-            <div class="card-header green">
+            <div class="card-header product-familiarization">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-certification.php">8hr 54min</a>
@@ -152,7 +177,7 @@
 
         <div class="col-md-4 course-card-container">
           <div class="card course-card">
-            <div class="card-header yellow">
+            <div class="card-header tech-infused-lessons">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">46min</a>
@@ -184,7 +209,7 @@
 
         <div class="col-md-4 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header frameworks-resources">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="#">31min</a>
@@ -213,7 +238,7 @@
 
         <div class="col-md-4 course-card-container">
           <div class="card course-card">
-            <div class="card-header pink">
+            <div class="card-header instructional-skills">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="#">8hr 54min</a>
@@ -248,7 +273,7 @@
 
         <div class="col-md-4 course-card-container">
           <div class="card course-card">
-            <div class="card-header blue">
+            <div class="card-header certification-sessions">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="#">46min</a>
@@ -280,7 +305,7 @@
 
         <div class="col-md-4 course-card-container">
           <div class="card course-card">
-            <div class="card-header orange">
+            <div class="card-header school-uploaded">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="#">31min</a>
@@ -309,7 +334,7 @@
 
         <div class="col-md-4 course-card-container">
           <div class="card course-card">
-            <div class="card-header green">
+            <div class="card-header product-familiarization">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="#">8hr 54min</a>
@@ -342,7 +367,7 @@
 
         <div class="col-md-4 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header frameworks-resources">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="#">46min</a>
@@ -376,7 +401,7 @@
 
         <div class="col-md-4 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header frameworks-resources">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="#">31min</a>

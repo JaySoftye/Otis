@@ -14,7 +14,7 @@
     <div class="row align-items-center padding-top">
       <div class="col-md-3">
         <img src="assets/images/smart-skills-text-logo.svg" alt="SMART Skills" />
-        <h2 class="pd-blue-text bold">Adding Content</h2>
+        <h2 class="smart-skills-blue-text bold">Adding Content</h2>
       </div>
       <div class="col-md-2"></div>
       <div class="col-md-7">
@@ -30,7 +30,7 @@
 
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">02min</a>
@@ -46,7 +46,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -62,7 +62,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">02min</a>
@@ -78,7 +78,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -94,7 +94,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -110,7 +110,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">03min</a>
@@ -126,7 +126,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -142,7 +142,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -158,7 +158,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -174,7 +174,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -190,7 +190,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -206,7 +206,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -222,7 +222,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">01min</a>
@@ -238,7 +238,7 @@
         </div>
         <div class="col-sm-4 col-md-2 course-card-container">
           <div class="card course-card">
-            <div class="card-header light-blue">
+            <div class="card-header">
               <ul class="nav course-details">
                 <li class="nav-item category-duration-details">
                   <a href="course-details-single-course.php">02min</a>
@@ -261,7 +261,7 @@
       <div class="col-md">
         <h3>Certificate Bearing Courses</h3>
         <h6 class="bold">Below are Full Courses associated with your selected Skill. At the end of the course you must complete the quiz to receive a Certificate of completion</h6>
-        <h6 class="bold">Progress will be tracked in your "My Usage"</h6>
+        <h6 class="bold">Progress will be tracked in your "Progress Tracker" under your profile</h6>
       </div>
     </div>
   </div>
