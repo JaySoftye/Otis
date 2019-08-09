@@ -1,10 +1,7 @@
-<?php
-  $logged_in = True;
-  $default_background_image_url='assets/images/default-course-background_lg.jpg';
-?>
-
 <?php include 'header.php';?>
   <?php include 'askotis.php';?>
+    <?php include 'login-window.php';?>
+      <?php include 'contact-us-window.php';?>
 
 <section class="main-content course-details">
 
@@ -33,7 +30,7 @@
             <p class="text-center">FREE Course Added Monthly</p>
             <br />
             <p class="text-center">Track Personal Progress</p>
-            <h6 class="text-center margin-top"><a class="button medium-button width-half pd-blue-button" href="#">SIGN UP</a></h6>
+            <h6 class="text-center margin-top"><a class="button medium-button width-half pd-blue-button" href="user-registration-basic-user.php">SIGN UP</a></h6>
           </div>
         </div>
       </div>
@@ -59,7 +56,7 @@
             <p class="text-center">Earn PD Hours Toward State Certification</p>
             <br />
             <p class="text-center">Earn Badges and Certificates</p>
-            <h6 class="text-center margin-top"><a class="button medium-button width-half pink-button" href="#">SIGN UP</a></h6>
+            <h6 class="text-center margin-top"><a class="button medium-button width-half pink-button" href="user-registration-individual-license.php">SIGN UP</a></h6>
           </div>
         </div>
       </div>
@@ -90,7 +87,7 @@
             <p class="text-center">Earn Badges and Certificates</p>
             <br />
             <p class="text-center">Self-service Admin</p>
-            <h6 class="text-center margin-top"><a class="button medium-button blue-button" href="#">REQUEST PRICING</a></h6>
+            <h6 class="text-center margin-top"><a class="button medium-button blue-button" href="#contact-us" data-toggle="modal">REQUEST PRICING</a></h6>
           </div>
         </div>
       </div>
@@ -109,7 +106,7 @@
         <p><img src="assets/images/otis-sidekick.svg" /></p>
         <h1 class="sub-heading bold text-center">Let OTIS Be Your Sidekick.</h1>
         <p class="caps text-center">Convince your school administrator to purchase this for you!</p>
-        <p class="text-center"><a class="button medium-button blue-button" href="#">LET US HELP!</a></p>
+        <p class="text-center"><a class="button medium-button blue-button" href="convince-admin.php">LET US HELP!</a></p>
       </div>
     </div>
   </div>

@@ -265,6 +265,7 @@ strong, .bold {
 }
 
 .red-text {
+  font-weight: 700 !important;
   color: rgb(255,54,0) !important;
 }
 
@@ -446,7 +447,7 @@ button.admin-menu:hover:after {
 }
 
 .main-content.index-body #askOtis {
-  bottom: 7.5%;
+  top: 36%;
 }
 
 #askOtis object, #askOtis object svg, #askOtis object svg path {
@@ -697,7 +698,7 @@ div#login-window .modal-content.login-container {
   appearance: none;
 }
 
-.login-form .main-login-form button.login {
+.login-form .main-login-form button.login, form.registration-form .registration-form-container > .form-group button.submit {
   width: 100%;
   display: inline-block;
   vertical-align: middle;
@@ -721,9 +722,121 @@ div#login-window .modal-content.login-container {
   transition: all 600ms ease;
 }
 
-.login-form .main-login-form button.login:hover {
+.login-form .main-login-form button.login:hover, form.registration-form .registration-form-container > .form-group button.submit:hover {
   background-color: rgb(243,217,81);
   color: rgb(0,0,0);
+}
+
+#convince-your-admin {
+  position: fixed;
+  z-index: 999;
+  top: 14.73%;
+  right: 0;
+  cursor: pointer;
+}
+
+#convince-your-admin img {
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+#convince-your-admin div.content-container {
+  width: 18rem;
+  padding: 0 15px;
+}
+
+.container-fluid.user-registration {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.container-fluid.user-registration.group-code {
+  background-image: url('../images/group-code-registration-bg.jpg');
+}
+
+.container-fluid.user-registration.basic {
+  background-image: url('../images/basic-user-registration-bg.jpg');
+}
+
+.container-fluid.user-registration.individual {
+  background-image: url('../images/individual-license-registration-bg.jpg');
+}
+
+.col.user-registration {
+  margin: 1.5rem 18%;
+}
+
+.col.user-registration form.registration-form .registration-form-container {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  margin-bottom: 1.2rem;
+  padding: 9%;
+  background-color: rgb(255,255,255);
+  border: none;
+  border-radius: .51rem;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.12);
+}
+
+.col.user-registration form.registration-form .registration-form-container:last-child {
+  margin-bottom: 6rem;
+}
+
+form.registration-form .registration-form-container > .form-group input, form.registration-form .registration-form-container > .form-group select {
+  width: 100%;
+  height: calc(1.5em + .75rem + 9px);
+  margin-top: 1.74rem;
+  padding: .36rem .51rem;
+  border-radius: 3px;
+  border: 1px solid rgb(200,200,200);
+  font-family: 'Roboto Condensed', 'Roboto',Helvetica,Arial,san-serif !important;
+  font-weight: 300;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+form.registration-form .registration-form-container > .form-group select + input {
+  margin-top: 0;
+  border-top: none;
+}
+
+form.registration-form .registration-form-container > .form-group > .form-control.error {
+  border-color: rgb(255,54,0);
+}
+
+form.registration-form .registration-form-container > .form-group label {
+  display: block;
+  margin: 0 0 0 .51rem;
+}
+
+.registration-form-container > .form-group > .form-check {
+  width: 100%;
+  margin-bottom: .75rem;
+}
+
+.row.form-group > .col {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.row.form-group > .col:last-child {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.registration-form-container > .form-group > .form-check > label.form-check-label input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  margin-top: 6px;
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
 }
 
 footer {
@@ -820,8 +933,6 @@ footer .footer-content .row {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-clip-path: url(#hero-clip);
-  clip-path: url(#hero-clip);
 }
 
 /** OVER-RIDES **/
@@ -878,7 +989,7 @@ and (max-width : 768px) {
   .hide-medium {
     display: none;
   }
-  #main-nav, #askOtis {
+  #main-nav, #askOtis, #convince-your-admin {
     display: none;
   }
   #mobile-nav #askOtis {
@@ -890,6 +1001,9 @@ and (max-width : 768px) {
   }
   .main-content .container-fluid, footer .footer-content {
     padding: 0 5% 0 5%;
+  }
+  .col.user-registration {
+    margin: 5%;
   }
 }
 

@@ -21,7 +21,7 @@
             <button type="button" class="login">LOGIN</button>
           </form>
         </div>
-        <p class="text-center black-text"><a class="black-text" href="#reset-password-window" data-toggle="modal" data-dismiss="modal" aria-label="Close">Forgot Password?</a> | <a class="black-text" href="https://onlinepd.teq.com/users/register/group">Register Group Code</a><br /><span class="bold">or Sign in with:</span></p>
+        <p class="text-center black-text"><a class="black-text" href="#reset-password-window" data-toggle="modal" data-dismiss="modal" aria-label="Close"><u>Forgot Password?</u></a> | <a class="black-text" href="https://onlinepd.teq.com/users/register/group"><u>Not a member?</u></a><br /><span class="bold">or Sign in with:</span></p>
         <div class="login-footer">
           <svg version="1.1" viewBox="0 0 500 60">
           <a href="https://clever.com/oauth/authorize?response_type=code&redirect_uri=https%3A%2F%2Fonlinepd.teq.com%2Fusers%2Fclever&client_id=341a230237ee5ab721ef&scope=read:user_id+read:teachers">
@@ -73,8 +73,15 @@
           </svg>
         </div>
       </section>
+
       <section class="login-section login-card">
-        <a href="">
+        <a href="user-registration-group-code.php">
+          <img src="assets/images/otis-login-group-code-link.jpg" alt="Register your group code" />
+        </a>
+      </section>
+
+      <section class="login-section login-card">
+        <a href="pricing.php">
           <img src="assets/images/otis-login-image-not-a-member.jpg" alt="Not a member? Check out our pricing plans" />
         </a>
       </section>
