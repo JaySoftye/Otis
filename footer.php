@@ -8,7 +8,7 @@
         <p class="h5 dark-blue-text">Report a bug.</p>
         <br />
         <p class="h5 dark-blue-text">
-          <a class="bold" href="mailto:onlinepd@teq.com"><u>onlinepd@teq.com</u></a>
+          <a class="bold" href="mailto:otis@teq.com"><u>Otis@teq.com</u></a>
           <br />877.455.9369
         </p>
       </div>
@@ -42,14 +42,15 @@
         <p class="sub-heading h4 bold">ABOUT US</p>
         <p class="h5"><a class="dark-blue-text" href="#">Who We Are</a></p>
         <p class="h5"><a class="dark-blue-text" href="#"><a class="dark-blue-text" href="#">Careers</a></p>
-        <p class="h5"><a class="dark-blue-text" href="#"><a class="dark-blue-text" href="#">Contact</a></p>
+        <p class="h5"><a class="dark-blue-text" href="#contact-us" data-toggle="modal"><a class="dark-blue-text" href="#">Contact</a></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md">
-        <p class="dark-blue-text bold text-right">
-          Copyright © Teq <a class="dark-blue-text bold" href="#"><u>Privacy Policy</u></a>, <a class="dark-blue-text bold" href="#"><u>Terms</u></a>
+        <p class="dark-blue-text bold text-center">
+          Copyright © Teq <a class="dark-blue-text bold" href="/profile/policy"><u>Privacy Policy</u></a>, <a class="dark-blue-text bold" href="/profile/terms"><u>Terms</u></a>
         </p>
+        <small>Teq®, It’s all about learning.TM, iBlocks TM, evoSpaces TM, pBlocks TM, Teq Essentials®, nOw Instructional Support®, OPD Online Professional Development®, Onsite Professional Development®, and Powered by Teq® are trademarks or registered trademarks of Tequipment, Inc. in the US. Other company names and product names appearing here are the trademarks and registered trademarks of their respective companies.</small>
       </div>
     </div>
   </div>

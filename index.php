@@ -4,6 +4,7 @@
 
   <?php include 'askotis.php';?>
     <?php include 'login-window.php';?>
+      <?php include 'contact-us-window.php';?>
 
   <div class="container-fluid pd-blue-bg">
     <div class="row align-items-center padding-top height-large">
@@ -13,7 +14,7 @@
       <div class="col-md-6">
         <h1 class="sub-heading bold">We Help Educators Succeed!</h1>
         <h5>Boost your classroom technology skills to <strong>engage your students and improve instruction</strong> with Teq’s Online Professional Development platform, now known as OTIS.</h5>
-        <p><a class="button yellow-button" href="#">START FOR FREE</a></p>
+        <p><a class="button yellow-button" href="pricing.php">START FOR FREE</a></p>
         <div class="card course-card margin-top">
           <div class="card-body">
             <div class="row align-items-center">
@@ -263,7 +264,7 @@
     <div class="row align-items-center">
       <div class="col-md-6 padding-sm fade-in-container">
         <h1 class="sub-heading bold text-right fade-element fade-down half-time">Your Edtech Skills Will Skyrocket!</h1>
-        <h5 class="text-right fade-element fade-up half-time">Get access to OTIS through a <a href=""><u>school or district subscription</u></a>, or an <a href=""><u>individual account</u></a> and leverage our <strong>professional development sessions to impact student outcomes.</strong></h5>
+        <h5 class="text-right fade-element fade-up half-time">Get access to OTIS through a <a href="state-appoved/state-approved-old.php"><u>school or district subscription</u></a>, or an <a href="state-appoved/state-approved-old.php"><u>individual account</u></a> and leverage our <strong>professional development sessions to impact student outcomes.</strong></h5>
       </div>
       <div class="col-md-6">
         <svg class="svg" id="svgYourEdtechSkillsContainer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"></svg>
@@ -338,7 +339,7 @@
         <object type="image/svg+xml" data="assets/images/ideas-icon-contact.svg"></object>
       </div>
       <div class="col-md padding-right">
-        <h5 class="thin-heading bold white-text">Have a great great idea for a course?<a class="button small-button yellow-button margin-left" href="#">TELL US</a></h5>
+        <h5 class="thin-heading bold white-text">Have a great great idea for a course?<a class="button small-button yellow-button margin-left" href="#contact-us" data-toggle="modal">TELL US</a></h5>
       </div>
     </div>
   </div>
