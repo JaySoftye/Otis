@@ -104,12 +104,6 @@
 
               <div class="form-row align-items-center">
                 <div class="col-5 popup-form-field">
-                  <input type="text" class="no-margin" id="" placeholder="New playlist name">
-                </div>
-                <div class="col-1 popup-form-field text-center">
-                  or
-                </div>
-                <div class="col-5 popup-form-field">
                   <select name="playlist_name" class="popup-dropdown-item">
                     <option selected="selected" value="" disabled="disabled">Select a playlist...</option>
                     <option value="">Playlist</option>
