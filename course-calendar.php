@@ -225,7 +225,7 @@
             </li>
             <li class="day free-course">
               <span class="date">11</span>
-              <a class="event" href="course-details-single-course.php"
+              <a class="event" href="course-details-no-login.php"
                   tabindex="0"
                   role="button"
                   data-html="true"
