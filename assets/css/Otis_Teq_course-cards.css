@@ -200,8 +200,6 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
 }
 
 .card.course-card:hover {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
   -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.36);
   box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.36);
 }

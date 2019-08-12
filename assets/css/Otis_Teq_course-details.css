@@ -417,7 +417,7 @@ div.modal-content .close.popup-close {
 .popup-form-field select, .popup-form-field input {
   height: 2.5rem;
   width: 100% !important;
-  margin-bottom: .51rem;
+  margin: 0 auto;
   border: 1.2px solid rgb(200,200,200);
   padding: .51rem 3rem .51rem 1rem;
   border-radius: 0;
@@ -431,11 +431,15 @@ div.modal-content .close.popup-close {
   appearance: none;
 }
 
-.form-row.no-margin .popup-form-field input {
-  border-top: 1.2px solid rgb(200,200,200);
+.form-row.no-margin .popup-form-field select[multiple] {
+  border-top: none;
   border-right: 1.2px solid rgb(200,200,200);
-  border-bottom: none;
+  border-bottom: 1.2px solid rgb(200,200,200);
   border-left: 1.2px solid rgb(200,200,200);
+}
+
+.form-row.no-margin .popup-form-field select[multiple].no-filter {
+  border-top: 1.2px solid rgb(200,200,200);
 }
 
 .popup-form-field select  {

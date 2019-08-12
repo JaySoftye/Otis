@@ -36,7 +36,7 @@
                   <a href="course-details-single-course.php">02min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Recording a Sound to an Object</a></p>
@@ -52,7 +52,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Removing a Sound from an Object</a></p>
@@ -68,7 +68,7 @@
                   <a href="course-details-single-course.php">02min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Use 'My Content' To Quickly Attach Sound to Any Object</a></p>
@@ -84,7 +84,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Attaching a Sound for Instant Feedback</a></p>
@@ -100,7 +100,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Using Interactive Pull Tabs</a></p>
@@ -116,7 +116,7 @@
                   <a href="course-details-single-course.php">03min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Searching the Gallery</a></p>
@@ -132,7 +132,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Locking Objects in Notebook</a></p>
@@ -148,7 +148,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">MyContent – Adding Images</a></p>
@@ -164,7 +164,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">MyContent – Adding Pages</a></p>
@@ -180,7 +180,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Ordering Objects in SMART Notebook</a></p>
@@ -196,7 +196,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Setting the Default Font in SMART Notebook</a></p>
@@ -212,7 +212,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Setting a Background</a></p>
@@ -228,7 +228,7 @@
                   <a href="course-details-single-course.php">01min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Signing into your SMART account</a></p>
@@ -244,7 +244,7 @@
                   <a href="course-details-single-course.php">02min</a>
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-single-course.php">Adding and Filling Shapes in SMART Notebook</a></p>
@@ -282,7 +282,7 @@
                 <li class="nav-item">
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-certification.php">Teq DTC: SMART Learning Suite Session 1 - Introduction</a></p>
@@ -317,7 +317,7 @@
                 <li class="nav-item">
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-certification.php">Teq DTC: SMART Learning Suite Session 2 - Adding content to SMART Notebook</a></p>
@@ -351,7 +351,7 @@
                 <li class="nav-item">
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-certification.php">Teq DTC: SMART Learning Suite Session 3 - Interactive Pages and ClassLab</a></p>
@@ -386,7 +386,7 @@
                 <li class="nav-item">
                 </li>
               </ul>
-              <button class="admin-menu" type="button"></button>
+              <?php include 'admin-menu.php';?>
             </div>
             <div class="card-body">
               <p><a href="course-details-certification.php">Teq DTC: SMART Learning Suite Session 4 - Sound & Object Animation</a></p>

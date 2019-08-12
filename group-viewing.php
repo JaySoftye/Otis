@@ -49,7 +49,7 @@
                   <button class="remove-share-user-btn" type="button"></button>
                 </div>
                 <div class="col-5 popup-form-field">
-                  <select class="form-control selected-users" multiple="multiple"></select>
+                  <select class="form-control selected-users no-filter" multiple="multiple"></select>
                 </div>
               </div>
               <div class="form-row">

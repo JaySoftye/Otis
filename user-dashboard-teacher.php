@@ -49,7 +49,7 @@
               <li class="nav-item">
               </li>
             </ul>
-            <button class="admin-menu" type="button"></button>
+            <?php include 'admin-menu.php';?>
           </div>
           <div class="card-body">
             <p><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></p>

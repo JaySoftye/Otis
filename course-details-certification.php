@@ -39,7 +39,7 @@
           </svg>
         </div>
         <div class="nav-item admin-menu-container">
-          <button class="admin-menu" type="button"></button>
+          <?php include 'admin-menu.php';?>
         </div>
         <div class="nav-item group-view-container">
           <?php include 'group-viewing.php';?>
@@ -146,7 +146,7 @@
           </div>
           <div class="col-md-10 no-padding">
             <?php include 'course-quiz.php';?>
-            
+
             <h2 class="course-details-content-title pink-text">
               Classroom
               <svg version="1.1" viewBox="0 0 50 50">
@@ -409,7 +409,7 @@
               <li class="nav-item">
               </li>
             </ul>
-            <button class="admin-menu" type="button"></button>
+            <?php include 'admin-menu.php';?>
           </div>
           <div class="card-body">
             <p><a href="course-details-certification.php">Digital Teacher iPad Certification 7: iPhoto</a></p>
@@ -442,7 +442,7 @@
                 <a href="course-details-single-course.php">5 Chapters</a>
               </li>
             </ul>
-            <button class="admin-menu" type="button"></button>
+            <?php include 'admin-menu.php';?>
           </div>
           <div class="card-body">
             <p><a href="course-details-single-course.php">Creating Multi-Touch Books with iBooks Author</a></p>
@@ -470,7 +470,7 @@
               <li class="nav-item"></li>
               <li class="nav-item"></li>
             </ul>
-            <button class="admin-menu" type="button"></button>
+            <?php include 'admin-menu.php';?>
           </div>
           <div class="card-body">
             <p><a href="#">iOS 10</a></p>

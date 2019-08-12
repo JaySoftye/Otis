@@ -38,7 +38,7 @@
           </svg>
         </div>
         <div class="nav-item admin-menu-container">
-          <button class="admin-menu" type="button"></button>
+          <?php include 'admin-menu.php';?>
         </div>
         <div class="nav-item group-view-container">
           <?php include 'group-viewing.php';?>
