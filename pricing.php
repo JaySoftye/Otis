@@ -1,7 +1,6 @@
 <?php include 'header.php';?>
   <?php include 'askotis.php';?>
     <?php include 'login-window.php';?>
-      <?php include 'contact-us-window.php';?>
 
 <section class="main-content course-details">
 

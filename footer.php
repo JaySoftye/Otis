@@ -1,3 +1,5 @@
+<?php include 'contact-us-window.php';?>
+
 <footer>
   <div class="container-fluid footer-content">
     <div class="row">
@@ -42,13 +44,13 @@
         <p class="sub-heading h4 bold">ABOUT US</p>
         <p class="h5"><a class="dark-blue-text" href="#">Who We Are</a></p>
         <p class="h5"><a class="dark-blue-text" href="#"><a class="dark-blue-text" href="#">Careers</a></p>
-        <p class="h5"><a class="dark-blue-text" href="#contact-us" data-toggle="modal"><a class="dark-blue-text" href="#">Contact</a></p>
+        <p class="h5"><a class="dark-blue-text" href="#contact-us" data-toggle="modal">Contact</a></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md">
         <p class="dark-blue-text bold text-center">
-          Copyright © Teq <a class="dark-blue-text bold" href="/profile/policy"><u>Privacy Policy</u></a>, <a class="dark-blue-text bold" href="/profile/terms"><u>Terms</u></a>
+          Copyright © Teq <a class="dark-blue-text bold" href="profile-policy.php"><u>Privacy Policy</u></a>, <a class="dark-blue-text bold" href="profile-terms.php"><u>Terms</u></a>
         </p>
         <small>Teq®, It’s all about learning.TM, iBlocks TM, evoSpaces TM, pBlocks TM, Teq Essentials®, nOw Instructional Support®, OPD Online Professional Development®, Onsite Professional Development®, and Powered by Teq® are trademarks or registered trademarks of Tequipment, Inc. in the US. Other company names and product names appearing here are the trademarks and registered trademarks of their respective companies.</small>
       </div>
