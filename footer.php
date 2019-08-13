@@ -38,12 +38,12 @@
       <div class="col-md-3 padding-sm">
         <p class="sub-heading h4 bold">SUPPORT</p>
         <p class="h5"><a class="dark-blue-text" href="#">How To Videos</a></p>
-        <p class="h5"><a class="dark-blue-text" href="#"><a class="dark-blue-text" href="#">FAQ's</a></p>
+        <p class="h5"><a class="dark-blue-text" href="faqs.php">FAQ's</a></p>
       </div>
       <div class="col-md-3 padding-sm">
         <p class="sub-heading h4 bold">ABOUT US</p>
         <p class="h5"><a class="dark-blue-text" href="#">Who We Are</a></p>
-        <p class="h5"><a class="dark-blue-text" href="#"><a class="dark-blue-text" href="#">Careers</a></p>
+        <p class="h5"><a class="dark-blue-text" href="#">Careers</a></p>
         <p class="h5"><a class="dark-blue-text" href="#contact-us" data-toggle="modal">Contact</a></p>
       </div>
     </div>
