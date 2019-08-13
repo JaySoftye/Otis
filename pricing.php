@@ -6,6 +6,24 @@
 
   <div class="container-fluid light-grey-bg pricing-container">
 
+    <div class="modal" id="single-category-pricing" tabindex="-1" role="dialog" aria-labelledby="single-category-pricing" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card-header yellow-bg">
+            <h4 class="block no-margin text-center">Individual Category Plans</h4>
+          </div>
+          <section class="modal-body">
+            <h2 class="extra-large-heading no-margin text-center"><sup class="small-heading">$</sup>40<sup class="small-heading">.00</sup></h2>
+            <p class="text-center">/ per category</p>
+            <div class="card-body">
+              <p>Build your own customized PD plan with OTIS! We now offer the option to purchase your PD single learning by categories. Choose from any of our <strong>popular categories such as Google, SMART, Apple, STEM, Microsoft, ENL/ELL, and much more!</strong> Focus your learning where you need it most.</p>
+              <h6 class="text-center margin-top"><a class="button medium-button yellow-button block" href="#contact-us" data-toggle="modal">PURCHASE TODAY</a></h6>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
     <div class="row padding">
       <h1 class="text-center margin-auto bold">Individual, District, and School Plans</h1>
       <h5 class="text-center"> Faculty. Staff. Administrator. Parents. No matter who you are, <strong>OTIS for educators professional development</strong> offers just the right solution for you. If you are a teacher and are interested in an individual license, our <a href="pricing.php" class="bold black-text">NEW PRICE</a> starts at $99/year. If you are a district, school, or other campus we offer significant volume discounts. Whatever your needs, <a href="#"><u>contact us</u></a> and we will create a custom package to meet them.</h5>
@@ -29,7 +47,7 @@
             <p class="text-center">FREE Course Added Monthly</p>
             <br />
             <p class="text-center">Track Personal Progress</p>
-            <h6 class="text-center margin-top"><a class="button medium-button width-half pd-blue-button" href="user-registration-basic-user.php">SIGN UP</a></h6>
+            <h6 class="text-center margin-top"><a class="button medium-button width-half pd-blue-button block" href="user-registration-basic-user.php">SIGN UP</a></h6>
           </div>
         </div>
       </div>
@@ -50,12 +68,10 @@
             <br />
             <p class="text-center">Track Personal Progress</p>
             <br />
-            <p class="text-center">Ask OTIS Support</p>
-            <br />
             <p class="text-center">Earn PD Hours Toward State Certification</p>
             <br />
             <p class="text-center">Earn Badges and Certificates</p>
-            <h6 class="text-center margin-top"><a class="button medium-button width-half pink-button" href="user-registration-individual-license.php">SIGN UP</a></h6>
+            <h6 class="text-center margin-top"><a class="button medium-button width-half pink-button block" href="user-registration-individual-license.php">SIGN UP</a></h6>
           </div>
         </div>
       </div>
@@ -71,7 +87,9 @@
             <br />
             <p class="text-center">Manage Users</p>
             <br />
-            <p class="text-center">Manage Categories</p>
+            <h6 class="text-center">
+              <a class="button small-button blue-button text-center white-text inline-block dropshadow" href="#single-category-pricing" data-toggle="modal">MANAGE CATEGORIES</a>
+            </h6>
             <br />
             <p class="text-center">Track User Progress</p>
             <br />
@@ -86,7 +104,7 @@
             <p class="text-center">Earn Badges and Certificates</p>
             <br />
             <p class="text-center">Self-service Admin</p>
-            <h6 class="text-center margin-top"><a class="button medium-button blue-button" href="#contact-us" data-toggle="modal">REQUEST PRICING</a></h6>
+            <h6 class="text-center margin-top"><a class="button medium-button blue-button block" href="#contact-us" data-toggle="modal">REQUEST PRICING</a></h6>
           </div>
         </div>
       </div>
