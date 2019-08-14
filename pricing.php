@@ -39,14 +39,10 @@
           </div>
           <div class="card-body">
             <h2 class="extra-large-heading text-center"><sup class="small-heading">$</sup>0<sup class="small-heading">.00</sup></h2>
-            <br />
-            <p class="text-center">Absolutely FREE</p>
-            <br />
-            <p class="text-center">Access to All  FREE courses</p>
-            <br />
-            <p class="text-center">FREE Course Added Monthly</p>
-            <br />
-            <p class="text-center">Track Personal Progress</p>
+            <h6 class="text-center">Absolutely FREE</h6>
+            <h6 class="text-center">Access to All  FREE courses</h6>
+            <h6 class="text-center">FREE Course Added Monthly</h6>
+            <h6 class="text-center">Track Personal Progress</h6>
             <h6 class="text-center margin-top"><a class="button medium-button width-half pd-blue-button block" href="user-registration-basic-user.php">SIGN UP</a></h6>
           </div>
         </div>
@@ -60,17 +56,12 @@
           </div>
           <div class="card-body">
             <h2 class="extra-large-heading no-margin text-center"><sup class="small-heading">$</sup>99<sup class="small-heading">.00</sup></h2>
-            <p class="text-center pink-text">Less than $9 per month</p>
-            <br />
-            <p class="text-center">Single Individual License</p>
-            <br />
-            <p class="text-center">Unlimited Access to All Courses</p>
-            <br />
-            <p class="text-center">Track Personal Progress</p>
-            <br />
-            <p class="text-center">Earn PD Hours Toward State Certification</p>
-            <br />
-            <p class="text-center">Earn Badges and Certificates</p>
+            <h6 class="text-center pink-text">Less than $9 per month</h6>
+            <h6 class="text-center">Single Individual License</h6>
+            <h6 class="text-center">Unlimited Access to All Courses</h6>
+            <h6 class="text-center">Track Personal Progress</h6>
+            <h6 class="text-center">Earn PD Hours Toward State Certification</h6>
+            <h6 class="text-center">Earn Badges and Certificates</h6>
             <h6 class="text-center margin-top"><a class="button medium-button width-half pink-button block" href="user-registration-individual-license.php">SIGN UP</a></h6>
           </div>
         </div>
@@ -83,27 +74,18 @@
             </ul>
           </div>
           <div class="card-body">
-            <p class="text-center">Licensing Plans</p>
-            <br />
-            <p class="text-center">Manage Users</p>
-            <br />
+            <h6 class="text-center">Licensing Plans</h6>
+            <p class="text-center">Manage Users</h6>
             <h6 class="text-center">
               <a class="button small-button blue-button text-center white-text inline-block dropshadow" href="#single-category-pricing" data-toggle="modal">MANAGE CATEGORIES</a>
             </h6>
-            <br />
-            <p class="text-center">Track User Progress</p>
-            <br />
-            <p class="text-center">Usage Reports</p>
-            <br />
-            <p class="text-center">Assign Courses and Playlists</p>
-            <br />
-            <p class="text-center">Ask OTIS Support</p>
-            <br />
-            <p class="text-center">Earn PD Hours Toward State Certification</p>
-            <br />
-            <p class="text-center">Earn Badges and Certificates</p>
-            <br />
-            <p class="text-center">Self-service Admin</p>
+            <h6 class="text-center">Track User Progress</h6>
+            <h6 class="text-center">Usage Reports</h6>
+            <h6 class="text-center">Assign Courses and Playlists</h6>
+            <h6 class="text-center">Ask OTIS Support</h6>
+            <h6 class="text-center">Earn PD Hours Toward State Certification</h6>
+            <h6 class="text-center">Earn Badges and Certificates</h6>
+            <h6 class="text-center">Self-service Admin</h6>
             <h6 class="text-center margin-top"><a class="button medium-button blue-button block" href="#contact-us" data-toggle="modal">REQUEST PRICING</a></h6>
           </div>
         </div>

@@ -667,7 +667,7 @@ div#login-window .modal-content.login-container {
 }
 
 .login-container .login-section.login-card .login-footer svg {
-  margin-top: 1.2rem;
+  margin-top: .24rem;
   border-radius: 0 0 calc(.51rem - 1px) calc(.51rem - 1px);
 }
 

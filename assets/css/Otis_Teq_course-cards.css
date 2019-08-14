@@ -357,6 +357,10 @@ ul.nav.course-details li.nav-item a:hover, .card.course-card .card-body p a:hove
   margin-bottom: 0;
 }
 
+.card.course-card .card-body h6 {
+  line-height: 1.74;
+}
+
 .card.course-card .card-body p a {
   display: block;
   font-weight: 600;

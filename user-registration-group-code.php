@@ -8,7 +8,7 @@
     <div class="row">
       <div class="col user-registration">
       <h1 class="text-center margin-auto bold">Group, District or Institutional Plans</h1>
-      <h5>Your group plan membership includes full access to <a href="http://onlinepd.teq.com/" title="http://onlinepd.teq.com/" class="black-text"><u>onlinepd.teq.com</u></a>, course management, profile activity, certification tracks, and more! To gain immediate access please complete the form below. Please note a <strong>Group Code is required</strong> for all group, district or institutional plan sign ups. If you have not been supplied one please contact your administrator or <a class="black-text" href="#"><u>contact us</u></a>.</h5>
+      <h5>Your group plan membership includes full access to <a href="https://otis.teq.com/" title="https://otis.teq.com/" class="black-text"><u>otis.teq.com</u></a>, course management, profile activity, certification tracks, and more! To gain immediate access please complete the form below. Please note a <strong>Group Code is required</strong> for all group, district or institutional plan sign ups. If you have not been supplied one please contact your administrator or <a class="black-text" href="#"><u>contact us</u></a>.</h5>
     </div>
     </div>
 
