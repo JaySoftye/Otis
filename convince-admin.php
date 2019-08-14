@@ -201,9 +201,8 @@
             <div class="slide-left">
               <h5><a target="_blank" href="http://www.teq.com/about-us/testimonials/">http://www.teq.com/about-us/testimonials/</a></h5>
               <h5><a target="_blank" href="http://www.teq.com/pd-bios/">http://www.teq.com/pd-bios/</a></h5>
-              <h5><a target="_blank" href="https://otis.teq.com/events">https://opd.teq.com/events</a></h5>
-              <h5><a target="_blank" href="https://otis.teq.com/courses">https://onlinepd.teq.com/courses</a></h5>
-              <h5><a target="_blank" href="http://www.teq.com/pdf/online-pd-2017copy.pdf">Online PD (Opd) Brochure</a></h5>
+              <h5><a target="_blank" href="https://www.teq.com/teq-events/">https://www.teq.com/teq-events/</a></h5>
+              <h5><a target="_blank" href="https://otis.teq.com/courses">https://otis.teq.com/courses</a></h5>
             </div>
           </div>
           <div class="col-md-6 align-self-center">

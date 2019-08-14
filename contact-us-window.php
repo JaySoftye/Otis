@@ -4,7 +4,7 @@
       <section class="login-section login-card no-margin padding-bottom">
         <div class="login-form">
           <h2 class="thin-heading">Contact Us</h2>
-          <p>For more information on <strong>School or District Group Pricing</strong>, fill out the form below and a PD Specialist will reach out to you directly or call us toll free at <strong class="teq-blue-text">877.455.9369</strong>.</p>
+          <p>For more information on <strong>School, District, or Category Pricing</strong>, fill out the form below and a PD Specialist will reach out to you directly or call us toll free at <strong class="teq-blue-text">877.455.9369</strong>.</p>
           <!--[if lte IE 8]>
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
 <![endif]-->

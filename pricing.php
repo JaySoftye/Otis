@@ -14,10 +14,10 @@
           </div>
           <section class="modal-body">
             <h2 class="extra-large-heading no-margin text-center"><sup class="small-heading">$</sup>40<sup class="small-heading">.00</sup></h2>
-            <p class="text-center">/ per category</p>
+            <p class="text-center">/ per user</p>
             <div class="card-body">
-              <p>Build your own customized PD plan with OTIS! We now offer the option to purchase your PD single learning by categories. Choose from any of our <strong>popular categories such as Google, SMART, Apple, STEM, Microsoft, ENL/ELL, and much more!</strong> Focus your learning where you need it most.</p>
-              <h6 class="text-center margin-top"><a class="button medium-button yellow-button block" href="#contact-us" data-toggle="modal">PURCHASE TODAY</a></h6>
+              <p>Build your own customized PD plan with OTIS! We now offer the option to purchase PD by category - choose from any of our <strong>popular categories such as Google, SMART, Apple, STEM, Microsoft, ENL/ELL, and much more!</strong> Focus your learning where you need it most.</p>
+              <h6 class="text-center margin-top"><a class="button medium-button yellow-button block" href="#contact-us" data-toggle="modal">CONTACT US TO PURCHASE</a></h6>
             </div>
           </section>
         </div>
