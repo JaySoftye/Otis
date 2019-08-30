@@ -22,6 +22,16 @@
   <script type="text/javascript" src="assets/js/popper.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
+  <script type='text/javascript'>
+    $(document).ready( function() {
+      $(function(){
+        if(navigator.userAgent.match(/Trident\/7\./)) {
+          $('.ie-display-none').hide();
+        }
+      });
+    });
+  </script>
+
 </head>
 
 <body>

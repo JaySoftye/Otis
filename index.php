@@ -31,7 +31,7 @@
       </div>
     </div>
   </div>
-  <svg viewBox="0 0 500 75">
+  <svg class="ie-display-none" viewBox="0 0 500 75">
     <path class="light-grey-fill" d="M500,75V36.468c-14.975,0-59.357-0.361-87.997-3.891c-30.132-3.714-50.7-9.969-81.157-9.16 c-24.094,0.641-47.221,6.231-75.266,5.25c-13.568-0.475-24.031-2.671-37.607-2.96c-31.447-0.669-61.772,6.668-78.358,10.432 C97.874,45.609,57.674,45.096,0,36.468V75H500z"/>
     <path class="pd-blue-fill" d="M500,0v36.468c-14.975,0-59.357-0.361-87.997-3.891c-30.132-3.714-50.7-9.969-81.157-9.16 c-24.094,0.641-47.221,6.231-75.266,5.25c-13.568-0.475-24.031-2.671-37.607-2.96c-31.447-0.669-61.772,6.668-78.358,10.432 C97.874,45.609,57.674,45.096,0,36.468V0H500z"/>
   </svg>
@@ -44,7 +44,7 @@
     </div>
     <div class="row padding-bottom" id="powerToImpactContainer">
       <div class="col-md-3 padding-sm fade-in-container">
-        <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+        <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
@@ -58,7 +58,7 @@
         <p class="text-center fade-element fade-up quarter-time">Relevant and targeted PD is a crucial part of any successful technology roll-out, and our <strong>playlists</strong> are made to help you get you from Point A to Point B.</p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
-        <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+        <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
@@ -70,7 +70,7 @@
         <p class="text-center fade-element fade-up half-time">Subscribe to our entire course library, or choose the category that suits you best. We offer <strong>category-based subscriptions</strong> to our Google, Microsoft, Apple, SMART, and ENL/ELL content. </p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
-        <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+        <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
@@ -84,7 +84,7 @@
         <p class="text-center fade-element fade-up three-quarter-time"><strong>Upload your own PD content</strong> and use OTIS to host all of the online PD that’s essential for your educators.</p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
-        <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+        <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
@@ -105,7 +105,7 @@
         <p class="text-center fade-element fade-up full-time">Bring teachers together with our <strong>group viewing</strong> feature and engage in PD together while still getting individual credit. </p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
-        <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+        <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
@@ -118,7 +118,7 @@
         <p class="text-center fade-element fade-up quarter-time">School and district admins have access to <strong>advanced usage analytics</strong>, can see and track teacher progress, recommend courses, and manage licenses. </p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
-        <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+        <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
@@ -131,7 +131,7 @@
         <p class="text-center fade-element fade-up half-time">Use an existing learning management system to access OTIS. Import and update users and login quickly with <strong>Google, Classlink and Clever.</strong></a></p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
-        <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+        <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
@@ -149,7 +149,7 @@
         <p class="text-center fade-element fade-up three-quarter-time">Become proficient in a specific tool or technology with <strong>certification tracks</strong> in Google, Microsoft, Apple, SMART Boards, and more.</p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
-        <svg class="svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+        <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
             <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
@@ -256,7 +256,7 @@
       </div>
     </div>
   </div>
-  <svg viewBox="0 0 500 75">
+  <svg class="ie-display-none" viewBox="0 0 500 75">
     <path class="light-grey-fill" d="M500,0c0,20.618,0,22.526,0,39.473c-30.05,1.213-59.357-0.48-87.997-5.176 c-30.132-4.941-50.7-13.261-81.157-12.184c-24.094,0.852-47.221,8.289-75.266,6.984c-13.568-0.631-24.031-3.553-37.607-3.938 c-31.447-0.89-61.772,8.87-78.358,13.876C97.874,51.634,51.251,51.22,0,39.473C0,15.91,0,0,0,0H500z"/>
     <path class="white-fill" d="M500,75c0,20.618,0-52.474,0-35.527c-30.05,1.213-59.357-0.48-87.997-5.176 c-30.132-4.941-50.7-13.261-81.157-12.184c-24.094,0.852-47.221,8.289-75.266,6.984c-13.568-0.631-24.031-3.553-37.607-3.938 c-31.447-0.89-61.772,8.87-78.358,13.876C97.874,51.634,51.251,51.22,0,39.473C0,15.91,0,75,0,75H500z"/>
   </svg>
@@ -271,7 +271,7 @@
       </div>
     </div>
   </div>
-  <svg viewBox="0 0 500 75">
+  <svg class="ie-display-none" viewBox="0 0 500 75">
     <path class="white-fill" d="M500,0v40.57c0,0-54.047-0.296-80.125-3.192c-27.436-3.047-46.164-8.178-73.896-7.514 c-21.938,0.525-42.997,5.112-68.532,4.307c-12.354-0.389-21.881-2.191-34.242-2.428c-28.634-0.549-56.245,5.47-71.348,8.558 C133.851,48.07,43.117,53.389,0,40.57V0H500z"/>
     <path class="light-blue-fill" d="M500,75V40.57c0,0-54.047-0.296-80.125-3.192c-27.436-3.047-46.164-8.178-73.896-7.514 c-21.938,0.525-42.997,5.112-68.532,4.307c-12.354-0.389-21.881-2.191-34.242-2.428c-28.634-0.549-56.245,5.47-71.348,8.558 C133.851,48.07,43.117,53.389,0,40.57V75H500z"/>
   </svg>
@@ -286,7 +286,7 @@
       </div>
     </div>
   </div>
-  <svg viewBox="0 0 500 75">
+  <svg class="ie-display-none" viewBox="0 0 500 75">
     <path class="light-blue-fill" d="M0,0v40.385c30.135,3.15,133.851,7.499,171.857-0.27c15.103-3.087,42.714-9.107,71.348-8.558 c12.361,0.237,21.888,2.039,34.242,2.428c25.536,0.805,46.594-3.781,68.532-4.307c27.732-0.664,46.459,4.467,73.896,7.514 c26.078,2.896,42.102,10.599,80.125,3.192V0H0z"/>
     <path class="white-fill" d="M419.875,37.193c-27.436-3.047-46.164-8.179-73.896-7.514c-21.938,0.525-42.997,5.112-68.532,4.307 c-12.354-0.389-21.881-2.191-34.242-2.428c-28.634-0.549-56.245,5.47-71.348,8.558C133.851,47.885,30.135,43.535,0,40.385V75h500 V40.385C461.977,47.792,445.953,40.089,419.875,37.193z"/>
   </svg>
