@@ -13,29 +13,121 @@
       </div>
       <div class="col-md-6">
         <h1 class="sub-heading bold">We Help Educators Succeed!</h1>
-        <h5>Boost your classroom technology skills to <strong>engage your students and improve instruction</strong> with Teq’s Online Professional Development platform, now known as OTIS.</h5>
-        <p><a class="button yellow-button" href="pricing.php">START FOR FREE</a></p>
-        <div class="card course-card margin-top">
-          <div class="card-body">
-            <div class="row align-items-center">
-              <div class="col-md nopadding">
-                <h4 class="course-card-title">Next Course:</h4>
-                <a href="#" class="course-card-link">
-                  <span>Teaching Summer Reinforcement Skills: Reading</span>
-                  <small>Monday, June 17th, 3:00pm - 4:00pm</small>
-                </a>
+        <h5 class="padding-sm-right">We offer <strong>virtual professional development, training, and remote learning support</strong> for educators. Explore the technology, tools, and strategies that can spark student success — no matter where they’re learning from (or where you’re teaching from). </h5>
+        <p><a class="button yellow-button" href="pricing.php">SIGN UP</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid light-grey-bg">
+    <div id="trendingCourseCarousel" class="row carousel slide" data-ride="carousel">
+      <div class="col-md-6">
+        <h5 class="margin-top text-right">Upcoming Courses:</h5>
+        <ol class="carousel-indicators">
+          <li data-target="#trendingCourseCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#trendingCourseCarousel" data-slide-to="1"></li>
+          <li data-target="#trendingCourseCarousel" data-slide-to="2"></li>
+          <li data-target="#trendingCourseCarousel" data-slide-to="3"></li>
+        </ol>
+      </div>
+      <div class="col-md-6">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="card course-card ">
+              <div class="card-header tech-infused-lessons"></div>
+              <div class="card-body" style="transform: rotate(0);">
+                <p><a href="/events/view/18/14430">Using SLSO's Monster Quiz to Create Competition</a></p>
+                <p class="mb-2"><small></small></p>
+                <p class="card-text">Not only can Google Classroom serve as the vehicle to deliver your instructional content but can facilitate assessment as well! We are here to share tips for delivering instructional materials and...</p>
+                <a href="/events/view/18/14430" class="stretched-link"></a>
+              </div>
+              <div class="card-footer">
+                <a href="/events/view/18/14430" class="course-card-link">Register for this course:</a>
               </div>
             </div>
           </div>
+          <div class="carousel-item">
+            <div class="card course-card ">
+              <div class="card-header product-familiarization"></div>
+              <div class="card-body" style="transform: rotate(0);">
+                <p><a href="/events/view/44/14612">G Suite Admin: Google Meet and Chat Permissions</a></p>
+                <p class="mb-2"><small></small></p>
+                <p class="card-text">In this video, we will walk through the process of setting permissions for Google Hangout Meet and Chat. This will be beneficial for Remote Learning environments or where students can work outside the...</p>
+                <a href="/events/view/44/14612" class="stretched-link"></a>
+              </div>
+              <div class="card-footer">
+                <a href="/events/view/44/14612" class="course-card-link">Register for this course:</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card course-card ">
+              <div class="card-header instructional-skills"></div>
+              <div class="card-body" style="transform: rotate(0);">
+                <p><a href="/events/view/14146">APPlicable - Apps to Support Your Student's College Search </a></p>
+                <p class="mb-2"><small></small></p>
+                <p class="card-text">In this APPlicable session, we'll look at college planning apps and scholarship tools to help you get your student prepared for their college search...</p>
+                <a href="/events/view/14146" class="stretched-link"></a>
+              </div>
+              <div class="card-footer">
+                <a href="/events/view/14146" class="course-card-link">Register for this course:</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card course-card ">
+              <div class="card-header frameworks-resources"></div>
+              <div class="card-body" style="transform: rotate(0);">
+                <p><a href="/events/view/14552">Remote Learning: Social-Emotional Learning for Primary Students</a></p>
+                <p class="mb-2"><small></small></p>
+                <p class="card-text">As a primary level educator, you are most likely used to incorporating social-emotional learning (SEL) into your lessons on a daily basis, since you're aware that students at this age need social and...</p>
+                <a href="/events/view/14552" class="stretched-link"></a>
+              </div>
+              <div class="card-footer">
+                <a href="/events/view/14552" class="course-card-link">Register for this course:</a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
-  <svg class="ie-display-none" viewBox="0 0 500 75">
-    <path class="light-grey-fill" d="M500,75V36.468c-14.975,0-59.357-0.361-87.997-3.891c-30.132-3.714-50.7-9.969-81.157-9.16 c-24.094,0.641-47.221,6.231-75.266,5.25c-13.568-0.475-24.031-2.671-37.607-2.96c-31.447-0.669-61.772,6.668-78.358,10.432 C97.874,45.609,57.674,45.096,0,36.468V75H500z"/>
-    <path class="pd-blue-fill" d="M500,0v36.468c-14.975,0-59.357-0.361-87.997-3.891c-30.132-3.714-50.7-9.969-81.157-9.16 c-24.094,0.641-47.221,6.231-75.266,5.25c-13.568-0.475-24.031-2.671-37.607-2.96c-31.447-0.669-61.772,6.668-78.358,10.432 C97.874,45.609,57.674,45.096,0,36.468V0H500z"/>
-  </svg>
-  <div class="container-fluid light-grey-bg">
+
+  <div class="container-fluid">
+    <div class="row padding-top padding-bottom" id="rampUpSupportRemoteConnectContainer">
+      <div class="col-md-4 padding-sm fade-in-container">
+        <p class="h4 royal-blue-text thin-heading text-center fade-element fade-down quarter-time">Ramp Up Your Google Classroom Expertise</p>
+        <p class="text-center fade-element fade-up quarter-time">Learn how to <strong>utilize Google Classroom</strong> and the other great collaboration and communication tools that are a part of <strong>G Suite for Education.</strong> Choose from individual courses, certification series, and even get <strong>live support with our askOTIS feature.</strong> Whether you’re teaching remotely or face-to-face,  be a Google Classroom expert in no time. </p>
+      </div>
+      <div class="col-md-4 padding-sm fade-in-container">
+        <p class="h4 royal-blue-text thin-heading text-center fade-element fade-down quarter-time">Our Courses Support Remote Learning </p>
+        <p class="text-center fade-element fade-up quarter-time">From live webinars, to a vast library of PD courses, we have remote learning resources for everyone. Catch a live session to walk through tools like <strong>Zoom and Microsoft Teams, check out a course on Nearpod and Google, or explore how to continue STEM</strong> education at home. </p>
+      </div>
+      <div class="col-md-4 padding-sm fade-in-container">
+        <p class="h4 royal-blue-text thin-heading text-center fade-element fade-down quarter-time">Activities That Connect Technology and Instruction </p>
+        <p class="text-center fade-element fade-up quarter-time">After you watch an OTIS PD session, check out the accompanying <strong>Teq-tivity! Teq-tivities help you connect technology skills to teaching practice</strong> — and they do it by scaffolding do-anywhere activities to make sure students get the most out of every lesson.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid light-grey-bg border-top border-bottom">
+    <div class="row align-items-center padding-top padding-bottom">
+      <div class="col-md-2">
+        <object type="image/svg+xml" data="assets/images/state-approved-icon.svg"></object>
+      </div>
+      <div class="col-md-4"><p>As a <strong>state-approved PD provider,</strong> OTIS is a convenient and flexible way to fulfill your <strong>state-required PD hours.</strong></div>
+      <div class="col-md">
+        <object type="image/svg+xml" data="assets/images/state-approved-badge-icons.svg"></object>
+      </div>
+      <div class="col-md">
+        <h5 class="thin-heading bold white-text"><a class="button small-button yellow-button margin-left" href="https://www.teq.com/state-approved/">VIEW MAP</a></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
     <div class="row padding-top padding-bottom">
       <div class="col-md">
         <h2 class="sub-heading h1 text-center"><strong>The Power to Impact a Classroom.</strong></h2>
@@ -46,7 +138,7 @@
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
-            <path class="yellow-fill blob blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
+            <path class="pd-blue-fill blob blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
           <g class="icon">
         	   <path d="M193.986,250.83c0-9.696-7.86-17.557-17.557-17.557c-9.696,0-17.557,7.86-17.557,17.557s7.86,17.557,17.557,17.557 C186.126,268.387,193.986,260.526,193.986,250.83z"/>
@@ -60,7 +152,7 @@
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
-            <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
+            <path class="pd-blue-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
           <g class="icon">
         	   <path d="M367.07,150.083c-0.282-1.911-2.076-3.244-3.987-2.962l-58.641,8.646v-1.151c0-2.973-2.433-5.406-5.406-5.406H142.201 c-2.973,0-5.406,2.433-5.406,5.406v228.298c0,2.973,2.433,5.406,5.406,5.406h156.835c2.973,0,5.406-2.433,5.406-5.406V197.297 l27.651,187.524c0.282,1.911,2.076,3.244,3.986,2.962l61.16-9.018c1.911-0.282,3.244-2.076,2.962-3.986L367.07,150.083z M264.815,177.089c0-4.48,3.632-8.109,8.109-8.109s8.109,3.63,8.109,8.109v38.628c0,4.48-3.632,8.109-8.109,8.109 s-8.109-3.63-8.109-8.109V177.089z M212.679,177.089c0-4.48,3.632-8.109,8.109-8.109c4.477,0,8.109,3.63,8.109,8.109v38.628 c0,4.48-3.632,8.109-8.109,8.109c-4.477,0-8.109-3.63-8.109-8.109V177.089z M160.205,177.089c0-4.48,3.632-8.109,8.109-8.109 c4.477,0,8.109,3.63,8.109,8.109v38.628c0,4.48-3.632,8.109-8.109,8.109c-4.477,0-8.109-3.63-8.109-8.109V177.089z M187.415,372.589 h-38.204v-26.518h38.204V372.589z M239.889,372.589h-38.204v-26.518h38.204V372.589z M292.026,372.589h-38.204v-26.518h38.204 V372.589z M333.507,217.908l-6.589-38.062c-0.764-4.414,2.196-8.61,6.607-9.374c4.411-0.764,8.61,2.193,9.374,6.607l6.589,38.062 c0.764,4.414-2.196,8.61-6.607,9.374C338.469,225.279,334.271,222.322,333.507,217.908z M349.435,374.356l-4.523-26.129 l37.644-6.517l4.524,26.129L349.435,374.356z"/>
@@ -72,7 +164,7 @@
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
-            <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
+            <path class="pd-blue-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
           <g class="icon">
             <path d="M286.282,240.207l-66.222-44.494c-2.487-1.674-5.697-1.829-8.336-0.425c-2.645,1.41-4.298,4.16-4.298,7.156v88.988 c0,2.996,1.653,5.747,4.298,7.156c1.193,0.639,2.503,0.953,3.812,0.953c1.584,0,3.162-0.462,4.525-1.378l66.222-44.494 c2.239-1.507,3.585-4.031,3.585-6.731S288.52,241.714,286.282,240.207z M223.644,276.214v-58.551l43.573,29.275L223.644,276.214z"/>
@@ -86,7 +178,7 @@
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
-            <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
+            <path class="pd-blue-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
           <g class="icon">
             <path d="M292.708,169.582c-1.228-0.521-2.575-0.81-3.988-0.81H211.28c-1.412,0-2.76,0.289-3.988,0.81 c-3.683,1.565-6.283,5.223-6.283,9.46v79.213c0,4.236,2.6,7.895,6.283,9.46c1.228,0.522,2.576,0.81,3.988,0.81h14.899v108.921 c0,4.51,3.229,8.302,7.489,9.18c0.608,0.125,1.238,0.191,1.883,0.191h28.899c0.644,0,1.274-0.066,1.883-0.191 c4.26-0.878,7.489-4.67,7.489-9.18V268.525h14.899c1.412,0,2.76-0.289,3.988-0.81c3.683-1.564,6.283-5.224,6.283-9.46v-79.213 C298.991,174.805,296.391,171.147,292.708,169.582z"/>
@@ -107,7 +199,7 @@
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
-            <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
+            <path class="pd-blue-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
           <g class="icon">
             <path d="M416.022,393.365h-58.572V272.6c0-0.494-0.404-0.898-0.898-0.898h-34.119c-0.494,0-0.898,0.404-0.898,0.898v120.765 h-36.358V231.583c0-0.568-0.465-1.033-1.033-1.033h-33.849c-0.568,0-1.033,0.465-1.033,1.033v161.783h-36.358V287.794 c0-0.463-0.379-0.842-0.842-0.842h-34.23c-0.463,0-0.842,0.379-0.842,0.842v105.571H119.75c-0.463,0-0.842,0.379-0.842,0.842v6.74c0,0.463,0.379,0.842,0.842,0.842h296.272c0.463,0,0.842-0.379,0.842-0.842v-6.74C416.865,393.744,416.486,393.365,416.022,393.365 z"/>
@@ -120,7 +212,7 @@
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
-            <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
+            <path class="pd-blue-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
           <g class="icon">
             <path class="icon" d="M344.088,135.284H185.249c-14.512,0-26.318,11.806-26.318,26.318v27.875c0,6.075,4.925,11,11,11s11-4.925,11-11v-27.875 c0-2.341,1.978-4.318,4.318-4.318h158.838c2.341,0,4.318,1.978,4.318,4.318v158.839c0,2.34-1.978,4.317-4.318,4.317H185.249 c-2.341,0-4.318-1.978-4.318-4.317v-27.876c0-6.075-4.925-11-11-11s-11,4.925-11,11v27.876c0,14.512,11.806,26.317,26.318,26.317 h158.838c14.512,0,26.318-11.806,26.318-26.317V161.602C370.406,147.09,358.6,135.284,344.088,135.284z"/>
@@ -133,7 +225,7 @@
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
-            <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
+            <path class="pd-blue-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
           <g class="icon">
             <path d="M348.099,318.534c1.556-2.685,2.133-5.603,1.735-8.678c-0.158-1.221-0.441-2.366-0.84-3.438 c0.213-0.744,0.367-1.488,0.464-2.22c2.026-3.19,2.636-7.041,1.657-10.72c-0.799-2.999-2.454-5.471-4.91-7.363 c-0.976-0.752-1.985-1.361-3.025-1.837c-0.819-1.477-1.839-2.757-2.942-3.752c-0.856-0.773-1.8-1.445-2.807-2.005 c-1.779-3.903-5.108-6.6-8.26-7.665c-3.716-1.255-8.072-0.844-11.671,1.413c-0.751,0.098-1.494,0.252-2.222,0.459 c-4.018-1.502-8.279-1.055-11.26,0.421c-1.018,0.504-1.975,1.145-2.845,1.902c-0.521,0.088-1.048,0.209-1.58,0.366 c-6.222,1.83-9.581,6.228-10.351,12.577c-0.075,0.616-0.105,1.241-0.093,1.869c-0.558,0.886-0.993,1.797-1.296,2.694 c-0.363,1.076-0.585,2.205-0.665,3.354c-0.307,0.432-0.594,0.891-0.86,1.378c-3.106,5.694-2.371,11.179,1.574,16.213 c0.381,0.486,0.799,0.947,1.249,1.38c-0.049,1.789,0.226,3.622,0.857,5.426c0.964,2.754,2.621,4.977,4.671,6.576 c2.32,3.222,5.829,5.059,10.313,5.602c0.613,0.074,1.234,0.104,1.859,0.093c1.231,1.299,2.721,2.402,4.443,3.231 c5.061,2.437,10.547,1.669,14.467-1.274c0.833-0.062,1.666-0.199,2.49-0.419c1.315-0.35,2.528-0.865,3.636-1.539 c1.787,0.048,3.618-0.227,5.419-0.857c5.302-1.855,8.639-6.278,9.329-11.131C347.179,319.959,347.671,319.273,348.099,318.534z"/>
@@ -151,7 +243,7 @@
       <div class="col-md-3 padding-sm fade-in-container">
         <svg class="ie-display-none svg width-half margin-auto power-to-impact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <g class="yellow-blob">
-            <path class="yellow-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
+            <path class="pd-blue-fill blob" d="M166.718,153.842c0,0,127.042-62.323,167.792-59.926s71.911,59.926,83.896,136.63 c11.985,76.705,0,124.645-26.367,146.219c-26.367,21.573-92.647,28.764-155.388,26.367c-62.741-2.397-96.299-4.794-115.475-26.367 c-19.176-21.573-45.51-79.102-45.51-112.66S76.925,193.196,166.718,153.842z"/>
           </g>
           <g class="icon">
             <path d="M220.86,114.87c0-4.342-0.578-7.62-1.734-9.834c-1.155-2.214-2.839-3.32-5.051-3.32 c-2.233,0-3.907,1.101-5.022,3.3c-1.117,2.199-1.674,5.484-1.674,9.854v17.122c0,4.398,0.569,7.698,1.704,9.897 c1.136,2.199,2.81,3.299,5.022,3.299c2.193,0,3.866-1.099,5.022-3.299c1.155-2.199,1.733-5.499,1.733-9.897h-0.001V114.87z"/>
@@ -242,56 +334,8 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid light-grey-bg border-top border-bottom">
-    <div class="row align-items-center padding-top padding-bottom">
-      <div class="col-md-2">
-        <object type="image/svg+xml" data="assets/images/state-approved-icon.svg"></object>
-      </div>
-      <div class="col-md-4"><p>As a <strong>state-approved PD provider,</strong> OTIS is a convenient and flexible way to fulfill your <strong>state-required PD hours.</strong></div>
-      <div class="col-md">
-        <object type="image/svg+xml" data="assets/images/state-approved-badge-icons.svg"></object>
-      </div>
-      <div class="col-md">
-        <h5 class="thin-heading bold white-text"><a class="button small-button yellow-button margin-left" href="https://www.teq.com/state-approved/">VIEW MAP</a></h5>
-      </div>
-    </div>
-  </div>
-  <svg class="ie-display-none" viewBox="0 0 500 75">
-    <path class="light-grey-fill" d="M500,0c0,20.618,0,22.526,0,39.473c-30.05,1.213-59.357-0.48-87.997-5.176 c-30.132-4.941-50.7-13.261-81.157-12.184c-24.094,0.852-47.221,8.289-75.266,6.984c-13.568-0.631-24.031-3.553-37.607-3.938 c-31.447-0.89-61.772,8.87-78.358,13.876C97.874,51.634,51.251,51.22,0,39.473C0,15.91,0,0,0,0H500z"/>
-    <path class="white-fill" d="M500,75c0,20.618,0-52.474,0-35.527c-30.05,1.213-59.357-0.48-87.997-5.176 c-30.132-4.941-50.7-13.261-81.157-12.184c-24.094,0.852-47.221,8.289-75.266,6.984c-13.568-0.631-24.031-3.553-37.607-3.938 c-31.447-0.89-61.772,8.87-78.358,13.876C97.874,51.634,51.251,51.22,0,39.473C0,15.91,0,75,0,75H500z"/>
-  </svg>
-  <div class="container-fluid white-bg" id="svgYourEdtechSkills">
-    <div class="row align-items-center">
-      <div class="col-md-6 padding-sm fade-in-container">
-        <h1 class="sub-heading bold text-right fade-element fade-down half-time">Your Edtech Skills Will Skyrocket!</h1>
-        <h5 class="text-right fade-element fade-up half-time">Get access to OTIS through a <a href="state-appoved/state-approved-old.php"><u>school or district subscription</u></a>, or an <a href="state-appoved/state-approved-old.php"><u>individual account</u></a> and leverage our <strong>professional development sessions to impact student outcomes.</strong></h5>
-      </div>
-      <div class="col-md-6">
-        <svg class="svg" id="svgYourEdtechSkillsContainer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"></svg>
-      </div>
-    </div>
-  </div>
-  <svg class="ie-display-none" viewBox="0 0 500 75">
-    <path class="white-fill" d="M500,0v40.57c0,0-54.047-0.296-80.125-3.192c-27.436-3.047-46.164-8.178-73.896-7.514 c-21.938,0.525-42.997,5.112-68.532,4.307c-12.354-0.389-21.881-2.191-34.242-2.428c-28.634-0.549-56.245,5.47-71.348,8.558 C133.851,48.07,43.117,53.389,0,40.57V0H500z"/>
-    <path class="light-blue-fill" d="M500,75V40.57c0,0-54.047-0.296-80.125-3.192c-27.436-3.047-46.164-8.178-73.896-7.514 c-21.938,0.525-42.997,5.112-68.532,4.307c-12.354-0.389-21.881-2.191-34.242-2.428c-28.634-0.549-56.245,5.47-71.348,8.558 C133.851,48.07,43.117,53.389,0,40.57V75H500z"/>
-  </svg>
-  <div class="container-fluid light-blue-bg" id="svgEdtechIsMore">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <svg class="svg" id="svgEdtechIsMoreContainer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"></svg>
-      </div>
-      <div class="col-md-6 padding-sm fade-in-container">
-        <h1 class="sub-heading bold fade-element fade-down half-time">Edtech is More Than Just a Buzzword!</h1>
-        <h5 class="fade-element fade-up half-time">Create buzz throughout your school by earning badges and certificates, and by rating the courses for your peers so they can <strong>leverage classroom technology</strong> as a powerful tool to help students learn. Computer science, social-emotional skills, STEM, project-based learning, and anything in between — <strong>OTIS has you covered.</strong></h5>
-      </div>
-    </div>
-  </div>
-  <svg class="ie-display-none" viewBox="0 0 500 75">
-    <path class="light-blue-fill" d="M0,0v40.385c30.135,3.15,133.851,7.499,171.857-0.27c15.103-3.087,42.714-9.107,71.348-8.558 c12.361,0.237,21.888,2.039,34.242,2.428c25.536,0.805,46.594-3.781,68.532-4.307c27.732-0.664,46.459,4.467,73.896,7.514 c26.078,2.896,42.102,10.599,80.125,3.192V0H0z"/>
-    <path class="white-fill" d="M419.875,37.193c-27.436-3.047-46.164-8.179-73.896-7.514c-21.938,0.525-42.997,5.112-68.532,4.307 c-12.354-0.389-21.881-2.191-34.242-2.428c-28.634-0.549-56.245,5.47-71.348,8.558C133.851,47.885,30.135,43.535,0,40.385V75h500 V40.385C461.977,47.792,445.953,40.089,419.875,37.193z"/>
-  </svg>
-  <div class="container-fluid white-bg" id="svgLetOtisBe">
-    <div class="row align-items-center">
+  <div class="container-fluid light-grey-bg" id="svgLetOtisBe">
+    <div class="row align-items-center padding-sm">
       <div class="col-md-6 padding-sm padding-left fade-in-container">
         <h1 class="sub-heading bold text-right fade-element fade-down half-time">Let OTIS Be Your Sidekick.</h1>
         <h5 class="text-right fade-element fade-up half-time"><strong>Educators are superheroes,</strong> but even superheroes need a sidekick from time to time. Whether you’re learning how to integrate new technologies, add to your toolkit, or fine-tune your skills — let our Online Technology and Instructional Sessions (OTIS) be your trusty sidekick.</h5>

@@ -23,7 +23,7 @@ object {
   max-height: 7.5rem;
 }
 
-.ie-display-none { 
+.ie-display-none {
   display: none;
 }
 
@@ -192,6 +192,22 @@ strong, .bold {
   padding: 1.65rem;
 }
 
+.padding-sm-top {
+  padding-top: 1.65rem;
+}
+
+.padding-sm-right {
+  padding-right: 1.65rem;
+}
+
+.padding-sm-bottom {
+  padding-bottom: 1.65rem;
+}
+
+.padding-sm-left {
+  padding-left: 1.65rem;
+}
+
 .padding-top {
   padding-top: 3.75rem;
 }
@@ -218,6 +234,10 @@ strong, .bold {
 
 .pd-blue-text {
   color: rgb(114,191,219) !important;
+}
+
+.royal-blue-text {
+  color: rgb(0,102,179) !important;
 }
 
 .dark-blue-text {
@@ -940,6 +960,80 @@ footer .footer-content .row {
 }
 
 /** OVER-RIDES **/
+.index-body .carousel {
+  padding-bottom: calc(100vw - 90vw);
+}
+
+.index-body .carousel-inner {
+  position: absolute;
+  top: 0;
+  margin-top: calc(85vh - 100vh);
+}
+
+.index-body .carousel .carousel-indicators {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+.index-body .carousel-inner .carousel-item {
+  padding: 2.1% 3% 2.1% 0;
+}
+
+.index-body .carousel-inner .carousel-item .card-header {
+  min-height: 12px;
+}
+
+.index-body .carousel-inner .carousel-item .card-footer {
+  margin-top: 0;
+}
+
+.index-body .carousel-inner .carousel-item .card-footer a.course-card-link {
+  position: relative;
+  display: block;
+  padding-top: .5rem;
+  padding-right: 54px;
+  padding-bottom: 1rem;
+  background-image: url(../images/go_link.svg);
+  background-repeat: no-repeat;
+  background-position: right 0;
+  background-size: 40px 40px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 90%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.index-body .carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 18px;
+  height: 18px;
+  margin-right: 4.2px;
+  margin-left: 4.2px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+  border-radius: 50%;
+  opacity: 1;
+  transition: opacity .6s ease;
+}
+
+.index-body .carousel-indicators li.active, .index-body .carousel-indicators li:hover {
+  background-color: rgb(114,191,219);
+}
+
 button, button:focus, button:active {
   border: none;
   outline: 0;

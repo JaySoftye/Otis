@@ -26,7 +26,7 @@ var fragList = new Array, fragLoadedCount = 0;
 			educatorsSucceedContainer.append( fragList[ count ] );
 		}
 	}
-	var myLoadList = [ "assets/images/otis-teq_educators-succeed.svg", "assets/images/eyeballs.svg" ];
+	var myLoadList = [ "assets/images/otis-teq_educators-succeed_parent_child.svg", "assets/images/eyeballs.svg" ];
 	loadMulti( myLoadList );
 
 var firstBlob = educatorsSucceedContainer.path("M256.057,238.372c-2.368-2.397-1.673-4.518-3.137-6.513c-1.722-2.347-3.135-0.887-6.238-1.774 s-6.732-4.746-7.586-2.445s-0.808,5.328-5.463,8.653c-3.57,2.55-2.449,3.801-0.887,8.128c1.562,4.327-3.287,3.184,3.325,7.834 c6.613,4.65,5.072,1.845,10.62,2.882c7.116,1.33,0.821-2.193,8.003-1.108c0,0,4.01,1.077,6.429-1.774 c2.419-2.851-0.225-4.99-1.774-7.834C256.057,238.372,258.425,240.768,256.057,238.372z").attr({ class: "teal-fill", });
@@ -43,7 +43,6 @@ var steamThreePoints = steamThree.node.getAttribute('d');
 
 var steamFrameStart = function() {
   steamOne.animate({ d: steamOnePoints }, 500, mina.linear, steamFrameOne);
-  firstBlob.animate({ d: "M310.442,123.268c-25.974-0.156-29.291,11.907-104.773-34.283s-92.563-47.317-134.064,0 S85.124,219.081,93.01,236.274s9.013,41.738-30.418,103.257s-42.81,76.999-10.703,92.073s51.26-25.484,112.659-36.186 s86.184-12.393,130.685,5.633c44.5,18.025,82.241,24.222,127.305-9.013s50.338-131.248,47.982-159.976 c-2.355-28.728-12.495-89.001-63.191-104.773S336.417,123.424,310.442,123.268z" }, 1000, mina.bounce);
 }
 var steamFrameOne = function() {
   steamOne.animate({ d: steamTwoPoints }, 500, mina.linear, steamFrameTwo);
@@ -55,24 +54,6 @@ var steamFrameThree = function() {
   steamOne.animate({ d: steamTwoPoints }, 500, mina.linear, steamFrameStart);
 }
 steamFrameStart();
-
-
-var yourEdTechSkillsContainer = Snap("#svgYourEdtechSkillsContainer");
-var yourEdTechSkills = Snap.load("assets/images/your-edtech-skills-will-skyrocket.svg",
-  function (loadedFragment) {
-    yourEdTechSkillsContainer.append(loadedFragment);
-  });
-
-var secondBlob = yourEdTechSkillsContainer.path("M152.473,149.904c0,0,148.939-64.91,196.712-62.414s84.305,62.414,98.356,142.301 c14.05,79.889,0,129.819-30.912,152.288c-30.911,22.469-108.615,29.958-182.17,27.462s-112.897-4.993-135.378-27.462 c-22.481-22.469-53.354-82.384-53.354-117.336S47.204,190.892,152.473,149.904z").attr({ class: "blob lavender-fill", });
-
-
-var edtechIsMoreContainer = Snap("#svgEdtechIsMoreContainer");
-var edtechIsMore = Snap.load("assets/images/EdtechIsMore.svg",
-  function (loadedFragment) {
-    edtechIsMoreContainer.append(loadedFragment);
-  });
-var thirdBlob = edtechIsMoreContainer.path("M477.865,334.399c-97.152-70.038-85.088-204.434-178.415-222.269 c-93.328-17.835-244.495,98.235-244.495,98.235s4.658,56.549-47.357,136.934c-52.015,80.384,207.733,87.465,245.596,84.343 C291.058,428.52,575.017,404.437,477.865,334.399z").attr({ class: "blob white-fill", });
-
 
 var letOtisBeContainer = Snap("#svgLetOtisBeContainer");
 
@@ -130,12 +111,6 @@ $(document).ready( function() {
 
     if( isOnScreen($("#powerToImpactContainer")) ) {
       $("#powerToImpactContainer .yellow-blob .blob").addClass("popin");
- 		}
-		if( isOnScreen($("#svgYourEdtechSkillsContainer")) ) {
-      $("#svgYourEdtechSkillsContainer").addClass("visible");
- 		}
-    if( isOnScreen($('#svgEdtechIsMoreContainer')) ) {
-      $("#svgEdtechIsMoreContainer").addClass("visible");
  		}
     if( isOnScreen($('#svgLetOtisBeContainer')) ) {
       $("#svgLetOtisBeContainer").addClass("visible");
