@@ -297,6 +297,10 @@ strong, .bold {
  background-color: rgb(236,239,238);
 }
 
+.black-bg {
+ background-color: rgb(0,0,0);
+}
+
 .pd-blue-bg {
  background-color: rgb(114,191,219);
 }
@@ -465,7 +469,7 @@ button.admin-menu:hover:after {
 #askOtis {
   position: fixed;
   z-index: 999;
-  right: 2.4%;
+  right: calc(100vw - 101vw);
   top: 14.73%;
   cursor: pointer;
 }
@@ -1102,6 +1106,16 @@ and (max-width : 768px) {
   }
   .col.user-registration {
     margin: 5%;
+  }
+  .index-body .carousel-inner {
+    position: relative;
+    margin-top: 0;
+  }
+  .index-body .carousel .carousel-indicators {
+    justify-content: center;
+  }
+  #trendingCourseCarousel > div > h5 {
+    text-align: center !important;
   }
 }
 

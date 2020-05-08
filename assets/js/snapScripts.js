@@ -55,6 +55,25 @@ var steamFrameThree = function() {
 }
 steamFrameStart();
 
+
+var rampUpContainer = Snap("#svgRampUpContainer");
+var rampUp = Snap.load("assets/images/rampUp.svg",
+  function (loadedFragment) {
+    rampUpContainer.append(loadedFragment);
+  });
+
+var ourCoursesSupportContainer = Snap("#svgOurCoursesSupportContainer");
+var ourCoursesSupport = Snap.load("assets/images/ourCoursesSupport.svg",
+	function (loadedFragment) {
+		ourCoursesSupportContainer.append(loadedFragment);
+	});
+
+var activitiesThatConnectContainer = Snap("#svgActivitiesThatConnectContainer");
+var activitiesThatConnect = Snap.load("assets/images/activitiesThatConnect.svg",
+	function (loadedFragment) {
+		activitiesThatConnectContainer.append(loadedFragment);
+	});
+
 var letOtisBeContainer = Snap("#svgLetOtisBeContainer");
 
 // LOAD LIST FOR MULTIPLE SVG FILES

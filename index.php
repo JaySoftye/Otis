@@ -13,7 +13,7 @@
       </div>
       <div class="col-md-6">
         <h1 class="sub-heading bold">We Help Educators Succeed!</h1>
-        <h5 class="padding-sm-right">We offer <strong>virtual professional development, training, and remote learning support</strong> for educators. Explore the technology, tools, and strategies that can spark student success — no matter where they’re learning from (or where you’re teaching from). </h5>
+        <h5>We offer <strong>virtual professional development, training, and remote learning support</strong> for educators. Explore the technology, tools, and strategies that can spark student success — no matter where they’re learning from (or where you’re teaching from). </h5>
         <p><a class="button yellow-button" href="pricing.php">SIGN UP</a></p>
       </div>
     </div>
@@ -96,33 +96,33 @@
   </div>
 
   <div class="container-fluid">
-    <div class="row padding-top padding-bottom" id="rampUpSupportRemoteConnectContainer">
+    <div class="row padding-top padding-bottom">
       <div class="col-md-4 padding-sm fade-in-container">
         <p class="h4 royal-blue-text thin-heading text-center fade-element fade-down quarter-time">Ramp Up Your Google Classroom Expertise</p>
+        <div id="svgRampUpContainer"></div>
         <p class="text-center fade-element fade-up quarter-time">Learn how to <strong>utilize Google Classroom</strong> and the other great collaboration and communication tools that are a part of <strong>G Suite for Education.</strong> Choose from individual courses, certification series, and even get <strong>live support with our askOTIS feature.</strong> Whether you’re teaching remotely or face-to-face,  be a Google Classroom expert in no time. </p>
       </div>
       <div class="col-md-4 padding-sm fade-in-container">
         <p class="h4 royal-blue-text thin-heading text-center fade-element fade-down quarter-time">Our Courses Support Remote Learning </p>
+        <div id="svgOurCoursesSupportContainer"></div>
         <p class="text-center fade-element fade-up quarter-time">From live webinars, to a vast library of PD courses, we have remote learning resources for everyone. Catch a live session to walk through tools like <strong>Zoom and Microsoft Teams, check out a course on Nearpod and Google, or explore how to continue STEM</strong> education at home. </p>
       </div>
       <div class="col-md-4 padding-sm fade-in-container">
         <p class="h4 royal-blue-text thin-heading text-center fade-element fade-down quarter-time">Activities That Connect Technology and Instruction </p>
+        <div id="svgActivitiesThatConnectContainer"></div>
         <p class="text-center fade-element fade-up quarter-time">After you watch an OTIS PD session, check out the accompanying <strong>Teq-tivity! Teq-tivities help you connect technology skills to teaching practice</strong> — and they do it by scaffolding do-anywhere activities to make sure students get the most out of every lesson.</p>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid light-grey-bg border-top border-bottom">
+  <div class="container-fluid black-bg border-top border-bottom">
     <div class="row align-items-center padding-top padding-bottom">
-      <div class="col-md-2">
-        <object type="image/svg+xml" data="assets/images/state-approved-icon.svg"></object>
-      </div>
-      <div class="col-md-4"><p>As a <strong>state-approved PD provider,</strong> OTIS is a convenient and flexible way to fulfill your <strong>state-required PD hours.</strong></div>
-      <div class="col-md">
+      <div class="col-md-4"><h5 class="white-text">As a <strong>state-approved PD provider,</strong> OTIS is a convenient and flexible way to fulfill your <strong>state-required PD hours.</strong></h5></div>
+      <div class="col-md-6">
         <object type="image/svg+xml" data="assets/images/state-approved-badge-icons.svg"></object>
       </div>
       <div class="col-md">
-        <h5 class="thin-heading bold white-text"><a class="button small-button yellow-button margin-left" href="https://www.teq.com/state-approved/">VIEW MAP</a></h5>
+        <a class="button small-button yellow-button" href="https://www.teq.com/state-approved/">VIEW MAP</a>
       </div>
     </div>
   </div>
