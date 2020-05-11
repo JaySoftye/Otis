@@ -13,7 +13,7 @@
       </div>
       <div class="col-md-6">
         <h1 class="sub-heading bold">We Help Educators Succeed!</h1>
-        <h5>We offer <strong>virtual professional development, training, and remote learning support</strong> for educators. Explore the technology, tools, and strategies that can spark student success — no matter where they’re learning from (or where you’re teaching from). </h5>
+        <h5>We offer <strong>virtual professional development, training, and remote learning support</strong> for educators. Explore the technology, tools, and strategies that can spark student success — no matter where teaching or learning are happening. </h5>
         <p><a class="button yellow-button" href="pricing.php">SIGN UP</a></p>
       </div>
     </div>
