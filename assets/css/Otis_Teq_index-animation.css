@@ -147,6 +147,28 @@ svg#svgEdtechIsMoreContainer #buzz-wing-right {
   animation-name: wings-right;
 }
 
+svg#svgRampUpContainer #smartboardcontent2 {
+  animation-duration: 900ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+svg#svgRampUpContainer #smartboardcontent2 {
+  animation-name: swiperight
+}
+
+@keyframes swiperight {
+  0%{
+    transform: translateX(0%);
+  }
+  50%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+
 @keyframes bounceIn {
   0%{
     opacity: 0;
