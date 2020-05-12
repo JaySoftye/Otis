@@ -99,17 +99,17 @@
     <div class="row padding-top padding-bottom">
       <div class="col-md-4 padding-sm fade-in-container">
         <p class="h4 royal-blue-text thin-heading text-center fade-element fade-down quarter-time">Ramp Up Your Google Classroom Expertise</p>
-        <div id="svgRampUpContainer"></div>
+        <svg class="svg" id="svgRampUpContainer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400"></svg>
         <p class="text-center fade-element fade-up quarter-time">Learn how to <strong>utilize Google Classroom</strong> and the other great collaboration and communication tools that are a part of <strong>G Suite for Education.</strong> Choose from individual courses, certification series, and even get <strong>live support with our askOTIS feature.</strong> Whether you’re teaching remotely or face-to-face,  be a Google Classroom expert in no time. </p>
       </div>
       <div class="col-md-4 padding-sm fade-in-container">
         <p class="h4 royal-blue-text thin-heading text-center fade-element fade-down quarter-time">Our Courses Support Remote Learning </p>
-        <div id="svgOurCoursesSupportContainer"></div>
+        <svg class="svg" id="svgOurCoursesSupportContainer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400"></svg>
         <p class="text-center fade-element fade-up quarter-time">From live webinars, to a vast library of PD courses, we have remote learning resources for everyone. Catch a live session to walk through tools like <strong>Zoom and Microsoft Teams, check out a course on Nearpod and Google, or explore how to continue STEM</strong> education at home. </p>
       </div>
       <div class="col-md-4 padding-sm fade-in-container">
         <p class="h4 royal-blue-text thin-heading text-center fade-element fade-down quarter-time">Activities That Connect Technology and Instruction </p>
-        <div id="svgActivitiesThatConnectContainer"></div>
+        <svg class="svg" id="svgActivitiesThatConnectContainer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400"></svg>
         <p class="text-center fade-element fade-up quarter-time">After you watch an OTIS PD session, check out the accompanying <strong>Teq-tivity! Teq-tivities help you connect technology skills to teaching practice</strong> — and they do it by scaffolding do-anywhere activities to make sure students get the most out of every lesson.</p>
       </div>
     </div>

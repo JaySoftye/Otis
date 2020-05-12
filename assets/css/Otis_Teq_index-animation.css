@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-.fade-in-container {
-
-}
-
 .fade-in-container > .fade-element {
   position: relative;
 }
