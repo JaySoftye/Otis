@@ -147,14 +147,65 @@ svg#svgEdtechIsMoreContainer #buzz-wing-right {
   animation-name: wings-right;
 }
 
-svg#svgRampUpContainer #smartboardcontent2 {
-  animation-duration: 900ms;
+svg#svgRampUpContainer #smartboardcontent1, svg#svgRampUpContainer #smartboardcontent2 {
+  animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
+svg#svgRampUpContainer #smartboardcontent1 {
+  animation-name: swipeleft;
+}
+
 svg#svgRampUpContainer #smartboardcontent2 {
-  animation-name: swiperight
+  animation-name: swiperight;
+}
+
+svg#svgOurCoursesSupportContainer #remotelearningotisarm {
+  animation-duration: 1800ms;
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom left;
+  animation-iteration-count: infinite;
+  animation-name: wave-cheer-left;
+}
+
+svg#svgActivitiesThatConnectContainer #activitiesstemproduct {
+  animation-duration: 2400ms;
+  animation-timing-function: ease-in-out;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-iteration-count: infinite;
+  animation-name: leftrightrotate;
+}
+
+@keyframes leftrightrotate {
+  0%{
+    transform: translateX(0%);
+  }
+  25%{
+    transform: translateX(-100%) rotate(-360deg);
+  }
+  75%{
+    transform: translateX(100%) rotate(360deg);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+
+@keyframes swipeleft {
+  0%{
+    transform: translateX(0%);
+  }
+  50%{
+    transform: translateX(95%);
+  }
+  70%{
+    transform: translateX(95%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
 }
 
 @keyframes swiperight {
@@ -162,6 +213,9 @@ svg#svgRampUpContainer #smartboardcontent2 {
     transform: translateX(0%);
   }
   50%{
+    transform: translateX(100%);
+  }
+  70%{
     transform: translateX(100%);
   }
   100%{
