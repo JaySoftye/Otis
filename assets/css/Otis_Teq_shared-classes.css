@@ -965,11 +965,11 @@ footer .footer-content .row {
 
 /** OVER-RIDES **/
 .index-body .carousel {
-  padding-bottom: calc(100vw - 90vw);
+  padding-bottom: calc(100vw - 95vw);
 }
 
 .index-body .carousel-inner {
-  position: absolute;
+  position: relative;
   top: 0;
   margin-top: calc(85vh - 100vh);
 }
