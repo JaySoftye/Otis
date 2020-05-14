@@ -148,7 +148,7 @@ svg#svgEdtechIsMoreContainer #buzz-wing-right {
 }
 
 svg#svgRampUpContainer #smartboardcontent1, svg#svgRampUpContainer #smartboardcontent2 {
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
@@ -162,7 +162,7 @@ svg#svgRampUpContainer #smartboardcontent2 {
 }
 
 svg#svgOurCoursesSupportContainer #remotelearningotisarm {
-  animation-duration: 1800ms;
+  animation-duration: 1000ms;
   animation-timing-function: ease-in-out;
   transform-origin: bottom left;
   animation-iteration-count: infinite;
@@ -170,7 +170,7 @@ svg#svgOurCoursesSupportContainer #remotelearningotisarm {
 }
 
 svg#svgActivitiesThatConnectContainer #activitiesstemproduct {
-  animation-duration: 2400ms;
+  animation-duration: 4800ms;
   animation-timing-function: ease-in-out;
   transform-box: fill-box;
   transform-origin: center;
