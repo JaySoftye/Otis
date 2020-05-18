@@ -41,7 +41,7 @@ $(document).ready(function(){
           </div>
           <div class="card-body">
             <h3>Elementary STEM</h3>
-            <h6 class="thin-heading"><strong>Tuesday, 10:00am</strong></h6>
+            <h6 class="thin-heading"><strong>Tuesday, 10:00am EST</strong></h6>
             <p><small>Learn about Cubelets, Dash robots, Osmo, Littlebits, and more great STEM tools for elementary project-based learning activities.</small></p>
           </div>
           <div class="card-footer">
@@ -58,7 +58,7 @@ $(document).ready(function(){
           </div>
           <div class="card-body">
             <h3>MakerBot</h3>
-            <h6 class="thin-heading"><strong>Tuesday, 1:00pm</strong></h6>
+            <h6 class="thin-heading"><strong>Tuesday, 1:00pm EST</strong></h6>
             <p><small>Learn about Makerbot’s line of 3D printers including the Method and new Sketch printer.</small></p>
           </div>
           <div class="card-footer">
@@ -75,7 +75,7 @@ $(document).ready(function(){
           </div>
           <div class="card-body">
             <h3>SMART MX</h3>
-            <h6 class="thin-heading"><strong>Thursday, 10:00am</strong></h6>
+            <h6 class="thin-heading"><strong>Thursday, 10:00am EST</strong></h6>
             <p><small>Get a complete review of the features and benefits of the SMART Board MX interactive display.</small></p>
           </div>
           <div class="card-footer">
@@ -92,7 +92,7 @@ $(document).ready(function(){
           </div>
           <div class="card-body">
             <h3>SMART 6000S</h3>
-            <h6 class="thin-heading"><strong>Thursday, 1:00pm</strong></h6>
+            <h6 class="thin-heading"><strong>Thursday, 1:00pm EST</strong></h6>
             <p><small>The New SMART Board 6000S is an improved version of the most popular SMART Board IFP for education. Learn about new Google integration and ToolSense – only available with SMART.</small></p>
           </div>
           <div class="card-footer">
@@ -109,7 +109,7 @@ $(document).ready(function(){
           </div>
           <div class="card-body">
             <h3>MS/HS STEM</h3>
-            <h6 class="thin-heading"><strong>Tuesday, 10:00am</strong></h6>
+            <h6 class="thin-heading"><strong>Tuesday, 10:00am EST</strong></h6>
             <p><small>Learn about Ozobots, Cue robots, pi-top, and more great STEM tools for high school project-based learning activities.</small></p>
           </div>
           <div class="card-footer">
@@ -126,7 +126,7 @@ $(document).ready(function(){
           </div>
           <div class="card-body">
             <h3>Ultimaker</h3>
-            <h6 class="thin-heading"><strong>Tuesday, 1:00pm</strong></h6>
+            <h6 class="thin-heading"><strong>Tuesday, 1:00pm EST</strong></h6>
             <p><small>Ultimaker has a new line-up of printers for 2020 including he s3. Learn about the benefits of Ultimaker printers and how they fit into STEM learning.</small></p>
           </div>
           <div class="card-footer">
@@ -143,7 +143,7 @@ $(document).ready(function(){
           </div>
           <div class="card-body">
             <h3>SMART 6000S</h3>
-            <h6 class="thin-heading"><strong>Thursday 10:00am</strong></h6>
+            <h6 class="thin-heading"><strong>Thursday 10:00am EST</strong></h6>
             <p><small>The New SMART Board 6000S is an improved version of the most popular SMART Board IFP for education. Learn about new Google integration and ToolSense – only available with SMART.</small></p>
           </div>
           <div class="card-footer">
@@ -160,7 +160,7 @@ $(document).ready(function(){
           </div>
           <div class="card-body">
             <h3>Elementary STEM</h3>
-            <h6 class="thin-heading"><strong>Thursday, 1:00pm</strong></h6>
+            <h6 class="thin-heading"><strong>Thursday, 1:00pm EST</strong></h6>
             <p><small>Learn about Cubelets, Dash robots, Osmo, Littlebits, and more great STEM tools for elementary project-based learning activities.</small></p>
           </div>
           <div class="card-footer">
