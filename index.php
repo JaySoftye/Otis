@@ -19,27 +19,31 @@
     </div>
   </div>
 
-  <div class="container-fluid light-grey-bg">
+  <div class="container-fluid carousel-gradient-background">
     <div id="trendingCourseCarousel" class="row carousel slide" data-ride="carousel">
-      <div class="col-md-6">
-        <h5 class="margin-top text-right">Upcoming Courses:</h5>
-        <ol class="carousel-indicators">
-          <li data-target="#trendingCourseCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#trendingCourseCarousel" data-slide-to="1"></li>
-          <li data-target="#trendingCourseCarousel" data-slide-to="2"></li>
-          <li data-target="#trendingCourseCarousel" data-slide-to="3"></li>
-        </ol>
+      <div class="col-md-6 light-yellow-bg">
+        <h5 class="thin-heading">Have some extra time at home this summer?</h5>
+        <p>This summer we’re offering virtual, live PD sessions to help you build skills and get prepped for the next school year.  <strong>Each registration includes 2 "seats" and 1-year of access to all of our online PD.</strong> </p>
+        <a class="button small-button blue-button" href="https://www.teq.com/summerpd/">REGISTER TODAY</a>
+        <img src="assets/images/summer_pd-image.svg" />
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 light-grey-bg">
+        <h5 class="pagination thin-heading">Upcoming Courses
+          <ol class="carousel-indicators">
+            <li data-target="#trendingCourseCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#trendingCourseCarousel" data-slide-to="1"></li>
+            <li data-target="#trendingCourseCarousel" data-slide-to="2"></li>
+            <li data-target="#trendingCourseCarousel" data-slide-to="3"></li>
+          </ol>
+        </h5>
         <div class="carousel-inner">
-
           <div class="carousel-item active">
             <div class="card course-card ">
               <div class="card-header tech-infused-lessons"></div>
               <div class="card-body" style="transform: rotate(0);">
-                <p><a href="/events/view/18/14430">Using SLSO's Monster Quiz to Create Competition</a></p>
+                <p><a href="/events/view/18/14430">Intro to Project-Based Learning</a></p>
                 <p class="mb-2"><small></small></p>
-                <p class="card-text">Not only can Google Classroom serve as the vehicle to deliver your instructional content but can facilitate assessment as well! We are here to share tips for delivering instructional materials and...</p>
+                <p class="card-text">Project-based learning is a great way to get your students engaged and encourage 21st century skills like critical thinking, creativity, communication, and collaboration. In this course, we will give you resources to get started with PBL and explore some project ideas for your classroom.</p>
                 <a href="/events/view/18/14430" class="stretched-link"></a>
               </div>
               <div class="card-footer">
@@ -51,9 +55,9 @@
             <div class="card course-card ">
               <div class="card-header product-familiarization"></div>
               <div class="card-body" style="transform: rotate(0);">
-                <p><a href="/events/view/44/14612">G Suite Admin: Google Meet and Chat Permissions</a></p>
+                <p><a href="/events/view/44/14612">Creating Digital Time Capsules for Social-Emotional Learning</a></p>
                 <p class="mb-2"><small></small></p>
-                <p class="card-text">In this video, we will walk through the process of setting permissions for Google Hangout Meet and Chat. This will be beneficial for Remote Learning environments or where students can work outside the...</p>
+                <p class="card-text">Digital time capsules are a creative way to engage our students in social-emotional learning. In this session, we will learn about a unique method for journaling as well as  the benefits of writing on a digital platform. We will also explore multiple methods for creating time capsules as well as reflecting on the value of creating personal artifacts!</p>
                 <a href="/events/view/44/14612" class="stretched-link"></a>
               </div>
               <div class="card-footer">
@@ -65,9 +69,9 @@
             <div class="card course-card ">
               <div class="card-header instructional-skills"></div>
               <div class="card-body" style="transform: rotate(0);">
-                <p><a href="/events/view/14146">APPlicable - Apps to Support Your Student's College Search </a></p>
+                <p><a href="/events/view/14146">Effective Organization of Google Drive and Google Classroom</a></p>
                 <p class="mb-2"><small></small></p>
-                <p class="card-text">In this APPlicable session, we'll look at college planning apps and scholarship tools to help you get your student prepared for their college search...</p>
+                <p class="card-text">Let’s use Google Drive and Google Classroom to get organized! In this session, we’ll walk you through strategies for uploading and organizing your files. We will review how to adjust sharing settings and collaborate with your students and colleagues. We will also cover some great ideas for enhancing your workflow and managing documents with these easy to use platforms!</p>
                 <a href="/events/view/14146" class="stretched-link"></a>
               </div>
               <div class="card-footer">
@@ -79,9 +83,9 @@
             <div class="card course-card ">
               <div class="card-header frameworks-resources"></div>
               <div class="card-body" style="transform: rotate(0);">
-                <p><a href="/events/view/14552">Remote Learning: Social-Emotional Learning for Primary Students</a></p>
+                <p><a href="/events/view/14552">Creating Interactive Vocabulary Lists Using Thinglink</a></p>
                 <p class="mb-2"><small></small></p>
-                <p class="card-text">As a primary level educator, you are most likely used to incorporating social-emotional learning (SEL) into your lessons on a daily basis, since you're aware that students at this age need social and...</p>
+                <p class="card-text">Vocabulary lists are used in almost every classroom and rarely offer any interactive engagement for students. Join us as we talk about Thinglink, a website that allows students to create interactive displays and virtual tours that connect the tactile world to the digital world. With Thinglink, we will show you how to make vocabulary lists with your students that are interactive, informative, and meaningful.</p>
                 <a href="/events/view/14552" class="stretched-link"></a>
               </div>
               <div class="card-footer">
