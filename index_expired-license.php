@@ -12,10 +12,10 @@
             <img src="assets/images/covidPopExtendYour-License-OTIS.svg" style="margin-top: -6rem;"/>
             <div class="main-login-form margin-bottom">
               <br />
-              <h4 class="thin-heading bold text-center">If you are currently using OTIS for educators for FREE, your <u>access to our PD may be ENDING on JUNE 30th.</u></h4>
-              <p class="text-center"><a href="https://www.teq.com/Otis-for-gsuite-admins/">Contact us</a> about extending your subscription or purchase a discounted license here</p>
+              <h4 class="thin-heading bold text-center">We hope you enjoyed free access<br />to OTIS for educators!</u></h4>
+              <p class="text-center">Keep learning with us and prepare for the new school year when you <a href="https://www.teq.com/Otis-for-gsuite-admins/"><u>extend your license.</u></a></p>
               <a href="https://www.teq.com/Otis-for-gsuite-admins/">
-                <button type="button" class="login">EXTEND YOUR LICENSE TODAY</button>
+                <button type="button" class="login">PURCHASE A DISCOUNTED LICENSE TODAY</button>
               </a>
             </div>
           </div>
