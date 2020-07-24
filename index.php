@@ -22,10 +22,9 @@
   <div class="container-fluid carousel-gradient-background">
     <div id="trendingCourseCarousel" class="row carousel slide" data-ride="carousel">
       <div class="col-md-6 light-yellow-bg">
-        <h5 class="thin-heading">Have some extra time at home this summer?</h5>
-        <p>This summer we’re offering virtual, live PD sessions to help you build skills and get prepped for the next school year.  <strong>Each registration includes 2 "seats" and 1-year of access to all of our online PD.</strong> </p>
-        <a class="button small-button blue-button" href="https://www.teq.com/summerpd/">REGISTER TODAY</a>
-        <img src="assets/images/summer_pd-image.svg" />
+        <img src="assets/images/tech-and-learning-award-of-excellence_image.svg" />
+        <h3>Award Of Excellence Winner for 2020</h3>  
+        <h5 class="thin-heading">Outstanding Education Technology Products</h5>
       </div>
       <div class="col-md-6 light-grey-bg">
         <h5 class="pagination thin-heading">Upcoming Courses
