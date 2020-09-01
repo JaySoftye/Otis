@@ -23,7 +23,7 @@
     <div id="trendingCourseCarousel" class="row carousel slide" data-ride="carousel">
       <div class="col-md-6 light-yellow-bg">
         <img src="assets/images/tech-and-learning-award-of-excellence_image.svg" />
-        <h3>Award Of Excellence Winner for 2020</h3>  
+        <h3>Award Of Excellence Winner for 2020</h3>
         <h5 class="thin-heading">Outstanding Education Technology Products</h5>
       </div>
       <div class="col-md-6 light-grey-bg">
@@ -386,7 +386,7 @@
         <object type="image/svg+xml" data="assets/images/ideas-icon-contact.svg"></object>
       </div>
       <div class="col-md padding-right">
-        <h5 class="thin-heading bold white-text">Have a great great idea for a course?<a class="button small-button yellow-button margin-left" href="#contact-us" data-toggle="modal">TELL US</a></h5>
+        <h5 class="thin-heading bold white-text">Have a great great idea for a course?<a class="button small-button yellow-button margin-left" href="#tell-us-your-idea" data-toggle="modal">TELL US</a></h5>
       </div>
     </div>
   </div>
