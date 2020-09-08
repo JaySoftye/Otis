@@ -19,7 +19,7 @@
     <div class="row align-items-center" style="min-height:500px;">
       <div class="col-md-7 col-lg-8"></div>
       <div class="col-md-4">
-        <h1 class="white-text"style="font-weight:200;">Request a Virtual STEM Demo hosted by our very own <strong>Teq Squad</strong></h1>
+        <h1 class="white-text"style="font-weight:200;">Request a Virtual Demo hosted by our very own <strong>Teq Squad</strong></h1>
         <button type="button" id="jumpToBooking" style="margin-top:27px;background: rgb(255,82,36);background: linear-gradient(90deg, rgb(253,83,146) 0%, rgb(248,111,100) 100%);border-radius:28px;border:none;display:inline-block;cursor:pointer;color:#ffffff;font-size:18px;font-weight:700;padding:16px 31px;text-decoration:none;box-shadow: 0px 12px 12px 0px rgba(100,100,100,0.5);">Schedule a Live Webinar</button>
       </div>
     </div>
@@ -40,7 +40,7 @@
 
   <div class="container">
     <div class="row d-flex justify-content-center">
-      <div id="calendlyBooking" class="col-md-12" style="min-height: 750px;">
+      <div id="calendlyBooking" class="col-md-12" style="min-height: 100vh;">
         <script type="text/javascript">
           Calendly.initInlineWidget({
             url: 'https://calendly.com/otislivedemo/60min',
