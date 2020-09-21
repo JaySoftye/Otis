@@ -24,9 +24,6 @@
             <li class="nav-item">
               <a class="button medium-button round main-teal-button simple-text" href="https://otis.teq.com/users/register">Free Basic Account</a>
             </li>
-            <li class="nav-item">
-              <a class="button medium-button transparent simple-text main-red-text">Watch Video >> </a>
-            </li>
           </ul>
         </div>
 
@@ -368,15 +365,6 @@
         <a class="button medium-button round main-green-button simple-text" href="#otis-demo-reqeust" data-toggle="modal">Schedule a Demo</a>
        </li>
      </ul>
-    <div class="row padding-top testimonial-container">
-      <div class="col-md-10 offset-1 testimonial-content">
-        <h4 class="bold">(What they are saying)</h4>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-        <h5 class="bold">- Roberta Champion</h5>
-        <p>Principal</p>
-        <p class="bold">Calhoun High School, NY</p>
-      </div>
-    </div>
   </div>
 
   <div class="container-fluid main-red-bg">
