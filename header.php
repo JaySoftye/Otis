@@ -57,34 +57,40 @@
     <ul class="nav justify-content-end flex-align-center">
       <?php if($ercIndex == True) { ?>
         <li class="nav-item">
-          <a class="nav-link thin-heading" href="erc-index.php">LESSONS MAIN</a>
+          <a class="nav-link thin-heading" href="erc-index.php">Lessons Main</a>
         </li>
         <li class="nav-item">
           <a class="nav-link thin-heading" href="index.php">OTIS.COM</a>
         </li>
       <?php } else { ?>
       <li class="nav-item">
-        <a class="nav-link thin-heading" href="course-calendar.php">UPCOMING COURSES</a>
+        <a class="nav-link thin-heading" href="course-calendar.php">Upcoming Courses</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link thin-heading" href="course-library-categories.php">COURSE LIBRARY</a>
+        <a class="nav-link thin-heading" href="course-library-categories.php">Course Library</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link thin-heading" href="erc-index.php">LESSONS</a>
+        <a class="nav-link thin-heading" href="erc-index.php">Lessons</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link thin-heading" href="smart-skills.php">SKILLS</a>
+        <a class="nav-link thin-heading" href="smart-skills.php">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link thin-heading" href="blog.php">BLOG</a>
+        <a class="nav-link thin-heading" href="blog.php">Blog</a>
       </li>
       <?php }
         if($logged_in == False) { ?>
         <li class="nav-item">
-          <a class="nav-link thin-heading" href="pricing.php">PRICING</a>
+          <a class="nav-link thin-heading" href="pricing.php">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="button small-button pd-blue-button no-margin" href="#login-window" data-toggle="modal">LOGIN</a>
+          <a class="nav-link thin-heading" href="pricing.php">Free Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link thin-heading" href="pricing.php">Live Demos</a>
+        </li>
+        <li class="nav-item">
+          <a class="button small-button main-red-button round no-margin" href="#login-window" data-toggle="modal">LOGIN</a>
         </li>
       <?php } elseif($logged_in == True) { ?>
         <li class="nav-item">

@@ -55,7 +55,7 @@ var steamFrameThree = function() {
 }
 steamFrameStart();
 
-
+/**
 var rampUpContainer = Snap("#svgRampUpContainer");
 var rampUp = Snap.load("assets/images/rampUp.svg",
   function (loadedFragment) {
@@ -105,6 +105,7 @@ var fragListLetOtis = new Array, fragLetOtisLoadedCount = 0;
 	var myLoadLetOtisList = [  "assets/images/superhero-sidekick-cape1.svg", "assets/images/superhero-sidekick.svg", "assets/images/karate-OTIS.svg" ];
 	loadLetOtisMulti( myLoadLetOtisList );
 var fourthBlob = letOtisBeContainer.path("M151.779,62.117c-34.688,14.518-42.08,23.458-77.864,45.785s-40.72,17.015-20.977,67.477 s93.779,134.903,144.371,181.311s74.036,52.816,95.013,49.612s75.27-46.01,132.031-157.819s33.316-137.83,12.339-147.917 s-166.037-63.57-186.052-63.57S186.466,47.598,151.779,62.117z").attr({ class: "blob pink-fill", });
+**/
 
 $(document).ready( function() {
 
@@ -142,5 +143,25 @@ $(document).ready( function() {
 	 		}
     });
 
+		$('.counter').each( function(i) {
+			if( isOnScreen($(this)) ) {
+				$('.counter').each(function() {
+			  		var $this = $(this),
+			    	countTo = $this.attr('data-count');
+
+			  		$({ countNum: $this.text() }).animate({ countNum: countTo }, {
+			     		duration: 3000,
+			      		step: function() {
+			        		$this.text((Math.floor(this.countNum)));
+			      		},
+			      		complete: function() {
+							$this.text((this.countNum));
+				  		}
+			    	});
+				});
+	 		}
+    	});
+
 	});
+
 });
