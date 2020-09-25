@@ -113,11 +113,11 @@
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
         <p class="text-center fade-element fade-down half-time"><img src="assets/images/remote-learning-icon.jpg" /></p>
-        <p class="text-center fade-element fade-up half-time">We have <strong>remote learning courses</strong> for everyone. Our teachers will walk you through tools like <strong>Zoom and Microsoft Teams.</strong> Check out a course on <strong>Nearpod and Google,</strong> or explore how to continue <strong>STEM education</strong>at home.</p>
+        <p class="text-center fade-element fade-up half-time">We have <strong>remote learning courses</strong> for everyone. Our teachers will walk you through tools like <strong>Zoom and Microsoft Teams.</strong> Check out a course on <strong>Nearpod and Google,</strong> or explore how to continue <strong>STEM education</strong> at home.</p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
         <p class="text-center fade-element fade-down three-quarter-time"><img src="assets/images/teq-tivities-icon.jpg" /></p>
-        <p class="text-center fade-element fade-up three-quarter-time">Associated to our PD sessions, <strong>Teq-tivities help you connect technology skills to teaching practice</strong> — and they do it by <strong>scaffolding do-anywhere activities</strong> to make sure students get the most out of every lesson.</p>
+        <p class="text-center fade-element fade-up three-quarter-time">Associated to our PD sessions, <strong>Teq-tivities help you connect technology skills to teaching practice</strong> — and they do it by <strong>scaffolding do-anywhere activities</strong> to make sure students get the most out of every lesson.</p>
       </div>
       <div class="col-md-3 padding-sm fade-in-container">
         <p class="text-center fade-element fade-down full-time"><img src="assets/images/parents-need-icon.jpg" /></p>
