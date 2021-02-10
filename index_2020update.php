@@ -19,12 +19,21 @@
       </div>
       <div class="col-md-6">
         <div class="padding-sm rounded-corners translucent-bg">
-          <h2 class="h5 heading more-line-height">We offer <strong>virtual professional development, training, and remote learning support</strong> for educators. Explore the technology, tools, and strategies that can spark student success — no matter where teaching or learning are happening. </h2>
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="button medium-button round main-teal-button simple-text" href="https://otis.teq.com/users/register">Free Basic Account</a>
-            </li>
-          </ul>
+          <h2 class="h5 heading more-line-height margin-bottom">We offer <strong>virtual professional development, training, and remote learning support</strong> for educators. Explore the technology, tools, and strategies that can spark student success — no matter where teaching or learning are happening. </h2>
+          <nav class="row align-items-center">
+            <div class="col-md no-padding">
+              <a class="button medium-button round main-teal-button simple-text no-margin" href="https://otis.teq.com/users/register">Free Basic Account</a>
+              <br /><br />
+            </div>
+            <div class="col-md no-padding">
+              <div class="row align-items-center">
+                <a class="col-md no-padding" href="#otis-commercial" data-toggle="modal">
+                  <img class="width-full dropshadow" src="https://embed-ssl.wistia.com/deliveries/d2c6b82fed92c321be9dce8d6a4c47dd.jpg?image_crop_resized=1200x676&image_play_button=true&image_play_button_size=2x&image_play_button_color=9500eee0" alt="OTIS Commercial_2021_Long" />
+                </a>
+                <a class="col-md-5 black-text" href="#otis-commercial" data-toggle="modal"><strong>PLAY VIDEO &#9658;</strong/></a>
+              </div>
+            </div>
+          </nav>
         </div>
 
         <div class="col-md-10 course-slider">
