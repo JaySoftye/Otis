@@ -152,12 +152,14 @@ strong, .bold {
 }
 
 .flex-align-center {
+  width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-align-items: center;
   align-items: center;
+  justify-content: space-evenly !important;
 }
 
 .block {
@@ -341,6 +343,11 @@ strong, .bold {
 
 .translucent-bg {
   background-color: rgba(255,255,255,.21);
+}
+
+.main-bg {
+  background: rgba(0,0,0,.81);
+  background: linear-gradient(0deg, rgba(0,0,0,.66) 0%, rgba(51,51,51,.66) 100%);
 }
 
 .main-red-bg {
@@ -568,22 +575,21 @@ button.admin-menu:hover:after {
   height: auto;
   cursor: pointer;
 }
-
 nav.navbar.otis-navbar {
-  padding-right: 3.75rem;
-  padding-bottom: 0;
+  background-color: #ffffff;
 }
-
 nav.navbar.otis-navbar a.otis-logo, nav.navbar.otis-navbar a.otis-logo img, nav.navbar.otis-navbar a.otis-logo svg {
-  height: 96px;
-  width: 360px;
+  height: auto;
+  width: calc(300px - 6vw);
+  margin-right: 12px;
 }
 
 #main-nav li.nav-item a.nav-link {
   margin-right: 5px;
   border-bottom: 3px solid rgb(255,255,255);
+  text-align: center;
   font-weight: 600;
-  font-size: calc(1vw - 6.6%);
+  font-size: 15px;
   color: rgb(0,0,0);
   -webkit-transition: all 100ms ease;
   transition: all 100ms ease;
@@ -921,7 +927,9 @@ form.registration-form .registration-form-container > .form-group select + input
 form.registration-form .registration-form-container > .form-group > .form-control.error {
   border-color: rgb(255,54,0);
 }
-
+form.registration-form .registration-form-container > .form-group > .col > .form-control.error {
+  border-color: rgb(255,54,0);
+}
 form.registration-form .registration-form-container > .form-group label {
   display: block;
   margin: 0 0 0 .51rem;
@@ -972,7 +980,7 @@ footer .footer-content .row {
 }
 
 .main-content .container-fluid, footer .footer-content {
-  padding: 0 10.71% 0 7.5%;
+  padding: 0 7.5%;
 }
 
 .main-content.thin-search-bar .container-fluid.course-background .course-search-field {
@@ -983,14 +991,19 @@ footer .footer-content .row {
   width: 100%;
   position: relative;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .main-content .concave {
   padding-bottom: 75px;
 }
 
+.main-content .concave.main-bg + div.container-fluid {
+  background-color: rgb(255,255,255);
+}
+
 .main-content .concave > svg {
-  width: 100vw;
+  width: 100%;
   height: auto;
   position: absolute;
   bottom: 0;
@@ -1108,6 +1121,17 @@ footer .footer-content .row {
 
 /** OVER-RIDES **/
 
+.index-body > #main-bg-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .index-body .carousel.slide div.col-md-6 {
   padding: 2.1rem;
 }
@@ -1118,15 +1142,15 @@ footer .footer-content .row {
 
 .index-body .carousel.slide div > .pagination {
   width: 100%;
-  margin-top: 50px;
+  position: relative;
   color: #ffffff;
 }
 
 .index-body .carousel .carousel-indicators {
   position: absolute;
-  top: 6px;
   left: auto;
-  right: 15px;
+  bottom: 0;
+  right: 0;
   z-index: 15;
   display: flex;
   margin: 0 9px;
@@ -1162,14 +1186,12 @@ footer .footer-content .row {
 
 .index-body .carousel-inner .carousel-item .card-footer a.course-card-link {
   position: relative;
-  display: block;
-  padding-top: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 1rem;
   padding-right: 54px;
   padding-bottom: 1rem;
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 50 50'%3E%3Cpath fill='%23DE0069' d='M31.202,18.207c-1.053,0-1.861,0.378-2.422,1.136c-0.561,0.757-0.842,1.866-0.842,3.327v4.648 c0,1.476,0.283,2.594,0.848,3.356c0.565,0.761,1.371,1.142,2.417,1.142c1.076,0,1.905-0.378,2.484-1.136 c0.581-0.757,0.871-1.878,0.871-3.362V22.67c0-1.461-0.292-2.57-0.876-3.327C33.097,18.586,32.271,18.207,31.202,18.207z'/%3E%3Cpath fill='%23DE0069' d='M33.536,2.236H16.464c-7.825,0-14.227,6.402-14.227,14.227v17.073c0,7.825,6.402,14.227,14.227,14.227h17.073 c7.825,0,14.227-6.402,14.227-14.227V16.464C47.764,8.639,41.361,2.236,33.536,2.236z M24.172,31.009 c-0.384,0.677-1.009,1.284-1.874,1.822c-0.865,0.538-1.97,0.808-3.315,0.808c-1.76,0-3.179-0.535-4.255-1.603 c-1.076-1.069-1.614-2.591-1.614-4.567v-4.981c0-1.946,0.511-3.452,1.533-4.521c1.023-1.068,2.38-1.603,4.071-1.603 c1.714,0,3.025,0.433,3.933,1.298c0.907,0.865,1.392,2.077,1.453,3.639l-0.023,0.069h-2.215c-0.038-1.053-0.313-1.854-0.824-2.404 s-1.274-0.824-2.289-0.824c-1.023,0-1.83,0.368-2.422,1.103c-0.592,0.735-0.888,1.804-0.888,3.205v5.014 c0,1.432,0.317,2.524,0.952,3.275c0.634,0.75,1.497,1.126,2.589,1.126c0.799,0,1.42-0.136,1.863-0.409 c0.442-0.273,0.771-0.621,0.986-1.044v-3.817h-2.872V24.9h5.213C24.172,24.898,24.172,31.009,24.172,31.009z M36.887,27.318 c0,1.991-0.515,3.542-1.545,4.654c-1.03,1.111-2.41,1.667-4.14,1.667c-1.707,0-3.065-0.555-4.072-1.667 c-1.007-1.111-1.51-2.662-1.51-4.654v-4.613c0-1.983,0.506-3.536,1.517-4.659c1.01-1.123,2.365-1.683,4.065-1.683 c1.722,0,3.1,0.561,4.134,1.683c1.035,1.123,1.551,2.676,1.551,4.659V27.318z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 0;
-  background-size: 40px 40px;
   text-align: right;
   font-weight: 700;
   font-size: 90%;
@@ -1177,12 +1199,25 @@ footer .footer-content .row {
   color: #DE0069;
 }
 
+.index-body .carousel-inner .carousel-item .card-footer a.course-card-link::after {
+  content: '';
+  height: 39px;
+  width: 39px;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 50 50'%3E%3Cpath fill='%23DE0069' d='M31.202,18.207c-1.053,0-1.861,0.378-2.422,1.136c-0.561,0.757-0.842,1.866-0.842,3.327v4.648 c0,1.476,0.283,2.594,0.848,3.356c0.565,0.761,1.371,1.142,2.417,1.142c1.076,0,1.905-0.378,2.484-1.136 c0.581-0.757,0.871-1.878,0.871-3.362V22.67c0-1.461-0.292-2.57-0.876-3.327C33.097,18.586,32.271,18.207,31.202,18.207z'/%3E%3Cpath fill='%23DE0069' d='M33.536,2.236H16.464c-7.825,0-14.227,6.402-14.227,14.227v17.073c0,7.825,6.402,14.227,14.227,14.227h17.073 c7.825,0,14.227-6.402,14.227-14.227V16.464C47.764,8.639,41.361,2.236,33.536,2.236z M24.172,31.009 c-0.384,0.677-1.009,1.284-1.874,1.822c-0.865,0.538-1.97,0.808-3.315,0.808c-1.76,0-3.179-0.535-4.255-1.603 c-1.076-1.069-1.614-2.591-1.614-4.567v-4.981c0-1.946,0.511-3.452,1.533-4.521c1.023-1.068,2.38-1.603,4.071-1.603 c1.714,0,3.025,0.433,3.933,1.298c0.907,0.865,1.392,2.077,1.453,3.639l-0.023,0.069h-2.215c-0.038-1.053-0.313-1.854-0.824-2.404 s-1.274-0.824-2.289-0.824c-1.023,0-1.83,0.368-2.422,1.103c-0.592,0.735-0.888,1.804-0.888,3.205v5.014 c0,1.432,0.317,2.524,0.952,3.275c0.634,0.75,1.497,1.126,2.589,1.126c0.799,0,1.42-0.136,1.863-0.409 c0.442-0.273,0.771-0.621,0.986-1.044v-3.817h-2.872V24.9h5.213C24.172,24.898,24.172,31.009,24.172,31.009z M36.887,27.318 c0,1.991-0.515,3.542-1.545,4.654c-1.03,1.111-2.41,1.667-4.14,1.667c-1.707,0-3.065-0.555-4.072-1.667 c-1.007-1.111-1.51-2.662-1.51-4.654v-4.613c0-1.983,0.506-3.536,1.517-4.659c1.01-1.123,2.365-1.683,4.065-1.683 c1.722,0,3.1,0.561,4.134,1.683c1.035,1.123,1.551,2.676,1.551,4.659V27.318z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
 .index-body .carousel-indicators li {
   box-sizing: content-box;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   margin-right: 2.1px;
   margin-left: 2.1px;
   text-indent: -999px;
@@ -1295,5 +1330,35 @@ and (max-width : 1224px) {
 and (max-width : 1824px) {
   .hide-x-large {
     display: none;
+  }
+}
+
+p.promo-code,
+p.promo-code > * {
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+
+
+/* Desktops and Laptops */
+@media only screen
+and (max-width : 1500px) {
+  #dropdownMenuButton-navfree {
+    background: none !important;
+     border: none;
+     color: black;
+     font-size: 15px;
+  }
+}
+
+/* Large Screens */
+@media only screen
+and (min-width : 1500px) {
+  #dropdownMenuButton-navfree {
+    background: none !important;
+     border: none;
+     color: black;
+     font-size: 15px;
   }
 }

@@ -22,128 +22,78 @@
   <script type="text/javascript" src="assets/js/popper.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
-  <script type='text/javascript'>
-    $(document).ready( function() {
-      $(function(){
-        if(navigator.userAgent.match(/Trident\/7\./)) {
-          $('.ie-display-none').hide();
-        }
-      });
-    });
-  </script>
-
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg otis-navbar">
-  <?php if($ercIndex == True) { ?>
-    <a class="otis-logo" href="index.php">
-      <img src="assets/images/OTIS-educator-resource-center.svg" width="360" height="96" class="d-inline-block align-top" />
-    </a>
-  <?php } else { ?>
-    <a class="otis-logo" href="index.php">
-      <img src="assets/images/OTIS-for-educators.svg" width="360" height="96" class="d-inline-block align-top" />
-    </a>
-  <?php } ?>
-  <button class="navbar-toggler mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav" aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation" onclick="mobileNav(this)">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
-  </button>
+  <nav class="navbar navbar-expand-lg otis-navbar">
+      <a class="otis-logo" href>
+          <img src="assets/images/OTIS-for-educators.svg" alt="OTIS for educators" width="360" height="96" class="d-inline-block align-top" />
+      </a>
+      <button class="navbar-toggler mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav" aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation" onclick="mobileNav(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+      </button>
 
-  <div class="collapse navbar-collapse" id="main-nav">
-    <ul class="navbar-nav mr-auto"></ul>
-    <ul class="nav justify-content-end flex-align-center">
-      <?php if($ercIndex == True) { ?>
-        <li class="nav-item">
-          <a class="nav-link thin-heading" href="erc-index.php">Lessons Main</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link thin-heading" href="index.php">OTIS.COM</a>
-        </li>
-      <?php } else { ?>
-      <li class="nav-item">
-        <a class="nav-link thin-heading" href="course-calendar.php">Upcoming Courses</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link thin-heading" href="course-library-categories.php">Course Library</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link thin-heading" href="erc-index.php">Lessons</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link thin-heading" href="smart-skills.php">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link thin-heading" href="blog.php">Blog</a>
-      </li>
-      <?php }
-        if($logged_in == False) { ?>
-        <li class="nav-item">
-          <a class="nav-link thin-heading" href="pricing.php">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link thin-heading" href="pricing.php">Free Courses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link thin-heading" href="pricing.php">Live Demos</a>
-        </li>
-        <li class="nav-item">
-          <a class="button small-button main-red-button round no-margin" href="#login-window" data-toggle="modal">LOGIN</a>
-        </li>
-      <?php } elseif($logged_in == True) { ?>
-        <li class="nav-item">
-          <div class="dropdown user-dropdown flex-align-center">
-            <button type="button" class="user-icon" href="#" data-toggle="dropdown" style="background-image: url('https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_960_720.png');"></button>
-            <button type="button" class="nav-link thin-heading user-dropdown-menu" data-toggle="dropdown">User fName User lName</button>
-            <div class="dropdown-menu">
-              <a class="nav-link thin-heading" href="user-dashboard-teacher.php">My Dashboard</a>
-              <a class="nav-link thin-heading" href="user-progress-tracker.php">Progress Tracker</a>
-              <a class="nav-link thin-heading" href="#">Reports</a>
-              <a class="nav-link thin-heading" href="user-account-info.php">Account Info</a>
-              <div class="dropdown-divider"></div>
-              <a class="nav-link thin-heading" href="#">Log Out</a>
-              <a class="nav-link thin-heading" href="#">Upgrade Your Account?</a>
-            </div>
-          </div>
-        </li>
-      <?php } ?>
+      <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav mr-auto"></ul>
+          <ul class="nav flex-align-center">
+                  <li class="nav-item">
+                      <a class="nav-link thin-heading" href>Upcoming<br>Courses</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link thin-heading" href>Course<br>Library</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link thin-heading" href>Micro<br>Credential</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link thin-heading" href>Lessons &<br>Activities</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link thin-heading" href>Skills</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link thin-heading" href>Blog</a>
+                  </li>
 
-    </ul>
-  </div>
-
-</nav>
-
-<nav class="collapse" id="mobile-nav">
-
-  <div class="mobile-menu">
-    <a class="nav-link thin-heading" href="course-calendar.php">UPCOMING COURSES</a>
-    <a class="nav-link thin-heading" href="course-library-categories.php">COURSE LIBRARY</a>
-    <a class="nav-link thin-heading" href="erc-index.php">LESSONS</a>
-    <a class="nav-link thin-heading" href="smart-skills.php">SKILLS</a>
-    <a class="nav-link thin-heading" href="blog.php">BLOG</a>
-    <?php if($logged_in == False) { ?>
-      <a class="nav-link thin-heading" href="pricing.php">PRICING</a>
-    <?php } ?>
-  </div>
-
-  <div class="mobile-menu">
-  <?php if($logged_in == False) { ?>
-    <a class="nav-link thin-heading">LOGIN</a>
-  <?php } elseif($logged_in == True) { ?>
-      <a class="nav-link thin-heading user-dropdown-link" data-toggle="collapse" href="#mobile-user-menu" role="button" aria-expanded="false" aria-controls="mobile-user-menu">User fName User lName</a>
-      <div class="collapse" id="mobile-user-menu">
-        <a class="nav-link thin-heading" href="user-dashboard-teacher.php">My Dashboard</a>
-        <a class="nav-link thin-heading" href="user-progress-tracker.php">Progress Tracker</a>
-        <a class="nav-link thin-heading" href="#">Reports</a>
-        <a class="nav-link thin-heading" href="user-account-info.php">Account Info</a>
-        <div class="dropdown-divider"></div>
-        <a class="nav-link thin-heading" href="#">Log Out</a>
-        <a class="nav-link thin-heading" href="#">Upgrade Your Account?</a>
+                  <li class="nav-item">
+                      <a class="nav-link thin-heading" href>Pricing</a>
+                  </li>
+                  <div class="dropdown">
+                          <button class="nav-link thin-heading btn btn-secondary bold" type="button" id="dropdownMenuButton-navfree" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Free<br>Courses
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href>Teachers</a>
+                              <a class="dropdown-item" href>Administrators</a>
+                              <a class="dropdown-item" href>Parents</a>
+                          </div>
+                      </div>
+                  <li class="nav-item">
+                      <a class="nav-link thin-heading" href>Live Product<br>Demos</a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="dropdown user-dropdown flex-align-center">
+                      <button type="button" class="user-icon" href="#" data-toggle="dropdown" style="background-image: url('https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_960_720.png');"></button>
+                      <button type="button" class="nav-link thin-heading user-dropdown-menu" data-toggle="dropdown">John Smith</button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item thin-heading" href>My Dashboard</a>
+                        <a class="dropdown-item thin-heading" href>Purchased Courses</a>
+                        <a class="dropdown-item thin-heading" href>Progress Tracker</a>
+                        <a class="dropdown-item thin-heading" href>Achievements</a>
+                        <a class="dropdown-item thin-heading" href>Reports</a>
+                        <a class="dropdown-item thin-heading" href>Favorites</a>
+                        <a class="dropdown-item thin-heading" href>Playlists</a>
+                        <a class="dropdown-item thin-heading" href>Purchased Courses</a>
+                        <a class="dropdown-item thin-heading" href>Account Info</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item thin-heading" href>Log Out</a>
+                        <a class="dropdown-item thin-heading" href>Upgrade Your Account?</a>
+                      </div>
+                    </div>
+                  </li>
+          </ul>
       </div>
-  <?php } ?>
-  </div>
-  <?php include 'askotis.php';?>
-
-</nav>
+  </nav>

@@ -1,3 +1,18 @@
+
+// LOAD IMAGE BANNERS FOR HOME PAGE
+// Create an Array to Hold all images
+var bannerPictures = [];
+// Push those images to the array
+bannerPictures.push("assets/images/otis_index-homepage_banner-1.jpg");
+bannerPictures.push("assets/images/otis_index-homepage_banner-2.jpg");
+bannerPictures.push("assets/images/otis_index-homepage_banner-3.jpg");
+bannerPictures.push("assets/images/otis_index-homepage_banner-4.jpg");
+bannerPictures.push("assets/images/otis_index-homepage_banner-5.jpg");
+// Generate random array value
+var randomImage = bannerPictures[Math.floor(Math.random() * bannerPictures.length)];
+// Add image background to the Element of ID 'main-bg-image'
+document.getElementById("main-bg-image").style.backgroundImage = "url('" + randomImage + "')"
+
 var educatorsSucceedContainer = Snap("#svgEducatorsSucceedContainer");
 
 // LOAD LIST FOR MULTIPLE SVG FILES
@@ -21,11 +36,14 @@ var fragList = new Array, fragLoadedCount = 0;
 
 	}
 
+/*
 	function addLoadedFrags( list ) {
 		for( var count = 0; count < list.length; count++ ) {
 			educatorsSucceedContainer.append( fragList[ count ] );
 		}
 	}
+*/
+/**
 	var myLoadList = [ "assets/images/otis-teq_educators-succeed_parent_child.svg", "assets/images/eyeballs.svg" ];
 	loadMulti( myLoadList );
 
@@ -55,7 +73,9 @@ var steamFrameThree = function() {
 }
 steamFrameStart();
 
-/**
+**/
+
+/***
 var rampUpContainer = Snap("#svgRampUpContainer");
 var rampUp = Snap.load("assets/images/rampUp.svg",
   function (loadedFragment) {
@@ -104,8 +124,9 @@ var fragListLetOtis = new Array, fragLetOtisLoadedCount = 0;
 	}
 	var myLoadLetOtisList = [  "assets/images/superhero-sidekick-cape1.svg", "assets/images/superhero-sidekick.svg", "assets/images/karate-OTIS.svg" ];
 	loadLetOtisMulti( myLoadLetOtisList );
-var fourthBlob = letOtisBeContainer.path("M151.779,62.117c-34.688,14.518-42.08,23.458-77.864,45.785s-40.72,17.015-20.977,67.477 s93.779,134.903,144.371,181.311s74.036,52.816,95.013,49.612s75.27-46.01,132.031-157.819s33.316-137.83,12.339-147.917 s-166.037-63.57-186.052-63.57S186.466,47.598,151.779,62.117z").attr({ class: "blob pink-fill", });
-**/
+	var fourthBlob = letOtisBeContainer.path("M151.779,62.117c-34.688,14.518-42.08,23.458-77.864,45.785s-40.72,17.015-20.977,67.477 s93.779,134.903,144.371,181.311s74.036,52.816,95.013,49.612s75.27-46.01,132.031-157.819s33.316-137.83,12.339-147.917 s-166.037-63.57-186.052-63.57S186.466,47.598,151.779,62.117z").attr({ class: "blob pink-fill", });
+
+***/
 
 $(document).ready( function() {
 
