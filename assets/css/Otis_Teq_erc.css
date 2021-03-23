@@ -1,14 +1,28 @@
 @charset "UTF-8";
 
+.course-categories-container .row {
+  overflow: visible !important;
+}
+
+.course-filters .course-sort-filters-container {
+  padding: 0 15px;
+}
+
+.course-filters .course-search-filters-container, .course-filters .course-sort-filters-container {
+  position: sticky;
+  top: 6vh;
+  align-self: flex-start;
+}
+
 .erc.course-filters .erc.course-search-filters-container select.course-search-filter-item {
-  max-width: 192px;
+  min-width: 275px;
+  margin: 6px 0;
   padding: .51rem 1rem;
 }
 
 .erc.course-filters .erc.course-search-filters-container button.erc-educational-standards-btn {
   height: 2.5rem;
-  margin-top: .51rem;
-  margin-left: .51rem;
+  margin-top: 6px;
   background: transparent url('../images/dropdown-arrow-icon.svg') no-repeat right center !important;
   background-size: 10%;
   padding: .51rem 2.7rem .51rem 1rem;

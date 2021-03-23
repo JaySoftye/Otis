@@ -6,9 +6,7 @@
 <?php include 'askotis.php';?>
   <?php include 'login-window.php';?>
 
-<section class="main-content thin-search-bar">
-
-  <?php include 'search-field.php';?>
+<section class="main-content thin-search-bar padding-top">
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -55,15 +53,38 @@
   </div>
 </div>
 
-  <div class="container-fluid erc course-tags">
-    <div class="row">
-      <div class="col-md erc course-tag-container"></div>
+  <div class="container-fluid erc course-filters">
+    <div class="row align-items-center">
+      <div class="col-md offset-md-3">
+        <h3 class="no-margin">Title of Section</h3>
+      </div>
+      <div class="col-md-3 text-right course-sort-filters-container">
+        <span class="sub-heading bold">SORT BY:</span>
+        <select class="course-sort-filter-item" name="sort_id" data-value="">
+          <option disabled="disabled" selected="">Other</option>
+          <option value="">Most Recent</option>
+          <option value="">Alphabetical</option>
+          <option value="">< 15 min</option>
+          <option value="">15 min - 30 min</option>
+          <option value="">30 min - 45 min</option>
+          <option value="">> 45 min</option>
+          <option value="">Highest Rated</option>
+          <option value="">Most Watched</option>
+        </select>
+      </div>
     </div>
   </div>
-  <div class="container-fluid erc course-filters">
+
+  <div class="container-fluid course-categories-container erc course-filters">
     <div class="row">
-      <div class="col-md erc course-search-filters-container">
-        <span class="sub-heading bold">FILTER BY:</span>
+
+      <div class="col-md-3 col-sm-6 erc course-search-filters-container">
+        <div class="erc course-tags">
+          <div class="row">
+            <div class="col-md erc course-tag-container"></div>
+          </div>
+        </div>
+        <p class="sub-heading bold">FILTER BY:</p>
         <select class="course-search-filter-item" name="erc_category_id" form="">
           <option disabled="disabled" selected="">Select Category</option>
           <option value="">All Categories</option>
@@ -103,192 +124,174 @@
         </select>
         <button type="button" class="erc-educational-standards-btn" data-toggle="modal" data-target="#alignedEducationalStandards">Aligned Educational Standards</button>
       </div>
-      <div class="col-md-3 text-right course-sort-filters-container">
-        <span class="sub-heading bold">SORT BY:</span>
-        <select class="course-sort-filter-item" name="sort_id" data-value="">
-          <option disabled="disabled" selected="">Other</option>
-          <option value="">Most Recent</option>
-          <option value="">Alphabetical</option>
-          <option value="">< 15 min</option>
-          <option value="">15 min - 30 min</option>
-          <option value="">30 min - 45 min</option>
-          <option value="">> 45 min</option>
-          <option value="">Highest Rated</option>
-          <option value="">Most Watched</option>
-        </select>
+
+      <div class="col-md no-padding">
+        <div class="row course-selections">
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="erc-category-library.php">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/ELA-ele.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="erc-category-library.php">ELA - Elementary <small>(49)</small></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/ELA-Mid.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">ELA - Middle</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/ELA-high.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">ELA - High School</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/ENL-ele.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">ENL/ELL - Elementary</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/ENL-High.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">ENL/ELL - High School</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/ENL-Mid.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">ENL/ELL - Middle School</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/Game-High.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Game Templates</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/math-ele.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Math - Elementary</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/Math-high.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Math - High School</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/math-mid.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Math - Middle School</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/Sci-ele.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Science - Elementary</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/Sci-high.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Science - High School</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/social-ele.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Social Studies - Elementary</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/Social-high.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Social Studies - High School</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/Social-mid.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Social Studies - Middle School</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 erc course-card-container">
+            <div class="card course-card erc course-category">
+              <a href="">
+                <img src="https://opd-beta.teq.com/uploads/erc-categories/Sci-mid.jpg" />
+              </a>
+              <div class="card-header">
+                <a class="thin-heading bold" href="#">Science - Middle School</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
     </div>
   </div>
-
-  <div class="container-fluid course-categories-container">
-    <div class="row course-selections">
-
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="erc-category-library.php">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/ELA-ele.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="erc-category-library.php">ELA - Elementary <small>(49)</small></a>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/ELA-Mid.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">ELA - Middle</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/ELA-high.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">ELA - High School</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/ENL-ele.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">ENL/ELL - Elementary</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/ENL-High.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">ENL/ELL - High School</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/ENL-Mid.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">ENL/ELL - Middle School</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/Game-High.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Game Templates</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/math-ele.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Math - Elementary</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/Math-high.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Math - High School</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/math-mid.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Math - Middle School</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/Sci-ele.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Science - Elementary</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/Sci-high.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Science - High School</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/social-ele.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Social Studies - Elementary</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/Social-high.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Social Studies - High School</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/Social-mid.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Social Studies - Middle School</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 erc course-card-container">
-          <div class="card course-card erc course-category">
-            <a href="">
-              <img src="https://opd-beta.teq.com/uploads/erc-categories/Sci-mid.jpg" />
-            </a>
-            <div class="card-header">
-              <a class="thin-heading bold" href="#">Science - Middle School</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-  </div>
-
-  <?php include 'digital-online-certifications.php';?>
 
 </section>
 
