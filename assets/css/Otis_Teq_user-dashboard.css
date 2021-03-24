@@ -88,7 +88,7 @@ div.user-data .carousel-container.carousel.slide > div.carousel-inner.dashboard-
   padding: 0 0;
 }
 
-div.dashboard-item-container div.dashboard-item .course-card-container > .card.course-card {
+div.dashboard-item-container div.dashboard-item .course-card-container > .card.course-card, div.course-selections div.playlist-container .card.course-card {
   height: calc(24vh + 7.5rem);
   margin-top: 1.35rem;
   margin-bottom: 1.35rem;
@@ -100,7 +100,8 @@ div.dashboard-item-container div.dashboard-item .course-card-container > .card.c
 }
 
 .row.smart-skill-selected > .course-card-container .card.course-card {
-  height: calc(21vh + 8.7rem);
+  min-height: calc(21vh + 8.7rem);
+  height: 100%;
   margin-top: 9px;
   margin-bottom: 0;
   border: none;
@@ -131,10 +132,15 @@ div.dashboard-item-container div.dashboard-item .course-card-container > .card.c
 }
 
 .row.smart-skill-selected > .course-card-container .card.course-card > .card-body {
-  padding: 1rem;
+  padding: 21px;
   line-height: 1.35;
   text-align: left;
   overflow: auto;
+}
+.row.smart-skill-selected > .course-card-container .card.course-card > .card-body > img {
+  width: calc(100% + 42px);
+  margin-top: -21px;
+  margin-left: -21px;
 }
 
 .row.smart-skill-selected > .course-card-container .card.course-card > .card-body a:hover {
@@ -143,7 +149,7 @@ div.dashboard-item-container div.dashboard-item .course-card-container > .card.c
 }
 
 .row.smart-skill-selected > .course-card-container .card.course-card > .card-body p:nth-child(2) {
-  margin-top: .24rem;
+  margin-top: 18px;
   font-size: 87%;
 }
 
@@ -204,6 +210,9 @@ div.dashboard-item div.card-footer p, div.dashboard-item div.card-footer p > spa
   font-weight: 400;
   font-size: .75rem;
   color: rgb(0,0,0);
+}
+div.dashboard-item div.card-footer p > span.skillsoft-status {
+    font-size: 1.4rem;
 }
 
 div.dashboard-item div.card-footer div.progress {
@@ -330,7 +339,7 @@ form.profile-form div.form-group label.link:hover {
   text-decoration: underline;
 }
 
-form.profile-form button.submit, form.profile-form button.edit, form.profile-form button.membership {
+form.profile-form button.submit, form.profile-form button.edit, form.profile-form button.membership, form.profile-form a.membership, form.profile-form a.edit {
   width: 100%;
   display: block;
   float: right;
@@ -343,7 +352,7 @@ form.profile-form button.submit, form.profile-form button.edit, form.profile-for
   cursor: pointer;
 }
 
-form.profile-form button.edit {
+form.profile-form button.edit, form.profile-form a.edit {
   background: rgb(79,197,221);
 }
 
@@ -351,9 +360,13 @@ form.profile-form button.submit {
   background: rgb(243,217,81);
 }
 
-form.profile-form button.membership {
+form.profile-form button.membership, form.profile-form a.membership {
   background-color: rgb(255,168,0);
   color: rgb(255,255,255);
+}
+form.profile-form button.cancel {
+    background-color: #6c757d;
+    color: #ffffff;
 }
 
 form.profile-form input[type=file] {
@@ -374,18 +387,22 @@ form.profile-form select.form-control {
   font-size: .99rem;
 }
 
-form.profile-form div.form-group.file-input::after {
-  content: 'UPDATE PHOTO';
-  display: block;
-  padding: .75rem 1.2rem;
-  background: rgb(243,217,81);
-  outline: none;
-  white-space: nowrap;
-  -webkit-user-select: none;
-  text-align: center;
-  font-weight: 700;
-  font-size: 60%;
-  cursor: pointer;
+form.profile-form div.form-group.file-input .upload-btn::after {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 3;
+    content: 'UPDATE PHOTO';
+    display: block;
+    padding: .75rem 1.2rem;
+    background: rgb(243,217,81);
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60%;
+    cursor: pointer;
 }
 
 form.profile-form .form-group input.form-control, form.profile-form .form-group select.form-control, form.profile-form .form-row input.form-control {
@@ -417,7 +434,7 @@ form.profile-form div.form-check input.form-check-input {
   position: relative;
   top: 3px;
   left: -6px;
-  background-color: #fffff;
+  background-color: #ffff;
   border: 2px solid rgb(0,0,0);
   border-radius: 50px;
   outline: none;
@@ -457,4 +474,65 @@ form.profile-form label.form-check-label input.form-check-input[disabled] {
 section#order-history div.order-item {
   padding: 21px 15px 3px 15px;
   border-bottom: 1px solid rgb(200,200,200);
+}
+.user-account-profile .file-input {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 4;
+}
+.user-account-profile .file-input .upload-btn {
+    position: relative;
+    padding-bottom: 40px;
+}
+.user-account-profile .file-input input {
+    position: absolute;
+    bottom: 0px;
+    z-index: 4;
+}
+.user-account-profile {
+    position: relative;
+}
+.user-account-profile .profile-photo {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    right: 0px;
+    bottom: 60px;
+}
+.user-analytics-top-usage{
+  font-size:12px;
+}
+
+#cert_track_title {
+  margin-top: 35px;
+}
+
+#cert_track_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#extend_license {
+  background-color: #F3D951;
+  display: block;
+  padding: .75rem 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .75rem;
+  cursor: pointer;
+  float: left;
+  width: 25%;
+}
+
+#cancelextend {
+  cursor: pointer;
 }

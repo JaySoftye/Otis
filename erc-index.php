@@ -6,7 +6,32 @@
 <?php include 'askotis.php';?>
   <?php include 'login-window.php';?>
 
-<section class="main-content thin-search-bar padding-top">
+<section class="main-content thin-search-bar">
+
+  <div id="lesson_plans_back">
+	<div class="container padding-left padding-right">
+	<div class="row">
+        <div class="col-md">
+            <form id="pink_search_form" method="GET" action="/erc/search" data-section="course-selections">
+                <div class="form-group fg--search">
+		    <h3 id="course_library_header" class="bold">Lesson Plans, Activities,<br>&amp; Instructional Resource</h3>
+                    <input type="text" class="input" id="erc-search-field" name="q" value="" placeholder="Search Lessons, Activities, and Instructional Resources" title="Search Courses">
+                    <i style="cursor: pointer;" class="fa fa-search"></i>
+                    <input type="hidden" name="isactivity" value="1">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+    <strong><h5>Explore our activities and exercise that get students practicing skills, building knowledge, and engaging in hands-on learning.  For school, home, and anywhere learning</h5></strong>
+    </div>
+    </div>
+		    </div>
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 150">
+      <path fill="#FFFFFF" d="M-3,154.5h1286.536v-127c0,0-300.886,84.667-639.63,84.667C340.974,112.167-3,27.5-3,27.5V154.5z"></path>
+    </svg>
+</div>
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -56,9 +81,9 @@
   <div class="container-fluid erc course-filters">
     <div class="row align-items-center">
       <div class="col-md offset-md-3">
-        <h3 class="no-margin">Title of Section</h3>
+        <h4 class="no-margin bold">Title of Section</h4>
       </div>
-      <div class="col-md-3 text-right course-sort-filters-container">
+      <div class="col-md-3 text-right">
         <span class="sub-heading bold">SORT BY:</span>
         <select class="course-sort-filter-item" name="sort_id" data-value="">
           <option disabled="disabled" selected="">Other</option>

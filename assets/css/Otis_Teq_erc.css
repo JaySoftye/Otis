@@ -15,13 +15,16 @@
 }
 
 .erc.course-filters .erc.course-search-filters-container select.course-search-filter-item {
-  min-width: 275px;
+  width: 90%;
   margin: 6px 0;
   padding: .51rem 1rem;
+  background: transparent url('../images/dropdown-arrow-icon.svg') no-repeat right center !important;
+  background-size: 10%;
 }
 
 .erc.course-filters .erc.course-search-filters-container button.erc-educational-standards-btn {
   height: 2.5rem;
+  width: 90%;
   margin-top: 6px;
   background: transparent url('../images/dropdown-arrow-icon.svg') no-repeat right center !important;
   background-size: 10%;
@@ -31,7 +34,10 @@
   outline: none;
   white-space: nowrap;
   text-decoration: none;
+  text-align: left;
   cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
