@@ -437,14 +437,17 @@
         </p>
       </div>
     </div>
-    <div class="row padding-top padding-bottom">
-       <div class="col-md-12">
-         <p class="text-center margin-bottom">
+    <div class="row justify-content-center padding-top padding-bottom">
+       <div class="col-md-10">
+         <p class="text-center">
            <img src="assets/images/minority-women-owned-business_state-apprved.svg" />
          </p>
          <h2 class="text-center"><strong>OTIS for State Approved Professional Development</strong></h2>
          <h5 class="text-center margin-bottom">Because each state is unique in their State Teacher Requirements, you can determine how OTIS can be used in three easy questions: <strong>can I use OTIS for my teacher licensure requirements, can I use OTIS for my professional development, and what are the requirements in my state for maintaining my teacher license/certification?</strong></h5>
-         <h5 class="text-center padding-top">
+         <p class="text-center">
+           <a href="https://www.teq.com/state-approved/"><img src="assets/images/minority-women-owned-business_state-apprved-map.svg" /></a>
+         </p>
+         <h5 class="text-center">
            <a class="button round main-red-button simple-text no-margin" href="https://www.teq.com/state-approved/"><strong>Check Your State Requirements Here</strong></a>
          </h5>
       </div>
