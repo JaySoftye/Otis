@@ -46,7 +46,7 @@ form#search-form .form-group.search-input input[type="text"], form#search-form .
 }
 
 .course-tags .course-tag-container, .course-filters .course-search-filters-container, .course-filters .course-sort-filters-container  {
-  padding: 1.124rem 0;
+  padding: 1.124rem 1.124rem 0 0;
 }
 
 .course-tags .course-tag-container span.course-tag-item {
@@ -563,4 +563,16 @@ and (max-width : 768px) {
 
   background-color: #53bb90;
   border-radius: 10px;
+}
+
+.course-sort-filter-item {
+height: 2.5rem;
+padding: 0 12px;
+border: 1.2px solid rgb(236,239,238);
+border-radius: 0;
+outline: none;
+text-overflow: ellipsis;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
 }
