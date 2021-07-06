@@ -645,4 +645,7 @@ nav.courses-completed-pagination-container .pagination a.page-link.is-active {
   nav.courses-completed-pagination-container .pagination {
     justify-content: flex-start;
   }
+  .user-dashboard .user-dashboard-nav li.nav-item.user-completed-hours, .user-dashboard-content .user-dashboard-certifications .certification.single-course, .user-dashboard-content .user-dashboard-certifications .certification.micro-credentials {
+    background-image: none;
+  }
 }
