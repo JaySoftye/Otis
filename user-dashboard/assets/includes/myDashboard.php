@@ -7,13 +7,13 @@
   <div class="col-md">
     <div class="tile is-important">
       <a class="edit"></a>
-      <a class="course-title is-white-text" href>Teaching Math Concepts to ELLs Using Google Drawings</a>
-      <p class="course-date is-white-text">Thursday, June 24th, 03:00pm - 04:00pm</p>
+      <a class="course-title" href>Teaching Math Concepts to ELLs Using Google Drawings</a>
+      <p class="course-date">Thursday, June 24th, 03:00pm - 04:00pm</p>
     </div>
     <div class="tile is-important">
       <a class="edit"></a>
-      <a class="course-title is-white-text" href>Virtual Pen Pals for ELLs with Flipgrid</a>
-      <p class="course-date is-white-text">Thursday, June 24th, 03:00pm - 04:00pm</p>
+      <a class="course-title" href>Virtual Pen Pals for ELLs with Flipgrid</a>
+      <p class="course-date">Thursday, June 24th, 03:00pm - 04:00pm</p>
     </div>
     <div class="tile is-link bottom-flush">
       <h4 class="course-title is-white-text">New Courses Are Added Every Week!</h4>

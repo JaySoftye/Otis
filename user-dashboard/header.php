@@ -95,12 +95,13 @@
             <button type="button" class="nav-link thin-heading user-dropdown-menu" data-toggle="dropdown">Jay Softye</button>
             <a id="fakeCount" href="/purchase/cart/"></a>
             <div class="dropdown-menu">
-              <a class="dropdown-item thin-heading" href="/users/dashboard">My Dashboard</a>
-              <a class="dropdown-item thin-heading" href="/users/usage">Progress Tracker</a>
-              <a class="dropdown-item thin-heading" href="/users/achievements">Achievements</a>
-              <a class="dropdown-item thin-heading" href="/users/favorites">Favorites</a>
-              <a class="dropdown-item thin-heading" href="/users/recommendedplaylists">Playlists</a>
-              <a class="dropdown-item thin-heading" href="/users/account-info">Account Info</a>
+              <a class="dropdown-item thin-heading" href>My Dashboard</a>
+              <a class="dropdown-item thin-heading" href>Progress Tracker</a>
+              <a class="dropdown-item thin-heading" href>Certificate Downloads</a>
+              <a class="dropdown-item thin-heading" href>Badges Earned</a>
+              <a class="dropdown-item thin-heading" href>Favorites</a>
+              <a class="dropdown-item thin-heading" href>Playlists</a>
+              <a class="dropdown-item thin-heading" href>Account Info</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item thin-heading" href="/users/logout">Log Out</a>
             </div>

@@ -25,7 +25,6 @@
     <div class="col-md-2 user-dashboard-nav">
       <button type="button" class="user-icon" href="#" style="background-image: url('https://otis.teq.com/uploads/avatars/47126.gif');"></button>
       <p class="user-name">{{fname}} . {{lname}}</p>
-      <p class="school-name">{{schoolname}}</p>
       <ul class="dashboard-nav">
         <li class="nav-item user-completed-hours"><span id="hours">66.25</span> <i>Hours Completed</i></li>
         <li class="nav-item"><a class="is-active" href="#myDashboard">My Dashboard</a></li>
