@@ -10,6 +10,8 @@
   @import url("https://use.typekit.net/zlr4rmt.css");
   .row.course-selections .course-card-container .card.course-card {opacity: .65 !important;}
   .row.course-selections .course-card-container .card.course-card:hover {transform: translateY(-5px) !important;box-shadow: 0 15px 25px 0 rgba(0,0,0,.15);opacity: 1 !important;transition: all .5s ease;cursor:pointer;}
+  .row.course-selections .course-card-container .card.course-card:hover .card-header {background:rgba(253,83,146,1) !important;}
+  .row.course-selections .course-card-container .card.course-card:hover .card-body h4 {color:rgba(253,83,146,1);}
 </style>
 
 <section class="main-content" style="position: relative;">
