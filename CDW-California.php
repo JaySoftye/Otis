@@ -33,7 +33,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://otis.teq.com/" style="color: rgb(0,0,0); font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;"><strong>Professional Development</strong></a>
+          <a class="nav-link" href="https://otis.teq.com/" style="color: rgb(0,0,0); font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;"><strong class="h5">Professional Development</strong></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://otis.teq.com/">
@@ -85,12 +85,12 @@
 
       </div>
       <div class="col-md-3 hide-medium" style="padding-left: calc(90px + .75vw);">
-        <p style="font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;">Join over 600,000 of your peers worldwide who are utilizing OTIS for educators for professional development on technology, tools, and strategies that spark student success.</p>
-        <p style="font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;">Explore our teacher-created activities and exercises that get students practicing skills, building knowledge, and engaging in hands-on learning.</p>
-        <p style="font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;"><strong>Sign up for OTIS today for more professional learning opportunities and sample activities for your students!</strong></p>
+        <h5 style="font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;">Join over 600,000 of your peers worldwide who are utilizing OTIS for educators for professional development on technology, tools, and strategies that spark student success.</h5>
+        <h5 style="font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;">Explore our teacher-created activities and exercises that get students practicing skills, building knowledge, and engaging in hands-on learning.</h5>
+        <h5 style="font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;"><strong>Sign up for OTIS today for more professional learning opportunities and sample activities for your students!</strong></h5>
         <a class="nav-link" href="https://otis.teq.com/" style="position: relative;margin-left: 3rem;">
           <img src="https://www.teq.com/wp-content/themes/teq_v4-0/inc/images/OTIS-pd-character_logo.svg" style="max-height: 60px;height: 100%;width: auto;position: absolute;top: -.25rem;left: -2.5rem;" />
-          <button type="button" class="btn btn-light" style="font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;">Sign up for OTIS</button>
+          <button type="button" class="btn btn-light h5" style="font-family: 'museo-slab','Roboto',Helvetica,Arial,san-serif !important;">Sign up for OTIS</button>
         </a>
       </div>
       <div class="col-md-9" style="margin-top: 36px;">
