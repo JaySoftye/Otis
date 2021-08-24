@@ -5,7 +5,7 @@
     <div class="container padding-left padding-right">
       <div class="row" style="padding-top: 35px;">
         <div class="col-md">
-          <h1 class="text-center">Welcome Back {{fname}}</h1>
+          <h1 class="text-center">Welcome Back Jay</h1>
         </div>
       </div>
       <div class="row">
@@ -24,7 +24,7 @@
   <div class="row">
     <div class="col-md-2 user-dashboard-nav">
       <button type="button" class="user-icon" href="#" style="background-image: url('https://otis.teq.com/uploads/avatars/47126.gif');"></button>
-      <p class="user-name">{{fname}} . {{lname}}</p>
+      <p class="user-name">Jay Softye</p>
       <ul class="dashboard-nav">
         <li class="nav-item user-completed-hours"><span id="hours">66.25</span> <i>Hours Completed</i></li>
         <li class="nav-item"><a class="is-active" href="#myDashboard">My Dashboard</a></li>
