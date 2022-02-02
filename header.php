@@ -60,6 +60,8 @@
 
 <body>
 
+  <?php include 'stickyBanner.php';?>
+
   <nav class="navbar navbar-expand-lg otis-navbar">
       <a class="otis-logo" href>
           <img src="assets/images/OTIS-for-educators.svg" alt="OTIS for educators" width="360" height="96" class="d-inline-block align-top" />
